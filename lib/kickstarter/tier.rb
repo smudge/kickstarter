@@ -9,7 +9,7 @@ module Kickstarter
     end
     
     def id
-      @id ||= /backing\%5Bbacker_reward_id\%5D\=([0-9]+)/.match(node.css('a').attr('href').value)[1].to_i
+      @id ||= /backing\%5Bbacker_reward_id\%5D\=([0-9]+)/.match(node.attr('href'))[1].to_i
     end
     
     def minimum_pledge

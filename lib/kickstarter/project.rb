@@ -26,7 +26,7 @@ module Kickstarter
     end
     
     def name
-      @name ||= node ? node_link.inner_html : details_page.css("#headrow h1#name a").inner_html
+      @name ||= node ? node_link.inner_html : details_page.css("h1#title a").inner_html
     end
     
     def description
@@ -35,8 +35,12 @@ module Kickstarter
     
     def url
       @url ||= begin
-        path = node ? node_link.attribute('href').to_s : details_page.css("#headrow h1#name a").attr("href").value
-        File.join(Kickstarter::BASE_URL, path.split('?').first)
+        if node
+          path = node ? node_link.attribute('href').to_s : details_page.css("#headrow h1#name a").attr("href").value
+          File.join(Kickstarter::BASE_URL, path.split('?').first)
+        else
+          details_page.css("h1#title a").attr('href').value
+        end
       end
     end
     
@@ -48,14 +52,18 @@ module Kickstarter
       @owner ||= begin
         if node
           node.css('h2 span').first.inner_html.gsub(/by/, "").strip
+        else
+          details_page.css('#creator-name h3 a').inner_html.to_s
         end
       end
     end
     
-    def thumbnail_url
-      @thumbnail_url ||= begin
+    def image_url
+      @image_url ||= begin
         if node
-          node.css('.project-thumbnail img').first.attribute('src').to_s
+          thumbnail_url.gsub(/photo-little\.jpg/,'photo-full.jpg')
+        else
+          details_page.css('#video-section img').attr('src').value
         end
       end
     end
@@ -65,7 +73,7 @@ module Kickstarter
         if node
           /\$([0-9\,]+)/.match(node.css('.project-stats li')[1].css('strong').inner_html)[1].gsub(/\,/,"").to_i
         else
-          Integer(details_page.css("#moneyraised h5")[1].css(".num").inner_html.gsub(/,|\$/,""))
+          Float(details_page.css("#pledged").attr("data-pledged").value)
         end
       end
     end
@@ -75,7 +83,7 @@ module Kickstarter
         if node
           node.css('.project-stats li strong').inner_html.gsub(/\,/,"").to_i * 1.0
         else
-          pledge_amount * 1.0 / pledge_goal * 100.0
+          Float(details_page.css('#pledged').attr('data-percent-raised').value)
         end
       end
     end
@@ -114,7 +122,7 @@ module Kickstarter
         :pledge_amount   => pledge_amount,
         :pledge_percent  => pledge_percent,
         :pledge_deadline => pledge_deadline.to_s,
-        :thumbnail_url   => thumbnail_url
+        :image_url       => image_url
       }
       if node.nil? #we are working with the details page only
         extra_values = {
@@ -141,7 +149,7 @@ module Kickstarter
     end
     
     def pledge_goal
-      @pledge_goal ||= Integer(/pledged of \$([0-9\.\,]+) goal/.match(details_page.css("#moneyraised").inner_html)[1].gsub(/,/,""))
+      @pledge_goal ||= Float(details_page.css("#pledged").attr('data-goal').value)
     end
     
     def exact_pledge_deadline
@@ -167,7 +175,7 @@ module Kickstarter
       retries = 0
       results = []
       begin
-        nodes = details_page.css('#what-you-get').children
+        nodes = details_page.css('#what-you-get a.NS-projects-reward')
         nodes.each do |node|
           results << Kickstarter::Tier.new(node)
         end
@@ -183,6 +191,10 @@ module Kickstarter
     #######################################################
     
     attr_reader :seed_url
+
+    def thumbnail_url
+      node.css('.project-thumbnail img').first.attribute('src').to_s
+    end
     
     def node_link
       node.css('h2 a').first
