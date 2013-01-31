@@ -2,6 +2,7 @@ require 'rubygems'
 require "nokogiri"
 require 'open-uri'
 require 'date'
+require 'money'
 require_relative "kickstarter/version"
 require_relative "kickstarter/backer"
 require_relative "kickstarter/project"
@@ -9,7 +10,8 @@ require_relative "kickstarter/project_card"
 require_relative "kickstarter/tier"
 
 module Kickstarter
-  BASE_URL = "http://www.kickstarter.com"  
+  BASE_URL = "http://www.kickstarter.com"
+  Money.assume_from_symbol = true
   
   Categories = {
     :art         => "art",

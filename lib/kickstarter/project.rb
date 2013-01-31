@@ -33,8 +33,12 @@ module Kickstarter
       @image_url ||= details_page.css('#video-section img').attr('src').value
     end
     
+    def currency
+      @currency ||= details_page.css("#pledged data").attr('data-currency').value
+    end
+
     def pledge_amount
-      @pledge_amount ||= Float(details_page.css("#pledged").attr("data-pledged").value)
+      @pledge_amount ||= Money.new(details_page.css("#pledged").attr("data-pledged").value, currency)*100
     end
     
     def pledge_percent
@@ -46,7 +50,7 @@ module Kickstarter
     end
     
     def pledge_goal
-      @pledge_goal ||= Float(details_page.css("#pledged").attr('data-goal').value)
+      @pledge_goal ||= Money.new(details_page.css("#pledged").attr('data-goal').value, currency)*100
     end
 
     def duration

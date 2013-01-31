@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "kickstarter"
 
   s.add_dependency "nokogiri"
+  s.add_dependency "money"
   s.add_development_dependency "fakeweb"
   
   s.files         = `git ls-files`.split("\n")

@@ -35,8 +35,15 @@ module Kickstarter
       @image_url ||= thumbnail_url.gsub(/photo-little\.jpg/,'photo-full.jpg')
     end
     
+    def currency
+      @currency ||= pledge_amount.currency.to_s
+    end
+
     def pledge_amount
-      @pledge_amount ||= /\$([0-9\,]+)/.match(node.css('.project-stats li')[1].css('strong').inner_html)[1].gsub(/\,/,"").to_i
+      @pledge_amount ||= begin
+        Money.assume_from_symbol = true
+        Money.parse(node.css('.project-stats li')[1].css('strong').inner_html)
+      end
     end
     
     def pledge_percent
