@@ -14,10 +14,6 @@ module Kickstarter
       end
     end
 
-    def id
-      @id ||= /\/avatars\/([0-9]+)\//.match(thumbnail_url)[1].to_i 
-    end
-
     def thumbnail_url
       page_content.css('#profile_avatar img').attribute('src').to_s
     end
@@ -56,7 +52,6 @@ module Kickstarter
 
     def to_hash
       {
-        :id                 => id,
         :name           => name,
         :username       => username,
         :url            => url,
