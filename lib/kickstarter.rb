@@ -2,12 +2,13 @@ require 'rubygems'
 require "nokogiri"
 require 'open-uri'
 require 'date'
-require "kickstarter/version"
-require "kickstarter/project"
-require "kickstarter/tier"
+require_relative "kickstarter/version"
+require_relative "kickstarter/project"
+require_relative "kickstarter/tier"
+require_relative "kickstarter/backer"
 
 module Kickstarter
-  BASE_URL = "http://kickstarter.com"  
+  BASE_URL = "http://www.kickstarter.com"  
   
   Categories = {
     :art         => "art",

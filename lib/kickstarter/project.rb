@@ -1,5 +1,4 @@
 module Kickstarter
-  
   class Project
 
     attr_reader :node

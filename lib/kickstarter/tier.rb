@@ -1,5 +1,4 @@
 module Kickstarter
-  
   class Tier
     
     attr_reader :node
