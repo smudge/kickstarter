@@ -3,9 +3,10 @@ require "nokogiri"
 require 'open-uri'
 require 'date'
 require_relative "kickstarter/version"
-require_relative "kickstarter/project"
-require_relative "kickstarter/tier"
 require_relative "kickstarter/backer"
+require_relative "kickstarter/project"
+require_relative "kickstarter/project_card"
+require_relative "kickstarter/tier"
 
 module Kickstarter
   BASE_URL = "http://www.kickstarter.com"  
@@ -81,7 +82,7 @@ module Kickstarter
         break if nodes.empty?
 
         nodes.each do |node|
-          results << Kickstarter::Project.new(node)
+          results << Kickstarter::ProjectCard.new(node)
         end
       rescue Timeout::Error
         retries += 1
