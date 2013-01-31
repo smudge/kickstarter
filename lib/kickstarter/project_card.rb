@@ -62,7 +62,7 @@ module Kickstarter
         :url             => url,
         :description     => description,
         :owner           => owner,
-        :pledge_amount   => pledge_amount,
+        :pledge_amount   => pledge_amount.format,
         :pledge_percent  => pledge_percent,
         :pledge_deadline => pledge_deadline.to_s,
         :image_url       => image_url

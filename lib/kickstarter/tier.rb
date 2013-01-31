@@ -51,7 +51,7 @@ module Kickstarter
     def to_hash
       {
         :id                 => id,
-        :minimum_pledge     => minimum_pledge,
+        :minimum_pledge     => minimum_pledge.format,
         :backer_count       => backer_count,
         :description        => description,
         :limited            => limited,

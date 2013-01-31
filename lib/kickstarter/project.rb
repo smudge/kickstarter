@@ -102,11 +102,11 @@ module Kickstarter
         :short_url          => short_url,
         :description        => description,
         :owner              => owner,
-        :pledge_amount      => pledge_amount,
+        :pledge_amount      => pledge_amount.format,
         :pledge_percent     => pledge_percent,
         :pledge_deadline    => pledge_deadline.to_s,
         :image_url          => image_url,
-        :pledge_goal        => pledge_goal #,
+        :pledge_goal        => pledge_goal.format #,
         #:full_description   => full_description,
         #:risks              => risks,
         #:tiers              => tiers.map{|t|t.to_hash}
