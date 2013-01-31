@@ -167,7 +167,7 @@ module Kickstarter
       retries = 0
       results = []
       begin
-        nodes = details_page.css('.NS-projects-reward')
+        nodes = details_page.css('#what-you-get').children
         nodes.each do |node|
           results << Kickstarter::Tier.new(node)
         end

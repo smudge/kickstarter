@@ -9,15 +9,15 @@ module Kickstarter
     end
     
     def id
-      @id ||= /backing\[backer_reward_id\]\=([0-9]+)/.match(node.css('h3 a').attr('href').value)[1].to_i
+      @id ||= /backing\%5Bbacker_reward_id\%5D\=([0-9]+)/.match(node.css('a').attr('href').value)[1].to_i
     end
     
     def minimum_pledge
-      @minimum_pledge ||= Integer(node.css('span').text[/\$[0-9\.\,]+/].gsub(/\$/,"").gsub(/\,/,""))
+      @minimum_pledge ||= Integer(node.css('h3').text[/\$[0-9\.\,]+/].gsub(/\$/,"").gsub(/\,/,""))
     end
     
     def backer_count
-      @backer_count ||= Integer(node.css(".num-backers").first.inner_html.gsub(/Backers?/,"").gsub(/\s+/,""))
+      @backer_count ||= Integer(node.css(".num-backers").first.inner_html.gsub(/backers?/,"").gsub(/\s+/,""))
     end
     
     def description
@@ -29,11 +29,11 @@ module Kickstarter
     end
     
     def limited_max
-      @limited_max ||= limited ? Integer(/[0-9]+ of ([0-9]+) remaining/.match(limited_text)[1]) : nil
+      @limited_max ||= limited ? Integer(/[0-9]+ of ([0-9]+) left/.match(limited_text)[1]) : nil
     end
     
     def limited_remaining
-      @limited_remaining ||= limited ? Integer(/([0-9]+) of [0-9]+ remaining/.match(limited_text)[1]) : nil
+      @limited_remaining ||= limited ? Integer(/([0-9]+) of [0-9]+ left/.match(limited_text)[1]) : nil
     end
     
     def estimated_delivery
@@ -66,8 +66,8 @@ module Kickstarter
     private
     
     def limited_text
-      @limited_text ||= node.css('.limited').text[/\([0-9]+ of [0-9]+ remaining\)/]
-      @limited_text ||= node.css('.sold-out').text[/\([0-9]+ of [0-9]+ remaining\)/]
+      @limited_text ||= node.css('.limited').text[/\([0-9]+ of [0-9]+ left\)/]
+      @limited_text ||= node.css('.sold-out').text[/\([0-9]+ of [0-9]+ left\)/]
     end
     
   end
