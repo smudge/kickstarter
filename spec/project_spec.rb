@@ -48,7 +48,7 @@ describe Kickstarter::Project do
   it "finds the project's canonical url" do
     VCR.use_cassette goats do
       @project = Kickstarter::Project.new("http://kck.st/zWboXB")
-      @project.url.should match(Regexp.new goats)
+      @project.url.should match("^https?://www.kickstarter.com/" + goats)
     end
   end
 
