@@ -4,7 +4,7 @@ require 'open-uri'
 require 'date'
 require_relative "kickstarter/common"
 require_relative "kickstarter/version"
-require_relative "kickstarter/backer"
+require_relative "kickstarter/profile"
 require_relative "kickstarter/project"
 require_relative "kickstarter/project_card"
 require_relative "kickstarter/tier"

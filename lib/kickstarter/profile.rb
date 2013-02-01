@@ -1,5 +1,5 @@
 module Kickstarter
-  class Backer
+  class Profile
 
     attr_reader :node
     
