@@ -1,3 +1,7 @@
+require 'nokogiri'
+require 'open-uri'
+require 'money'
+
 module Kickstarter
   class Project
     
@@ -20,6 +24,11 @@ module Kickstarter
     def url
       @url ||= details_page.css("h1#title a").attr('href').value
     end
+
+    # Note: Not all projects are assigned short_urls.
+    def short_url
+      @short_url ||= details_page.css("#share_a_link").attr("value").value
+    end
     
     def handle
       @handle ||= url.split('/projects/').last.gsub(/\/$/,"")
@@ -40,6 +49,10 @@ module Kickstarter
     def pledge_amount
       @pledge_amount ||= Money.new(details_page.css("#pledged").attr("data-pledged").value, currency)*100
     end
+
+    def pledge_goal
+      @pledge_goal ||= Money.new(details_page.css("#pledged").attr('data-goal').value, currency)*100
+    end
     
     def pledge_percent
       @pledge_percent ||= Float(details_page.css('#pledged').attr('data-percent-raised').value)
@@ -48,10 +61,6 @@ module Kickstarter
     def pledge_deadline
       @pledge_deadline ||= Time.parse(details_page.css("#project_duration_data").attr("data-end_time").value)
     end
-    
-    def pledge_goal
-      @pledge_goal ||= Money.new(details_page.css("#pledged").attr('data-goal').value, currency)*100
-    end
 
     def duration
       @duration ||= Float(details_page.css('#project_duration_data').attr('data-duration').value)
@@ -59,11 +68,6 @@ module Kickstarter
     
     def launched_at
       pledge_deadline - duration*24*60*60
-    end
-
-    # Note: Not all projects are assigned short_urls.
-    def short_url
-      @short_url ||= details_page.css("#share_a_link").attr("value").value
     end
     
     def full_description
