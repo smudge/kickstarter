@@ -1,3 +1,5 @@
+require 'nokogiri'
+require 'open-uri'
 require 'money'
 
 module Kickstarter

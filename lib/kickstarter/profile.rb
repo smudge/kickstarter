@@ -1,21 +1,17 @@
+# encoding: utf-8
+require_relative 'common'
+
 module Kickstarter
   class Profile
 
     attr_reader :node
     
-    def initialize(*args)
-      case args[0]
-      when String
-        @username = args[0]
-      when Nokogiri::XML::Node
-        @node = args[0]
-      else
-        raise TypeError
-      end
+    def initialize(username)
+      @username = username
     end
 
-    def thumbnail_url
-      page_content.css('#profile_avatar img').attribute('src').to_s
+    def name
+      @name ||= page_content.css('#profile_bio h1').children.first.to_s.gsub(/\n/,'')
     end
 
     def username
@@ -26,8 +22,8 @@ module Kickstarter
       @url ||= BASE_URL + '/profile/' + username
     end
 
-    def name
-      @name ||= page_content.css('#profile_bio h1').children.first.to_s.gsub(/\n/,'')
+    def thumbnail_url
+      page_content.css('#profile_avatar img').attribute('src').to_s.split('?').first
     end
 
     def location
@@ -43,11 +39,11 @@ module Kickstarter
     end
 
     def backed_projects
-
+      []
     end
 
     def page_content
-      @page_content ||= Backer.fetch_page(url).css('#main_content')
+      @page_content ||= Profile.fetch_page(url).css('#main_content')
     end
 
     def to_hash

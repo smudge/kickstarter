@@ -1,6 +1,5 @@
-require 'nokogiri'
-require 'open-uri'
-require 'money'
+# encoding: utf-8
+require_relative 'common'
 
 module Kickstarter
   class Project

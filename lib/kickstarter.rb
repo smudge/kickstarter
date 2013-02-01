@@ -1,6 +1,4 @@
 require 'rubygems'
-require "nokogiri"
-require 'open-uri'
 require 'date'
 require_relative "kickstarter/common"
 require_relative "kickstarter/version"
