@@ -39,7 +39,7 @@ module Kickstarter
     end
     
     def image_url
-      @image_url ||= details_page.css('#video-section img').attr('src').value
+      @image_url ||= details_page.css('#video-section img').attr('src').value.split('?').first
     end
     
     def currency
