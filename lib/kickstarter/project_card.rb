@@ -1,3 +1,6 @@
+# encoding: utf-8
+require_relative 'common'
+
 module Kickstarter
   class ProjectCard
 
@@ -20,7 +23,7 @@ module Kickstarter
     end
     
     def url
-      @url ||= BASE_URL + node.css('h2 a').first.attribute('href').to_s.split('?').first
+      @url ||= node.css('h2 a').first.attribute('href').to_s.split('?').first
     end
     
     def handle
@@ -32,7 +35,7 @@ module Kickstarter
     end
     
     def image_url
-      @image_url ||= thumbnail_url.gsub(/photo-little\.jpg/,'photo-full.jpg')
+      @image_url ||= thumbnail_url.gsub(/photo-little\.jpg/,'photo-full.jpg').split('?').first
     end
     
     def currency
@@ -42,7 +45,7 @@ module Kickstarter
     def pledge_amount
       @pledge_amount ||= begin
         Money.assume_from_symbol = true
-        Money.parse(node.css('.project-stats li')[1].css('strong').inner_html)
+        Money.parse(node.css('.project-stats li.pledged strong').inner_html.gsub('&pound;','£').gsub('&Acirc;',''))
       end
     end
     

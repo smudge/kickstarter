@@ -2,7 +2,7 @@ require 'rubygems'
 require "nokogiri"
 require 'open-uri'
 require 'date'
-require 'money'
+require_relative "kickstarter/common"
 require_relative "kickstarter/version"
 require_relative "kickstarter/backer"
 require_relative "kickstarter/project"
@@ -10,42 +10,6 @@ require_relative "kickstarter/project_card"
 require_relative "kickstarter/tier"
 
 module Kickstarter
-  BASE_URL = "http://www.kickstarter.com"
-  Money.assume_from_symbol = true
-  
-  Categories = {
-    :art         => "art",
-    :comics      => "comics",
-    :dance       => "dance",
-    :design      => "design",
-    :fashion     => "fashion",
-    :film_video  => "film%20&%20video",
-    :food        => "food",
-    :games       => "games",
-    :music       => "music",
-    :photography => "photography",
-    :publishing  => "publishing",
-    :technology  => "technology",
-    :theater     => "theater"
-  }
-  
-  Types = {
-    :popular     => 'popular',
-    :recommended => 'recommended',
-    :successful  => 'successful',
-    :most_funded => 'most-funded'
-  }
-  
-  Lists = {
-    :recommended       => "recommended",
-    :popular           => "popular",
-    :recently_launched => "recently-launched",
-    :ending_soon       => "ending-soon",
-    :small_projects    => "small-projects",
-    :most_funded       => "most-funded",
-    :curated           => "curated-pages",
-  }
-  
   # by category
   # /discover/categories/:category/:subcategories 
   #  :type # => [recommended, popular, successful]
