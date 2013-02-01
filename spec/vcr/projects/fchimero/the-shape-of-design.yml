@@ -1,0 +1,666 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.kickstarter.com/projects/fchimero/the-shape-of-design
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 01 Feb 2013 09:50:27 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Content-Length:
+      - '59103'
+      Etag:
+      - ! '"52e0429a62af86a6691e0c02e5b2b848"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _ksr_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJTAzMmZkMWJhODk1ZDBkZGIyN2I4M2ZhMzQ0ZTM1MTBjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMVJOMEZpalV0T0UyTjFDZXFFN3pKNWRyajhjam56Q3hTYmh1NzJ2M3hNSjg9BjsARkkiFWN1cnJlbnRfbG9jYXRpb24GOwBGewg6CGxhdGYMNDcuNjEwNDoIbG5nZg4tMTIyLjIwMDc6EGxvY2F0aW9uX2lkaQIaAg%3D%3D--b8299680c9a869e23cd68a48a4e3301466208c20;
+        path=/
+      - last_page=http%3A%2F%2Fwww.kickstarter.com%2Fprojects%2Ffchimero%2Fthe-shape-of-design;
+        path=/; expires=Fri, 01-Feb-2013 10:20:27 GMT
+      - request_time=Fri%2C+01+Feb+2013+09%3A50%3A27+-0000; path=/
+      X-Request-Id:
+      - f8703f75035d03996cfbbde466f3b51c
+      X-Runtime:
+      - '0.273967'
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE html>\n<html class=\"projects_show no-js fontface \" lang=\"en\"
+        xml:lang=\"en\" xmlns:fb=\"http://www.facebook.com/2008/fbml\" xmlns=\"http://www.w3.org/1999/xhtml\">\n<head><script
+        type=\"text/javascript\">var NREUMQ=NREUMQ||[];NREUMQ.push([\"mark\",\"firstbyte\",new
+        Date().getTime()]);</script><title>The Shape of Design by Frank Chimero &mdash;
+        Kickstarter</title><!--[if lt IE 9]>\n  <script src=\"//html5shim.googlecode.com/svn/trunk/html5.js\"
+        type=\"text/javascript\"></script>\n<![endif]-->\n\n\n<meta content=\"text/html;
+        charset=utf-8\" http-equiv=\"Content-Type\">\n<meta content=\"telephone=no\"
+        name=\"format-detection\">\n<link href=\"//d297h9he240fqh.cloudfront.net/cache-1b9b4efff/fonts/fonts.css\"
+        media=\"screen\" rel=\"stylesheet\" type=\"text/css\">\n<!--[if !IE]> -->\n
+        \ <link href=\"//d297h9he240fqh.cloudfront.net/cache-1b9b4efff/assets/base.css\"
+        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<!-- <![endif]-->\n<!--[if
+        IE]>\n  <link href=\"//d297h9he240fqh.cloudfront.net/cache-1b9b4efff/stylesheets/blessed.css\"
+        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<![endif]-->\n\n\n<!--[if
+        lte IE 8]>\n  <link href=\"//d297h9he240fqh.cloudfront.net/cache-1b9b4efff/stylesheets/compass/library/ie8.css\"
+        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<![endif]-->\n<!--[if
+        lte IE 7]>\n  <link href=\"//d297h9he240fqh.cloudfront.net/cache-1b9b4efff/stylesheets/compass/library/ie.css\"
+        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n  <link href=\"//d297h9he240fqh.cloudfront.net/cache-1b9b4efff/assets/ie_seven.css\"
+        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<![endif]-->\n<!--[if
+        IE 6]>\n  <link href=\"//d297h9he240fqh.cloudfront.net/cache-1b9b4efff/assets/ie_six.css\"
+        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<![endif]-->\n\n\n<link
+        href=\"//d297h9he240fqh.cloudfront.net/cache-1b9b4efff/assets/print.css\"
+        media=\"print\" rel=\"stylesheet\" type=\"text/css\" />\n<link href=\"//d297h9he240fqh.cloudfront.net/cache-1b9b4efff/favicon.png\"
+        rel=\"icon\" type=\"image/png\">\n<link href=\"//d297h9he240fqh.cloudfront.net/cache-1b9b4efff/apple-touch-icon-precomposed.png\"
+        rel=\"apple-touch-icon-precomposed\" type=\"image/png\">\n<link href=\"//d297h9he240fqh.cloudfront.net/cache-1b9b4efff/apple-touch-icon-ipad-precomposed.png\"
+        rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" type=\"image/png\">\n<link
+        href=\"//d297h9he240fqh.cloudfront.net/cache-1b9b4efff/apple-touch-icon-iphone4-precomposed.png\"
+        rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" type=\"image/png\">\n<link
+        href=\"http://www.kickstarter.com/services/oembed?url=http%3A%2F%2Fwww.kickstarter.com%2Fprojects%2Ffchimero%2Fthe-shape-of-design\"
+        rel=\"alternate\" title=\"The Shape of Design Script Tag oEmbed\" type=\"application/json+oembed\">\n<link
+        rel=\"alternate\" type=\"application/atom+xml\" title=\"The Shape of Design
+        : Kickstarter\" href=\"http://www.kickstarter.com/projects/fchimero/the-shape-of-design/posts.atom\"
+        />\n<meta name=\"video_height\" content=\"314\"/>\n<meta name=\"video_width\"
+        content=\"560\"/>\n<meta name=\"video_type\" content=\"application/x-shockwave-flash\"/>\n<meta
+        name=\"title\" content=\"Kickstarter &gt;&gt; The Shape of Design by Frank
+        Chimero\"/>\n<meta name=\"description\" content=\"Frank Chimero is raising
+        funds for The Shape of Design on Kickstarter! \n\n The Shape of Design is
+        a short, accessible book about the creative process &amp; the intersection
+        of storytelling, craft &amp; improvisation.\"/>\n<meta property=\"og:title\"
+        content=\"The Shape of Design\"/>\n<meta property=\"og:type\" content=\"kickstarter:project\"/>\n<meta
+        property=\"og:image\" content=\"https://s3.amazonaws.com/ksr/projects/21550/photo-full.jpg?1296492806\"/>\n<meta
+        property=\"og:url\" content=\"http://www.kickstarter.com/projects/fchimero/the-shape-of-design\"/>\n<meta
+        property=\"og:site_name\" content=\"Kickstarter\"/>\n<meta property=\"fb:app_id\"
+        content=\"69103156693\"/>\n<meta property=\"og:description\" content=\"The
+        Shape of Design is a short, accessible book about the creative process &amp;
+        the intersection of storytelling, craft &amp; improvisation.\"/>\n<meta property=\"kickstarter:location:latitude\"
+        content=\"45.5235\"/>\n<meta property=\"kickstarter:location:longitude\" content=\"-122.676\"/>\n<meta
+        property=\"twitter:site:id\" content=\"16186995\"/>\n<meta property=\"og:video\"
+        content=\"http://www.kickstarter.com/swf/kickplayer.swf?allowfullscreen=true&amp;autostart=true&amp;backcolor=000000&amp;controlbar=over&amp;file=https%3A%2F%2Fs3.amazonaws.com%2Fksr%2Fprojects%2F21550%2Fvideo-23118-h264_high.mp4&amp;image=https%3A%2F%2Fs3.amazonaws.com%2Fksr%2Fprojects%2F21550%2Fphoto-full.jpg&amp;screencolor=000000&amp;skin=http%3A%2F%2Fwww.kickstarter.com%2Fswf%2Fkickskin.swf&amp;wmode=opaque\"/>\n<meta
+        property=\"og:video:height\" content=\"314\"/>\n<meta property=\"og:video:width\"
+        content=\"560\"/>\n<meta property=\"og:video:type\" content=\"application/x-shockwave-flash\"/>\n<meta
+        property=\"twitter:card\" content=\"player\"/>\n<meta property=\"twitter:player\"
+        content=\"https://www.kickstarter.com/projects/fchimero/the-shape-of-design/widget/video.html\"/>\n<meta
+        property=\"twitter:player:height\" content=\"314\"/>\n<meta property=\"twitter:player:width\"
+        content=\"560\"/>\n<meta property=\"twitter:player:stream\" content=\"https://s3.amazonaws.com/ksr/projects/21550/video-23118-h264_base.mp4\"/>\n<meta
+        property=\"twitter:player:stream:content_type\" content=\"video/mp4; codecs=&quot;avc1.42E01E,
+        mp4a.40.2&quot;\"/>\n<meta content=\"authenticity_token\" name=\"csrf-param\"
+        />\n<meta content=\"RN0FijUtOE2N1CeqE7zJ5drj8cjnzCxSbhu72v3xMJ8=\" name=\"csrf-token\"
+        />\n<link href=\"http://kck.st/evTfwY\" rel=\"shorturl\">\n<link href=\"http://www.kickstarter.com/projects/fchimero/the-shape-of-design\"
+        rel=\"canonical\">\n<link href=\"https://s3.amazonaws.com/ksr/projects/21550/photo-med.jpg?1296492806\"
+        rel=\"image_src\">\n<link href=\"http://www.kickstarter.com/swf/kickplayer.swf?allowfullscreen=true&amp;autostart=true&amp;backcolor=000000&amp;controlbar=over&amp;file=https%3A%2F%2Fs3.amazonaws.com%2Fksr%2Fprojects%2F21550%2Fvideo-23118-h264_high.mp4&amp;image=https%3A%2F%2Fs3.amazonaws.com%2Fksr%2Fprojects%2F21550%2Fphoto-full.jpg&amp;screencolor=000000&amp;skin=http%3A%2F%2Fwww.kickstarter.com%2Fswf%2Fkickskin.swf&amp;wmode=opaque\"
+        rel=\"video_src\">\n\n<script>\n  //<![CDATA[\n    window.current_project
+        = \"{&quot;id&quot;:997617821,&quot;name&quot;:&quot;The Shape of Design&quot;,&quot;blurb&quot;:&quot;The
+        Shape of Design is a short, accessible book about the creative process &amp;
+        the intersection of storytelling, craft &amp; improvisation.&quot;,&quot;goal&quot;:&quot;27000.0&quot;,&quot;pledged&quot;:&quot;112159.11&quot;,&quot;state&quot;:&quot;successful&quot;,&quot;currency&quot;:&quot;USD&quot;,&quot;currency_symbol&quot;:&quot;$&quot;,&quot;deadline&quot;:1299092976,&quot;state_changed_at&quot;:1299092976,&quot;photo&quot;:{&quot;little&quot;:&quot;https://s3.amazonaws.com/ksr/projects/21550/photo-little.jpg?1296492806&quot;,&quot;full&quot;:&quot;https://s3.amazonaws.com/ksr/projects/21550/photo-full.jpg?1296492806&quot;,&quot;med&quot;:&quot;https://s3.amazonaws.com/ksr/projects/21550/photo-med.jpg?1296492806&quot;,&quot;small&quot;:&quot;https://s3.amazonaws.com/ksr/projects/21550/photo-small.jpg?1296492806&quot;},&quot;creator&quot;:{&quot;id&quot;:30453381,&quot;name&quot;:&quot;Frank
+        Chimero&quot;,&quot;avatar&quot;:{&quot;thumb&quot;:&quot;https://s3.amazonaws.com/ksr/avatars/59957/avatar.thumb.jpg?1340218732&quot;,&quot;small&quot;:&quot;https://s3.amazonaws.com/ksr/avatars/59957/avatar.small.jpg?1340218732&quot;,&quot;medium&quot;:&quot;https://s3.amazonaws.com/ksr/avatars/59957/avatar.medium.jpg?1340218732&quot;},&quot;slug&quot;:&quot;fchimero&quot;,&quot;location&quot;:{&quot;id&quot;:714,&quot;name&quot;:&quot;Brooklyn,
+        NY&quot;,&quot;urls&quot;:{&quot;web&quot;:{&quot;discover&quot;:&quot;http://www.kickstarter.com/discover/cities/brooklyn-ny&quot;}}},&quot;urls&quot;:{&quot;web&quot;:{&quot;user&quot;:&quot;http://www.kickstarter.com/profile/fchimero&quot;},&quot;api&quot;:{&quot;user&quot;:&quot;https://api.kickstarter.com/v1/users/30453381?signature=1359764812.6fc04f5ffda5eed9155e0e3589e162b7fdd7f064&quot;}}},&quot;location&quot;:{&quot;id&quot;:3223,&quot;name&quot;:&quot;Portland,
+        OR&quot;,&quot;urls&quot;:{&quot;web&quot;:{&quot;discover&quot;:&quot;http://www.kickstarter.com/discover/cities/portland-or&quot;}}},&quot;urls&quot;:{&quot;web&quot;:{&quot;project&quot;:&quot;http://www.kickstarter.com/projects/fchimero/the-shape-of-design&quot;,&quot;project_short&quot;:&quot;http://kck.st/evTfwY&quot;},&quot;api&quot;:{&quot;project&quot;:&quot;https://api.kickstarter.com/v1/projects/997617821?signature=1359798627.9dde19034b487217ae5270e2445939efb80cede0&quot;,&quot;comments&quot;:&quot;https://api.kickstarter.com/v1/projects/997617821/comments?signature=1359798627.f88c851844f9f9ac10e263592476a8685eddb1d5&quot;}},&quot;launched_at&quot;:1296500976,&quot;updated_at&quot;:1357363163,&quot;country&quot;:&quot;US&quot;,&quot;slug&quot;:&quot;the-shape-of-design&quot;,&quot;successful_at&quot;:1299092976,&quot;potd_at&quot;:1296691200,&quot;category&quot;:{&quot;id&quot;:7,&quot;name&quot;:&quot;Design&quot;,&quot;position&quot;:4,&quot;urls&quot;:{&quot;web&quot;:{&quot;discover&quot;:&quot;http://www.kickstarter.com/discover/categories/design&quot;}}},&quot;ksr_blurb&quot;:&quot;After
+        years of creating, writing about, and lecturing on design, Frank Chimero is
+        collecting his thoughts on the creative process in a new book, which hopes
+        to leave readers thinking, \\\\&quot;How can we make things that help all
+        of us live better?\\\\&quot;&quot;,&quot;video&quot;:{&quot;id&quot;:23118,&quot;status&quot;:&quot;successful&quot;,&quot;high&quot;:&quot;https://s3.amazonaws.com/ksr/projects/21550/video-23118-h264_high.mp4?2011&quot;,&quot;base&quot;:&quot;https://s3.amazonaws.com/ksr/projects/21550/video-23118-h264_base.mp4?2011&quot;,&quot;width&quot;:560,&quot;height&quot;:314,&quot;frame&quot;:&quot;https://s3.amazonaws.com/ksr/projects/21550/video-23118-h264_base.jpg?2011&quot;},&quot;backers_count&quot;:2109}\";\n
+        \ //]]>\n</script>\n\n<script>\n  //<![CDATA[\n    var _sf_startpt=(new Date()).getTime();\n
+        \   docElement = this.document.documentElement;\n    docElement.className=docElement.className.replace(/\\bno-js\\b/,'')
+        + 'js';\n  //]]>\n</script>\n<script>\n  //<![CDATA[\n    function timeRemaining(epochTime){\n
+        \   \n      var diff = epochTime - ((new Date()).getTime() / 1000);\n      var
+        num_unit = (diff < 60 && [Math.max(diff, 0), 'seconds']) ||\n        ((diff/=60)
+        < 60 && [diff, 'minutes']) ||\n        ((diff/=60) < 72 && [diff, 'hours'])
+        ||\n        [diff/=24, 'days'];\n    \n      // Round down\n      num_unit[0]
+        = Math.floor(num_unit[0]);\n      // Singularize unit\n      if (num_unit[0]
+        == 1) { num_unit[1] = num_unit[1].replace(/s$/,\"\"); }\n    \n      return
+        num_unit;\n    };\n  //]]>\n</script>\n</head>\n\n<body class=\"project projects
+        not-mobile leanback\" id=\"projects_show\">\n<div class=\"jGrowl center\"
+        id=\"growl_section\"></div>\n<div id=\"header-wrap\">\n<div class=\"container\"
+        id=\"header\">\n<h1 id=\"logo\">\n<a href=\"/\"><span>Kickstarter</span>\n</a></h1>\n<a
+        href=\"/help/faq/kickstarter%20basics?ref=nav\" id=\"what_is_kickstarter_link\">What
+        is Kickstarter?</a>\n<ul id=\"menu-main\">\n<li id=\"menu-main-discover\">\n<a
+        href=\"/discover\"><strong>Discover</strong>\n<span>great projects</span>\n</a></li>\n<li
+        id=\"menu-main-fund\">\n<a href=\"/start\"><strong>Start</strong>\n<span>your
+        project</span>\n</a></li>\n</ul>\n<form accept-charset=\"UTF-8\" action=\"/projects/search\"
+        class=\"search overlabels\" method=\"get\"><div style=\"margin:0;padding:0;display:inline\"><input
+        class=\"hidden\" name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /></div>\n<div
+        class=\"field search\">\n<span class=\"icon-search\"></span>\n<span class=\"icon-search-clear\"></span>\n<label
+        class=\"overlabel overlabel-search\">Search projects</label>\n<input class=\"input-search
+        header text\" data-tracker-name=\"Header Live Search\" id=\"term\" name=\"term\"
+        type=\"text\" />\n<span class=\"icon-search-nipple\"></span>\n</div>\n</form>\n\n<ul
+        id=\"menu-sub\">\n<li id=\"menu-sub-help\"><a href=\"/help\">Help</a></li>\n<li><a
+        href=\"https://www.kickstarter.com/signup\">Sign up</a></li>\n<li><a href=\"https://www.kickstarter.com/login\">Log
+        in</a></li>\n</ul>\n</div>\n</div>\n<div id=\"search_results-wrap\">\n<div
+        id=\"search_results-shadow\">\n<div id=\"search_results-inner_wrap\">\n<div
+        class=\"container\" id=\"search_results\">\n<a class=\"close\"><span class=\"icon-x\"></span></a>\n<h2
+        class=\"header\"></h2>\n<div id=\"search_results_panel\"></div>\n<p class=\"footer\"></p>\n<a
+        class=\"prev arrow\">\n<span class=\"icon-search-left\"></span>\n<strong>Previous</strong>\n</a>\n<a
+        class=\"next arrow\">\n<span class=\"icon-search-right\"></span>\n<strong>Next</strong>\n</a>\n</div>\n</div>\n</div>\n</div>\n\n\n\n<div
+        class=\"Project997617821_cxt Project-state-successful Project-is_starred-
+        Project-ended-true\" id=\"main_content\">\n\n<div id=\"running-board-wrap\">\n<div
+        class=\"container\" id=\"running-board\">\n<div id=\"project-header\">\n<div
+        class=\"NS-project_-running_board\">\n<h1 id=\"title\">\n<a href=\"https://www.kickstarter.com/projects/fchimero/the-shape-of-design\">The
+        Shape of Design</a>\n</h1>\n<h2 id=\"subtitle\">\n<span class=\"creator\">\nby\n<a
+        href=\"/projects/fchimero/the-shape-of-design/creator_bio\" class=\"remote_modal_dialog\"
+        data-modal-id=\"modal_project_by\" data-modal-title=\"Biography\" id=\"name\">Frank
+        Chimero</a>\n</span>\n</h2>\n\n<ul id=\"running-board-nav\">\n<li>\n<a href=\"https://www.kickstarter.com/projects/fchimero/the-shape-of-design\"
+        id=\"home_nav\">Home</a>\n</li>\n<li>\n<span data-updates-count=\"14\" id=\"updates_count\">\n<a
+        href=\"/projects/fchimero/the-shape-of-design/posts\" id=\"updates_nav\">Updates
+        <span class='count'>14</span></a>\n</span>\n</li>\n<li>\n<a href=\"/projects/fchimero/the-shape-of-design/backers\"
+        id=\"backers_nav\">Backers <span class='count'><data class=\"Project997617821\"
+        data-format=\"number\" data-value=\"2109\" itemprop=\"Project[backers_count]\"
+        value=\"2109\">2,109</data></span></a>\n</li>\n<li>\n<span data-comments-count=\"118\"
+        id=\"comments_count\">\n<a href=\"/projects/fchimero/the-shape-of-design/comments\"
+        id=\"comments_nav\">Comments <span class='count'>118</span></a>\n</span>\n</li>\n</ul>\n<ul
+        id=\"project-metadata\">\n<li class=\"location\">\n<a href=\"/discover/cities/portland-or\"><span
+        class='location-icon'></span> Portland, OR</a>\n</li>\n<li class=\"category\"
+        data-project-parent-category=\"Design\">\n<a href=\"/discover/categories/design\"><span
+        class='category-icon'></span> Design</a>\n</li>\n</ul>\n</div>\n\n</div>\n</div>\n</div>\n<div
+        id=\"content-wrap\">\n<div class=\"Project997617821\" data-conditions=\"[{&quot;state&quot;:&quot;successful&quot;}]\"
+        data-evaluation=\"true\" data-render=\"&quot;&lt;div class=\\&quot;container\\&quot;
+        id=\\&quot;funding-successful-banner\\&quot;&gt;\\n&lt;p&gt;\\n&lt;b&gt;Funded!&lt;/b&gt;\\nThis
+        project successfully raised its funding goal &lt;data class=\\&quot;Project997617821\\&quot;
+        data-format=\\&quot;distance_date\\&quot; data-value=\\&quot;&amp;quot;2011-03-02T14:09:36-05:00&amp;quot;\\&quot;
+        itemprop=\\&quot;Project[deadline]\\&quot; value=\\&quot;2011-03-02 14:09:36
+        -0500\\&quot;&gt;on March  2, 2011&lt;/data&gt;.\\n&lt;/p&gt;\\n&lt;/div&gt;\\n&quot;\"><div
+        class=\"container\" id=\"funding-successful-banner\">\n<p>\n<b>Funded!</b>\nThis
+        project successfully raised its funding goal <data class=\"Project997617821\"
+        data-format=\"distance_date\" data-value=\"&quot;2011-03-02T14:09:36-05:00&quot;\"
+        itemprop=\"Project[deadline]\" value=\"2011-03-02 14:09:36 -0500\">on March
+        \ 2, 2011</data>.\n</p>\n</div>\n</div><div class=\"container\" id=\"content\">\n<div
+        class=\"NS-projects-content\">\n<div id=\"main\">\n<div data-has-video=\"true\"
+        id=\"video-section\">\n<div class=\"video-player\" data-image=\"https://s3.amazonaws.com/ksr/projects/21550/photo-full.jpg?1296492806\"
+        data-video-tracker-url=\"http://www.kickstarter.com/projects/fchimero/the-shape-of-design/video/plays\"
+        data-video=\"https://s3.amazonaws.com/ksr/projects/21550/video-23118-h264_high.mp4\"
+        data-video_tag_markup=\"&lt;video controls=&#x27;controls&#x27; height=&#x27;420&#x27;
+        id=&#x27;movie&#x27; poster=&#x27;https://s3.amazonaws.com/ksr/projects/21550/photo-full.jpg?1296492806&#x27;
+        preload=&#x27;none&#x27; src=&#x27;https://s3.amazonaws.com/ksr/projects/21550/video-23118-h264_base.mp4&#x27;
+        width=&#x27;560&#x27;&gt;&lt;img alt=&#x27;Photo-full&#x27; height=&#x27;420&#x27;
+        src=&#x27;https://s3.amazonaws.com/ksr/projects/21550/photo-full.jpg?1296492806&#x27;
+        width=&#x27;560&#x27; /&gt;&lt;/video&gt;\"><img alt=\"Photo-full\" height=\"420\"
+        src=\"https://s3.amazonaws.com/ksr/projects/21550/photo-full.jpg?1296492806\"
+        width=\"560\" /></div>\n</div>\n<div data-project-state=\"successful\" id=\"about\">\n<div
+        class=\"share-box-wrap\">\n<ul>\n<li class=\"facebook first\">\n<fb:like data-tracker-name=\"Facebook\"
+        font=\"lucida grande\" href=\"http://www.kickstarter.com/projects/fchimero/the-shape-of-design\"
+        show_faces=\"false\" width=\"331\"></fb:like>\n</li>\n<li class=\"short-link\">\n<input
+        class=\"text\" id=\"share_a_link\" name=\"share_a_link\" type=\"text\" value=\"http://kck.st/evTfwY\"
+        />\n</li>\n<li class=\"embed\">\n<a href=\"/projects/fchimero/the-shape-of-design/widget\"
+        class=\"button-action remote_modal_dialog\" data-modal-title=\"Embed a widget
+        on your site\" data-tracker-name=\"Embed\"><span class=\"icon-embed\"></span>Embed\n</a></li>\n<li
+        class=\"twitter\">\n<a class=\"twitter-share-button\" data-count=\"none\"
+        data-tracker-name=\"Twitter\" data-url=\"http://kck.st/evTfwY\" data-via=\"kickstarter\"
+        href=\"http://twitter.com/share\"></a>\n</li>\n</ul>\n</div>\n\n<div class=\"quick\">\n<p
+        class=\"short-blurb\">\nThe Shape of Design is a short, accessible book about
+        the creative process &amp; the intersection of storytelling, craft &amp; improvisation.\n</p>\n<ul
+        class=\"meta\">\n<li class=\"posted\">\n<b>Launched:</b>\nJan 31, 2011\n</li>\n<li
+        class=\"ends\">\n<b>Funding ended:</b>\nMar 2, 2011\n</li>\n<li class=\"widgets\">\n<div
+        class=\"ajax-container\" id=\"watching-widget\">\n<div class=\"Project997617821\"
+        data-conditions=\"[{&quot;is_starred&quot;:true}]\" data-evaluation=\"false\"
+        data-render=\"&quot;&lt;div id=\\&quot;unwatch\\&quot;&gt;\\n&lt;a href=\\&quot;/projects/fchimero/the-shape-of-design/unwatch\\&quot;
+        class=\\&quot;button-remind-me-alt on\\&quot;&gt;Remind me&lt;/a&gt;\\n&lt;/div&gt;\\n\\n&quot;\"></div><div
+        class=\"Project997617821\" data-conditions=\"[{&quot;!is_starred&quot;:true}]\"
+        data-evaluation=\"true\" data-render=\"&quot;&lt;div id=\\&quot;watch\\&quot;&gt;\\n&lt;a
+        href=\\&quot;/projects/fchimero/the-shape-of-design/watch\\&quot; class=\\&quot;button-remind-me-alt\\&quot;&gt;Remind
+        Me&lt;/a&gt;\\n&lt;/div&gt;\\n\\n&quot;\"><div id=\"watch\">\n<a href=\"/projects/fchimero/the-shape-of-design/watch\"
+        class=\"button-remind-me-alt\">Remind Me</a>\n</div>\n\n</div></div>\n</li>\n</ul>\n</div>\n<div
+        class=\"full-description\">\n<p><a href=\"http://www.kickstarter.com/projects/30453381/the-shape-of-design/posts/52418\"
+        target=\"_blank\">EDIT: Updated details on shipping, especially for our international
+        friends.</a> </p>\n<h1>Book Summary</h1>\n<p>Hi. My name's Frank Chimero.
+        I've spent the better part of the last two years writing and speaking on design
+        and thinking about the topics that orbit the practice: storytelling, concept,
+        craft, and improvisation. I want to take all of the ideas I've had and connected
+        these past few months and capture them in a book format.</p>\n<p>I've been
+        teaching for the past 5 years, and I've always been a bit frustrated that
+        there isn't a nice, concise book that overviews the mental state of a successful
+        designer while they go through their creative process. For instance, many
+        say that graphic design is visual communication. A cornerstone of communication
+        is storytelling, and yet you'd be hard-pressed to find any discussion of how
+        to tell stories with design in any design book. This should be remedied.</p>\n<p>There
+        are new challenges in the world that need to be discussed, and I think design
+        is a prime lens to consider these topics. As our world moves faster and as
+        things become less stable, it becomes more important for individuals to embrace
+        ambiguity, understand paradox, and realize that two things can conflict and
+        still somehow both be true. We must realize that logic doesn't always work,
+        and that sometimes nonsense is the best answer. These are the topics I intend
+        to address in the book.</p>\n<p>The Shape of Design isn't going to be a text
+        book. The project will be focused on Why instead of How. We have enough How;
+        it's time for a thoughtful analysis of our practice and its characteristics
+        so we can better practice our craft. After reading the book, I want you to
+        look at what you do in a whole new light. Design is more than working for
+        clients.</p>\n<p>But really, this book aims to look at the mindset and worldview
+        that designing develops in order to answer one big, important question: How
+        can we make things that help all of us live better?</p>\n<h1>A Video</h1>\n<p>As
+        I said, these aren't new topics for me. Most of the ideas are already developed.
+        In fact, I've given several lectures on the subject. Fortunately, the good
+        people at the Build Conference in Belfast recorded one of these talks, so
+        I'd like to show it to you. It's also called The Shape of Design. The video
+        is about 40 minutes long, so you might want to come back to it later, but
+        I think it should give you a great idea of how the book will be. I consider
+        this talk the book's little brother, the seed-form of the ideas that will
+        be in The Shape of Design.</p>\n<p><a href=\"http://vimeo.com/17084347\" target=\"_blank\"><img
+        src=\"http://www.frankchimero.com/dropbox/shapeofdesign/shapevideo.jpg\"></a></p>\n
+        <h1>Rewards</h1>\n<p>See right for the specifics on how to get each, but here's
+        a bit of a preview:</p>\n<p><img src=\"http://www.frankchimero.com/dropbox/shapeofdesign/book.jpg\"
+        alt=\"Shape of Design book\">The Book!</p>\n <p><img src=\"http://www.frankchimero.com/dropbox/shapeofdesign/donor.jpg\"
+        alt=\"Donor Special Edition Book\">Donor Special Edition Book (with the \"Shape
+        Jacket\")</p>\n <p><img src=\"http://www.frankchimero.com/dropbox/shapeofdesign/poster.jpg\"
+        alt=\"Midnight Oil Poster\">Midnight Oil Poster (18x24\")</p>\n <p><img src=\"http://www.frankchimero.com/dropbox/shapeofdesign/papercuts.jpg\"
+        alt=\"Shape Art by Frank Chimero\">Paper Cuts Original Art Pieces by Frank
+        Chimero (previous works, you'd be getting new work)</p>\n <p><img src=\"http://www.frankchimero.com/dropbox/shapeofdesign/blockart.jpg\"
+        alt=\"Shape Art by Frank Chimero\">\"Shape Art,\" Original Art Pieces by Frank
+        Chimero (previous works, you'd be getting new work)</p>\n <h1>The Artifact</h1>\n<p>I
+        love books. If I'm going to write one, I want it to be beautiful, inside and
+        out. My current intentions are to have it be a cloth-bound hardcover book.
+        I'm a designer by trade, so I'll be working hard to have this title be a gem
+        on your bookshelf. I want to be proud of it. I want you to be proud of it
+        too.</p>\n<p>I'm currently planning on the book being between 150 and 200
+        pages. I'd like not to ramble on. The longer the book becomes, the less impact
+        it has. (And the less likely you are to read it, which is the point of all
+        of this, right?)</p>\n<h1>eBook</h1>\n<p>There are going to be three digital
+        versions of the book: </p>\n<ol>\n<li>Free, full-content HTML-based web edition
+        of the book optimized for the iPad.</li>\n\n<li>A \"no-glow\" edition specifically
+        made for the Kindle</li>\n\n<li>Standards-compliant, open EPUB version for
+        general reading on the iPad and other devices.</li>\n\n</ol><p>I'll be doing
+        considerable work on how to craft more pleasant reading experiences on all
+        these devices. The same care and attention to detail in the physical book
+        will also be brought to these digital editions. There's no reason the digital
+        version of a good book should be a ghetto.</p>\n<h1>Funds</h1>\n<p>Where's
+        this money going? Most of it will be sunk into production costs, and after
+        that a small bit will be used to allow me to focus exclusively on writing
+        for a few months. Additional money is going towards the production the book:
+        things like hiring a professional editor, further refinements on the digital
+        editions, and maybe a few surprises in the print edition as well.</p>\n<p>Thanks
+        for your time and consideration!</p>\n</div>\n</div>\n<div class=\"NS-projects-faqs\"
+        id=\"project-faqs\">\n<h3 class=\"dotty\">\nFAQ\n</h3>\n<ul class=\"faqs\">\n<li
+        class=\"faq loading_wym\" id=\"IveChanMyShipAddrWhatDoIDo\">\n<div class=\"faq-question\">\n<a
+        href=\"#IveChanMyShipAddrWhatDoIDo\" name=\"IveChanMyShipAddrWhatDoIDo\">\n<span
+        class=\"icon-expand\"></span>\n<span class=\"question\">I've changed my shipping
+        address! What do I do?</span>\n</a>\n</div>\n<div class=\"faq-answer\">\n<p>Don't
+        fret! I haven't asked for shipping information yet. I'll send out the survey
+        as close as possible to the shipping date, so no one has to worry about having
+        the wrong address on file.</p>\n<div class=\"timestamp\">\nLast updated: Monday
+        Jul 18,  3:07pm EDT\n</div>\n</div>\n</li>\n<li class=\"faq loading_wym\"
+        id=\"WhenIsTheBookProjToBeAvai\">\n<div class=\"faq-question\">\n<a href=\"#WhenIsTheBookProjToBeAvai\"
+        name=\"WhenIsTheBookProjToBeAvai\">\n<span class=\"icon-expand\"></span>\n<span
+        class=\"question\">When is the book projected to be available?</span>\n</a>\n</div>\n<div
+        class=\"faq-answer\">\n<p>Right now, it looks like April of 2012</p>\n<div
+        class=\"timestamp\">\nLast updated: Thursday Feb  9,  7:46pm EST\n</div>\n</div>\n</li>\n<li
+        class=\"faq loading_wym\" id=\"WillTheBookBeAvaiToPurcEvenThouTheKickCampHasEnde\">\n<div
+        class=\"faq-question\">\n<a href=\"#WillTheBookBeAvaiToPurcEvenThouTheKickCampHasEnde\"
+        name=\"WillTheBookBeAvaiToPurcEvenThouTheKickCampHasEnde\">\n<span class=\"icon-expand\"></span>\n<span
+        class=\"question\">Will the book be available to purchase, even though the
+        Kickstarter campaign has ended?</span>\n</a>\n</div>\n<div class=\"faq-answer\">\n<p>Of
+        course! But, the perks (such as the special edition of the book, prints, or
+        original art) are only available to the project's backers.</p>\n<div class=\"timestamp\">\nLast
+        updated: Monday Jul 18,  3:08pm EDT\n</div>\n</div>\n</li>\n<li class=\"faq
+        loading_wym\" id=\"IMissOutOnTheCampCanIPreoACopy\">\n<div class=\"faq-question\">\n<a
+        href=\"#IMissOutOnTheCampCanIPreoACopy\" name=\"IMissOutOnTheCampCanIPreoACopy\">\n<span
+        class=\"icon-expand\"></span>\n<span class=\"question\">I missed out on the
+        campaign. Can I preorder a copy?</span>\n</a>\n</div>\n<div class=\"faq-answer\">\n<p>Yes,
+        but not quite yet. Preorders for the book will open once it is closer to its
+        completion. If you're interested in signing up for a mailing list to be notified,
+        go here: http://www.shapeofdesignbook.com</p>\n<div class=\"timestamp\">\nLast
+        updated: Thursday Feb  9,  7:46pm EST\n</div>\n</div>\n</li>\n<li class=\"faq
+        loading_wym\" id=\"AnyHelpTipsForMyKickCamp\">\n<div class=\"faq-question\">\n<a
+        href=\"#AnyHelpTipsForMyKickCamp\" name=\"AnyHelpTipsForMyKickCamp\">\n<span
+        class=\"icon-expand\"></span>\n<span class=\"question\">Any helpful tips for
+        my Kickstarter campaign?</span>\n</a>\n</div>\n<div class=\"faq-answer\">\n<p>Sure!
+        I think this particular project was successful because it offered a book of
+        familiar writing to a preexisting audience. I've been blogging about the topics
+        in the book for the past two years, and along the way, the writing has gathered
+        a bunch of people who enjoy it. I'm extremely grateful for them, and honored
+        that they'd take the initiative to back this project. Kickstarter is a wonderful
+        way to formalize that relationship further, and to allow them to feel like
+        they're a part of the process of producing something. So, to those that have
+        backed, THANK YOU! And to those embarking on their own projects, I can't offer
+        much help outside of my own experience, but good luck!</p>\n<div class=\"timestamp\">\nLast
+        updated: Monday Jul 18,  3:17pm EDT\n</div>\n</div>\n</li>\n\n</ul>\n<div
+        class=\"faq-ask-box\">\n<a href=\"/projects/fchimero/the-shape-of-design/messages/new?message%5Bto%5D=fchimero&amp;mode=FAQ\"
+        class=\"remote_modal_dialog button-neutral\" data-modal-title=\"Ask a question
+        about The Shape of Design\">Ask a question</a>\n</div>\n</div>\n\n<div id=\"report-issue-wrap\">\n<a
+        href=\"/projects/fchimero/the-shape-of-design/report/new\" class=\"remote_modal_dialog\"
+        data-modal-title=\"Report this project to Kickstarter\" id=\"report-issue-link\">Report
+        this project to Kickstarter</a>\n</div>\n</div>\n<div class=\"NS-projects-rightcol\"
+        id=\"rightcol\">\n<div class=\"NS-projects-ecom\" id=\"moneyraised\">\n<div
+        id=\"stats\">\n<h5>\n<div class=\"num\" data-backers-count=\"2109\" id=\"backers_count\"><data
+        class=\"Project997617821\" data-format=\"number\" data-value=\"2109\" itemprop=\"Project[backers_count]\"
+        value=\"2109\">2,109</data></div>\n<span><data class=\"Project997617821\"
+        data-attr=\"backers_count\" data-format=\"pluralize\" data-value=\"2109\"
+        data-word=\"Backer\">Backers</data></span>\n</h5>\n<h5>\n<div class=\"num\"
+        data-goal=\"27000.0\" data-percent-raised=\"4.154041111111111111111111111\"
+        data-pledged=\"112159.11\" id=\"pledged\"><data class=\"Project997617821\"
+        data-currency=\"USD\" data-format=\"shorter_money\" data-precision=\"0\" data-value=\"112159\"
+        itemprop=\"Project[pledged]\" value=\"112159.11\">$112,159</data></div>\npledged
+        of $27,000 goal\n</h5>\n<span data-duration=\"30.0\" data-end_time=\"Wed,
+        02 Mar 2011 19:09:36 -0000\" data-hours-remaining=\"0\" id=\"project_duration_data\"></span>\n<div
+        class=\"Project997617821\" data-conditions=\"[{&quot;!state&quot;:[&quot;canceled&quot;,&quot;suspended&quot;]}]\"
+        data-evaluation=\"true\" data-render=\"&quot;&lt;h5&gt;\\n&lt;div class=\\&quot;num\\&quot;&gt;0&lt;/div&gt;\\n&lt;span
+        class=\\&quot;text\\&quot;&gt;seconds to go&lt;/span&gt;\\n&lt;/h5&gt;\\n&quot;\"><h5>\n<div
+        class=\"num\">0</div>\n<span class=\"text\">seconds to go</span>\n</h5>\n</div></div>\n<div
+        class=\"Project997617821\" data-conditions=\"[{&quot;state&quot;:&quot;live&quot;},{&quot;!ended?&quot;:true}]\"
+        data-evaluation=\"false\" data-render=\"&quot;&lt;div id=\\&quot;pledge-wrap\\&quot;&gt;\\n&lt;a
+        href=\\&quot;https://www.kickstarter.com/projects/fchimero/the-shape-of-design/pledge/new?clicked_reward=false\\&quot;
+        class=\\&quot;button roundsmall\\&quot; id=\\&quot;button-back-this-proj\\&quot;
+        title=\\&quot;Back this project\\&quot;&gt;Back This Project &lt;small&gt;$1
+        minimum pledge&lt;/small&gt;&lt;/a&gt;\\n&lt;/div&gt;\\n&quot;\"></div><div
+        class=\"Project997617821\" data-conditions=\"[{&quot;!state&quot;:[&quot;live&quot;,&quot;successful&quot;]}]\"
+        data-evaluation=\"false\" data-render=\"&quot;&lt;div id=\\&quot;notice\\&quot;&gt;\\n&lt;div
+        class=\\&quot;Project997617821\\&quot; data-conditions=\\&quot;[{&amp;quot;state&amp;quot;:[&amp;quot;started&amp;quot;,&amp;quot;submitted&amp;quot;]}]\\&quot;
+        data-evaluation=\\&quot;false\\&quot; data-render=\\&quot;&amp;quot;&amp;lt;p&amp;gt;\\\\n&amp;lt;b&amp;gt;THIS
+        PROJECT IS NOT LIVE&amp;lt;/b&amp;gt;\\\\nThis is only a draft that the creator
+        has chosen to share.\\\\n&amp;lt;/p&amp;gt;\\\\n&amp;quot;\\&quot;&gt;&lt;/div&gt;&lt;div
+        class=\\&quot;Project997617821\\&quot; data-conditions=\\&quot;[{&amp;quot;state&amp;quot;:&amp;quot;suspended&amp;quot;}]\\&quot;
+        data-evaluation=\\&quot;false\\&quot; data-render=\\&quot;&amp;quot;&amp;lt;p&amp;gt;\\\\n&amp;lt;b&amp;gt;Funding
+        Suspended&amp;lt;/b&amp;gt;\\\\nFunding for this project was suspended &amp;lt;data
+        class=\\\\&amp;quot;Project997617821\\\\&amp;quot; data-format=\\\\&amp;quot;distance_date\\\\&amp;quot;
+        data-value=\\\\&amp;quot;&amp;amp;quot;2011-03-02T14:09:36-05:00&amp;amp;quot;\\\\&amp;quot;
+        itemprop=\\\\&amp;quot;Project[state_changed_at]\\\\&amp;quot; value=\\\\&amp;quot;2011-03-02
+        14:09:36 -0500\\\\&amp;quot;&amp;gt;on March  2, 2011&amp;lt;/data&amp;gt;.\\\\n&amp;lt;/p&amp;gt;\\\\n&amp;quot;\\&quot;&gt;&lt;/div&gt;&lt;div
+        class=\\&quot;Project997617821\\&quot; data-conditions=\\&quot;[{&amp;quot;state&amp;quot;:&amp;quot;canceled&amp;quot;}]\\&quot;
+        data-evaluation=\\&quot;false\\&quot; data-render=\\&quot;&amp;quot;&amp;lt;p&amp;gt;\\\\n&amp;lt;b&amp;gt;Funding
+        Canceled&amp;lt;/b&amp;gt;\\\\nFunding for this project was canceled by the
+        project creator &amp;lt;data class=\\\\&amp;quot;Project997617821\\\\&amp;quot;
+        data-format=\\\\&amp;quot;distance_date\\\\&amp;quot; data-value=\\\\&amp;quot;&amp;amp;quot;2011-03-02T14:09:36-05:00&amp;amp;quot;\\\\&amp;quot;
+        itemprop=\\\\&amp;quot;Project[state_changed_at]\\\\&amp;quot; value=\\\\&amp;quot;2011-03-02
+        14:09:36 -0500\\\\&amp;quot;&amp;gt;on March  2, 2011&amp;lt;/data&amp;gt;.\\\\n&amp;lt;/p&amp;gt;\\\\n&amp;quot;\\&quot;&gt;&lt;/div&gt;&lt;div
+        class=\\&quot;Project997617821\\&quot; data-conditions=\\&quot;[{&amp;quot;state&amp;quot;:&amp;quot;failed&amp;quot;}]\\&quot;
+        data-evaluation=\\&quot;false\\&quot; data-render=\\&quot;&amp;quot;&amp;lt;p&amp;gt;\\\\n&amp;lt;b&amp;gt;Funding
+        Unsuccessful&amp;lt;/b&amp;gt;\\\\nThis project reached the deadline without
+        achieving its funding goal on March  2, 2011.\\\\n&amp;lt;/p&amp;gt;\\\\n&amp;quot;\\&quot;&gt;&lt;/div&gt;&lt;div
+        class=\\&quot;Project997617821\\&quot; data-conditions=\\&quot;[{&amp;quot;state&amp;quot;:&amp;quot;purged&amp;quot;}]\\&quot;
+        data-evaluation=\\&quot;false\\&quot; data-render=\\&quot;&amp;quot;&amp;lt;p&amp;gt;\\\\n&amp;lt;b&amp;gt;This
+        project is purged and only visible to staff.&amp;lt;/b&amp;gt;\\\\n&amp;lt;/p&amp;gt;\\\\n&amp;quot;\\&quot;&gt;&lt;/div&gt;&lt;/div&gt;\\n&quot;\"></div><div
+        class=\"Project997617821\" data-conditions=\"[{&quot;state&quot;:&quot;live&quot;}]\"
+        data-evaluation=\"false\" data-render=\"&quot;&lt;div id=\\&quot;banner\\&quot;&gt;\\n&lt;p&gt;\\nThis
+        project will be funded on Wednesday Mar 2, 2:09pm EST.\\n&lt;/p&gt;\\n&lt;/div&gt;\\n&quot;\"></div></div>\n\n<div
+        class=\"NS-projects-rightcol-projectby\" id=\"project-by\">\n<div id=\"avatar\">\n<a
+        href=\"/projects/fchimero/the-shape-of-design/creator_bio\" class=\"remote_modal_dialog\"
+        data-modal-id=\"modal_project_by\" data-modal-title=\"Biography\"><img alt=\"Avatar.medium\"
+        class=\"avatar-medium\" height=\"160\" src=\"https://s3.amazonaws.com/ksr/avatars/59957/avatar.medium.jpg?1340218732\"
+        width=\"160\" /></a>\n</div>\n<div id=\"creator-name\">\n<b>Project by</b>\n<h3><a
+        href=\"/projects/fchimero/the-shape-of-design/creator_bio\" class=\"remote_modal_dialog\"
+        data-modal-id=\"modal_project_by\" data-modal-title=\"Biography\">Frank Chimero</a></h3>\n<p>\n<span
+        class=\"location\"><a href=\"/discover/cities/brooklyn-ny\">Brooklyn, NY</a></span>\n<span
+        class=\"message\"><a href=\"/projects/fchimero/the-shape-of-design/messages/new?message%5Bto%5D=fchimero\"
+        class=\"remote_modal_dialog\" data-modal-title=\"Send A Message to Frank Chimero\">Contact
+        me</a></span>\n</p>\n</div>\n<div id=\"creator-details\">\n<ul>\n<li class=\"projects-more\">\n<span
+        class=\"icon\"></span>\n<span class=\"text\">\n<a href=\"/profile/fchimero/created\"
+        class=\"more-button remote_modal_dialog\" data-modal-title=\"Projects created
+        by Frank Chimero\">2 created</a>\n<span class=\"divider\">&middot;</span>\n<a
+        href=\"/profile/fchimero/backed\" class=\"more-button remote_modal_dialog\"
+        data-modal-title=\"Projects backed by Frank Chimero\">31 backed</a>\n</span>\n</li>\n<li
+        class=\"facebook\">\n<span class=\"icon\"></span>\n<span class=\"text\">\nHas
+        not connected Facebook\n</span>\n</li>\n<li class=\"links\">\n<b>Website:</b>\n<a
+        href=\"http://www.frankchimero.com\" class=\"popup\" rel=\"nofollow\" target=\"_blank\">frankchimero.com</a>\n</li>\n</ul>\n<p
+        class=\"more\">\n<a href=\"/projects/fchimero/the-shape-of-design/creator_bio\"
+        class=\"remote_modal_dialog\" data-modal-id=\"modal_project_by\" data-modal-title=\"Biography\">See
+        full bio</a>\n</p>\n</div>\n</div>\n\n<ul class=\"NS-projects-rightcol-rewards
+        clickable\" data-reward-count=\"9\" id=\"what-you-get\">\n<li><div class=\"NS-projects-reward\">\n<h3>Pledge
+        $5 or more</h3>\n<div class=\"backers-limits\">\n<span class=\"icon-backer-tag\"></span>\n<span
+        class=\"backers-wrap\">\n<span class=\"num-backers\">\n278 backers\n</span>\n</span>\n</div>\n<div
+        class=\"desc\">\n<p>Access to project updates and the free web-based digital
+        edition of the book.</p>\n</div>\n\n\n</div>\n</li>\n<li><div class=\"NS-projects-reward\">\n<h3>Pledge
+        $20 or more</h3>\n<div class=\"backers-limits\">\n<span class=\"icon-backer-tag\"></span>\n<span
+        class=\"backers-wrap\">\n<span class=\"num-backers\">\n147 backers\n</span>\n</span>\n</div>\n<div
+        class=\"desc\">\n<p>All of the above + All 3 digital editions: Web-based,
+        iPad, and Kindle</p>\n</div>\n\n\n</div>\n</li>\n<li><div class=\"NS-projects-reward\">\n<h3>Pledge
+        $40 or more</h3>\n<div class=\"backers-limits\">\n<span class=\"icon-backer-tag\"></span>\n<span
+        class=\"backers-wrap\">\n<span class=\"num-backers\">\n900 backers\n</span>\n</span>\n</div>\n<div
+        class=\"desc\">\n<p>All of the above + hardcover edition of The Shape of Design</p>\n</div>\n\n\n</div>\n</li>\n<li><div
+        class=\"NS-projects-reward\">\n<h3>Pledge $50 or more</h3>\n<div class=\"backers-limits\">\n<span
+        class=\"icon-backer-tag\"></span>\n<span class=\"backers-wrap\">\n<span class=\"num-backers\">\n566
+        backers\n</span>\n</span>\n</div>\n<div class=\"desc\">\n<p>All of the above
+        + a signed copy of the book</p>\n</div>\n\n\n</div>\n</li>\n<li><div class=\"NS-projects-reward\">\n<h3>Pledge
+        $100 or more</h3>\n<div class=\"backers-limits\">\n<span class=\"icon-backer-tag\"></span>\n<span
+        class=\"backers-wrap\">\n<span class=\"num-backers\">\n156 backers\n</span>\n</span>\n</div>\n<div
+        class=\"desc\">\n<p>All of the above + name in back-of-book credits as a patron
+        + special patron edition of the book, with &quot;Shape Jacket&quot;</p>\n</div>\n\n\n</div>\n</li>\n<li><div
+        class=\"NS-projects-reward\">\n<h3>Pledge $200 or more</h3>\n<div class=\"backers-limits\">\n<span
+        class=\"icon-backer-tag\"></span>\n<span class=\"backers-wrap\">\n<span class=\"num-backers\">\n50
+        backers\n</span>\n<span class=\"sold-out\">\nAll gone!\n</span>\n</span>\n</div>\n<div
+        class=\"desc\">\n<p>All of the above + Limited Edition &quot;Midnight Oil&quot;
+        screenprinted poster.</p>\n</div>\n\n\n</div>\n</li>\n<li><div class=\"NS-projects-reward\">\n<h3>Pledge
+        $450 or more</h3>\n<div class=\"backers-limits\">\n<span class=\"icon-backer-tag\"></span>\n<span
+        class=\"backers-wrap\">\n<span class=\"num-backers\">\n2 backers\n</span>\n<span
+        class=\"limited\">\nLimited\n<span class=\"limited-number\">(18 of 20 left)</span>\n</span>\n</span>\n</div>\n<div
+        class=\"desc\">\n<p>All of the above + Original papercut by Frank (See examples)</p>\n</div>\n\n\n</div>\n</li>\n<li><div
+        class=\"NS-projects-reward\">\n<h3>Pledge $750 or more</h3>\n<div class=\"backers-limits\">\n<span
+        class=\"icon-backer-tag\"></span>\n<span class=\"backers-wrap\">\n<span class=\"num-backers\">\n4
+        backers\n</span>\n<span class=\"limited\">\nLimited\n<span class=\"limited-number\">(6
+        of 10 left)</span>\n</span>\n</span>\n</div>\n<div class=\"desc\">\n<p>All
+        of the above + Original piece of Shape Art by Frank. (See examples)</p>\n</div>\n\n\n</div>\n</li>\n<li><div
+        class=\"NS-projects-reward\">\n<h3>Pledge $3,000 or more</h3>\n<div class=\"backers-limits\">\n<span
+        class=\"icon-backer-tag\"></span>\n<span class=\"backers-wrap\">\n<span class=\"num-backers\">\n3
+        backers\n</span>\n<span class=\"sold-out\">\nAll gone!\n</span>\n</span>\n</div>\n<div
+        class=\"desc\">\n<p>All of the above + I'll come out to wherever you are and
+        do the Shape of Design lecture for your studio, business, or school. (English
+        only, please.)</p>\n</div>\n\n\n</div>\n</li>\n</ul>\n\n<div id=\"mentions\">\n<h3>Featured!</h3>\n<ul>\n<li>\n<a
+        href=\"/blog/this-week-in-kickstarter-32\">This Week in Kickstarter</a>\n<time
+        datetime=\"2012-06-22 15:02:00 -0400\" pubdate>June 22, 2012</time>\n</li>\n<li>\n<a
+        href=\"/blog/2011-the-moments\">2011: The Moments</a>\n<time datetime=\"2012-01-09
+        14:39:00 -0500\" pubdate>January 09, 2012</time>\n</li>\n<li>\n<a href=\"/blog/the-evolution-of-the-project-video\">The
+        Evolution of the Project Video</a>\n<time datetime=\"2011-07-06 15:16:00 -0400\"
+        pubdate>July 06, 2011</time>\n</li>\n<li>\n<a href=\"/blog/the-write-stuff\">The
+        Write Stuff</a>\n<time datetime=\"2011-02-15 12:34:00 -0500\" pubdate>February
+        15, 2011</time>\n</li>\n<li>\n<a href=\"/blog/thinking-for-way-more-than-a-living\">Thinking
+        for Way More Than a Living</a>\n<time datetime=\"2011-02-11 12:57:00 -0500\"
+        pubdate>February 11, 2011</time>\n</li>\n<li>\n<a href=\"/blog/the-shape-of-success\">The
+        Shape of Success</a>\n<time datetime=\"2011-02-02 13:21:00 -0500\" pubdate>February
+        02, 2011</time>\n</li>\n</ul>\n\n</div>\n</div>\n\n</div>\n\n\n</div>\n</div>\n<div
+        id=\"project_bar\">\n<div class=\"this_project_id\" style=\"display: none;\">21550</div>\n<div
+        class=\"container\">\n<div class=\"window\">\n<ol class=\"projects\">\n<li
+        class=\"page\">\n<ol></ol>\n</li>\n</ol>\n</div>\n<a href=\"#\" class=\"prev
+        arrow enabled\"><div class=\"icon-project-bar-left\"></div>\n</a><a href=\"#\"
+        class=\"next arrow enabled\"><div class=\"icon-project-bar-right\"></div>\n</a></div>\n</div>\n\n\n\n\n</div>\n\n<div
+        id=\"mega-footer-wrap\">\n<div class=\"container\" id=\"mega-footer\">\n<span
+        class=\"scissors icon-scissors-1\"></span>\n<div id=\"mega-footer-links\">\n<div
+        class=\"link-group\" id=\"mega-links-discover\">\n<h3>Discover</h3>\n<ul class=\"column
+        column-0\">\n<li><a href=\"/discover/categories/art?ref=footer\">Art</a></li>\n<li><a
+        href=\"/discover/categories/comics?ref=footer\">Comics</a></li>\n<li><a href=\"/discover/categories/dance?ref=footer\">Dance</a></li>\n<li><a
+        href=\"/discover/categories/design?ref=footer\">Design</a></li>\n<li><a href=\"/discover/categories/fashion?ref=footer\">Fashion</a></li>\n<li><a
+        href=\"/discover/categories/film%20&amp;%20video?ref=footer\">Film &amp; Video</a></li>\n<li><a
+        href=\"/discover/categories/food?ref=footer\">Food</a></li>\n</ul>\n<ul class=\"column
+        column-1\">\n<li><a href=\"/discover/categories/games?ref=footer\">Games</a></li>\n<li><a
+        href=\"/discover/categories/music?ref=footer\">Music</a></li>\n<li><a href=\"/discover/categories/photography?ref=footer\">Photography</a></li>\n<li><a
+        href=\"/discover/categories/publishing?ref=footer\">Publishing</a></li>\n<li><a
+        href=\"/discover/categories/technology?ref=footer\">Technology</a></li>\n<li><a
+        href=\"/discover/categories/theater?ref=footer\">Theater</a></li>\n</ul>\n<ul
+        class=\"column column-3\">\n<li class=\"current_location\">\n<a href=\"/discover/cities/bellevue-wa?ref=footer\"><span
+        class=\"text\">Bellevue, WA</span>\n<span class=\"ss-icon ss-location\"></span>\n</a></li>\n<li><a
+        href=\"/discover/recommended?ref=footer\">Staff Picks</a></li>\n<li><a href=\"/discover/popular?ref=footer\">Popular</a></li>\n<li><a
+        href=\"/discover/recently-launched?ref=footer\">Recently Launched</a></li>\n<li><a
+        href=\"/discover/small-projects?ref=footer\">Small Projects</a></li>\n<li><a
+        href=\"/discover/most-funded?ref=footer\">Most Funded</a></li>\n<li><a href=\"/discover/curated-pages?ref=footer\">Curated
+        Pages</a></li>\n</ul>\n</div>\n<div class=\"link-group\" id=\"mega-links-create\">\n<h3>Create</h3>\n<ul
+        class=\"column\">\n<li><a href=\"/start?ref=footer\">Start a project</a></li>\n<li><a
+        href=\"/help/school?ref=footer\">Kickstarter School</a></li>\n<li><a href=\"/help/faq/creator%20questions?ref=footer\">Creator
+        Questions</a></li>\n<dd><a href=\"/help/guidelines?ref=footer\">Project Guidelines</a></dd>\n</ul>\n</div>\n<div
+        class=\"link-group\" id=\"mega-links-about\">\n<h3>About</h3>\n<ul class=\"column\">\n<li><a
+        href=\"/help/faq/kickstarter%20basics?ref=footer\">Kickstarter Basics</a></li>\n<li><a
+        href=\"/team?ref=footer\">Meet our team</a></li>\n<li><a href=\"/jobs?ref=footer\">Work
+        at Kickstarter</a></li>\n<li><a href=\"/press?ref=footer\">Press</a></li>\n<li><a
+        href=\"/help/stats?ref=footer\">Stats</a></li>\n<li><a href=\"/year/2012?ref=footer\">Best
+        of Kickstarter 2012</a></li>\n</ul>\n</div>\n<div class=\"link-group\" id=\"mega-links-stay-in-touch\">\n<h3>Stay
+        in touch</h3>\n<ul class=\"column\">\n<li><a href=\"/blog?ref=footer\">Blog</a></li>\n<li><a
+        href=\"/newsletters\">Newsletter</a></li>\n<li><a href=\"http://twitter.com/kickstarter\">Twitter</a></li>\n<li><a
+        href=\"http://kickstarter.tumblr.com\">Tumblr</a></li>\n<li><a href=\"http://www.facebook.com/Kickstarter\">Facebook</a></li>\n</ul>\n</div>\n</div>\n<div
+        id=\"mega-footer-cred\">\n<div class=\"lockups-area\">\n<div class=\"lockup-1
+        lockup\">\n<div class=\"time-quote\">\n<div class=\"time-logo\"></div>\n<p>Best
+        Inventions of 2010</p>\n</div>\n<div class=\"new-york-times-quote\">\n<div
+        class=\"nyt-logo\"></div>\n<p>Year in Ideas 2009</p>\n</div>\n</div>\n<div
+        class=\"lockup-2 lockup\">\n<p class=\"big\">&#8220;An unexpected influence
+        on indie culture&#8221;</p>\n<p>- New York Times</p>\n</div>\n<div class=\"lockup-3
+        lockup\">\n<div class=\"atlantic-quote\">\n<p class=\"big\">&#8220;A creative
+        engine&#8221;</p>\n<p>- The Atlantic</p>\n</div>\n<div class=\"cnn-quote\">\n<p
+        class=\"big\">&#8220;Paradigm-shifting&#8221;</p>\n<p>- CNN</p>\n</div>\n</div>\n</div>\n<div
+        class=\"tweet-button\">\n<div class=\"twitter_box\">\n<span id=\"mega-footer-followers\"></span>\n</div>\n<a
+        class=\"twitter-follow-button\" data-show-count=\"true\" data-show-screen-name=\"false\"
+        data-size=\"large\" href=\"https://twitter.com/Kickstarter\">\nFollow\n</a>\n</div>\n<div
+        class=\"like-button\">\n<fb:like colorscheme=\"dark\" href=\"http://facebook.com/kickstarter\"
+        show_faces=\"true\" width=\"220\"></fb:like>\n</div>\n</div>\n<div id=\"mega-footer-bottom\">\n<div
+        class=\"logo left\">\n<a href=\"/\"><span class=\"dark\">Kickstarter</span>\n<span
+        class=\"light\">Kickstarter</span>\n</a></div>\n<ul class=\"right\">\n<li><a
+        href=\"/help?ref=footer\">Help</a></li>\n<li><a href=\"/help/style_guide?ref=footer\">Style
+        Guide</a></li>\n<li><a href=\"http://kickstarter.zendesk.com/home\" id=\"\"
+        onclick=\"Zenbox.render(); return false;\">Contact</a></li>\n<li><a href=\"/terms-of-use?ref=footer\">Terms
+        of Use</a></li>\n<li><a href=\"/privacy?ref=footer\">Privacy Policy</a></li>\n<li>\n&copy;\n2013\nKickstarter,
+        Inc.\n</li>\n</ul>\n</div>\n</div>\n</div>\n\n<script>\n  //<![CDATA[\n    var
+        gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\"
+        : \"http://www.\");\n    document.write(unescape(\"%3Cscript src='\" + gaJsHost
+        + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n
+        \   var analytics_vars = { google_analytics_id : \"UA-7621056-1\", logged_in
+        : \"false\", verifying_backing : \"false\", social_user: \"false\" }\n  //]]>\n</script>\n\n\n<script>\n
+        \ //<![CDATA[\n    window.mixpanel_id = '75b1d24a516ecfc955eadfadc4910661';\n
+        \   window.mixpanel_debug = false;\n  //]]>\n</script>\n\n\n<script>\n  //<![CDATA[\n
+        \   _qoptions={qacct:\"p-34IbSpw2K94Sg\"};\n  //]]>\n</script>\n<script src=\"http://edge.quantserve.com/quant.js\"
+        type=\"text/javascript\"></script>\n<noscript><img alt=\"Quantcast\" border=\"0\"
+        height=\"1\" src=\"http://pixel.quantserve.com/pixel/p-34IbSpw2K94Sg.gif\"
+        style=\"display:none\" width=\"1\" /></noscript>\n\n<script>\n  //<![CDATA[\n
+        \   var _sf_async_config={uid:5536,domain:\"kickstarter.com\"};\n    (function(){\n
+        \     function loadChartbeat() {\n        window._sf_endpt=(new Date()).getTime();\n
+        \       var e = document.createElement('script');\n        e.setAttribute('language',
+        'javascript');\n        e.setAttribute('type', 'text/javascript');\n        e.setAttribute('src',\n
+        \         ((\"https:\" == document.location.protocol) ? \"https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/\"
+        : \"http://static.chartbeat.com/\") +\n          \"js/chartbeat.js\");\n        document.body.appendChild(e);\n
+        \     }\n      var oldonload = window.onload;\n      window.onload = (typeof
+        window.onload != 'function') ?\n        loadChartbeat : function() { oldonload();
+        loadChartbeat(); };\n    })();\n  //]]>\n</script>\n\n\n<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js\"
+        type=\"text/javascript\"></script>\n<script>\n  //<![CDATA[\n    (function(){function
+        c(a){this.local_start_time=new Date;this.settings={cookie_name:\"request_time\"};for(var
+        b in a)this.settings[b]=a[b];this.get_remote_offset()}c.prototype.get_remote_offset=function(){this.cookie_value=this.read_cookie();var
+        a=new Date(this.cookie_value);if(!this.cookie_value||\"Invalid Date\"===a.toString()){if(this.remote_offset=this.read_cookie(\"local_offset\"))this.remote_offset=parseInt(this.remote_offset,10)}else
+        this.remote_offset=a-this.local_start_time;\"undefined\"!==typeof this.remote_offset&&
+        !isNaN(this.remote_offset)?(document.cookie=\"local_offset=\"+this.remote_offset+\";
+        path=/\",this.is_set=!0):this.is_set=!1};c.prototype.time_units=[[\"milliseconds\",1],[\"seconds\",1E3],[\"minutes\",6E4],[\"hours\",36E5],[\"days\",864E5]];c.prototype.get_units_in_interval=function(a,b){var
+        d=a.replace(/^\\w/,function(d){return\"get\"+d.toUpperCase()});return b[d]()};c.prototype.milliseconds_in_day=function(a){\"undefined\"===typeof
+        a&&(a=new Date);for(var b=0,d=this.time_units.length-2;0<=d;d--)b+=this.get_units_in_interval(this.time_units[d][0],
+        a)*this.time_units[d][1];return b};c.prototype.milliseconds_in_interval=function(a,b){return
+        this.milliseconds_in_day(b)%a};c.prototype.milliseconds_to_next_interval=function(a,b){return
+        a-this.milliseconds_in_interval(a,b)};c.prototype.pluralize=function(a,b){1===b&&(a=a.replace(/s$/,\"\"));return
+        a};c.prototype.read_cookie=function(a){for(var b=window.document.cookie.split(\";\"),a=(a||this.settings.cookie_name)+\"=\",d=0;d<b.length;d++){for(var
+        e=b[d];\" \"==e.charAt(0);)e=e.substring(1,e.length);if(0== e.indexOf(a))return
+        b=e.substring(a.length,e.length),decodeURIComponent(b).replace(/\\+/g,\" \")}return
+        null};c.prototype.destroy_cookie=function(a){var b=new Date;a||(a=this.settings.cookie_name);b.setTime(b.getTime()-864E5);window.document.cookie=a+\"=;
+        expires=\"+b.toGMTString()+\"; path=/\"};c.prototype.get_remote_time=function(){var
+        a=new Date,b=a.getTime()+this.remote_offset;return a=a.setTime(b)};window.ksr_page_clock=new
+        c})(); (function(){function c(d,a,b){if(d){this.options={unit_base:{seconds:119,minutes:119,hours:72,days:0},end_phrase:d.getAttribute(\"data-word\")||\"to
+        go\",count_down:d.getAttribute(\"data-dynamic\")||!1};for(k in b)this.options[k]=b[k];this.clock=a;this.time_units=this.clock.time_units.slice(1);this.element=d;this.clock.is_set&&this.attach()}}function
+        a(){this.elements=[];this.attach()}var b=function(d,a){var b=a||window.document.body,c=d.split(\".\"),g=c[c.length-1],c=1<c.length&&c[0]?c[0]:\"*\";if(window.document.getElementsByClassName)return
+        b.getElementsByClassName(g); if(b.querySelectorAll)return b.querySelectorAll(d);for(var
+        c=b.getElementsByTagName(c),h=[],i=0,f;f=c[i];i++)b=RegExp(\"(^|\\\\s)\"+g+\"(\\\\s|$)\"),(\"\"+f.className).match(b)&&h.push(f);return
+        h};c.prototype.get_remaining_time=function(){var d=this.remote_end_time-this.clock.get_remote_time();0>d&&(d=0);return
+        d};c.prototype.get_current_unit=function(){for(var d,a=0;a<this.time_units.length&&!(d=this.time_units[a],this.get_remaining_time()<=this.options.unit_base[d[0]]*d[1]);a++);return
+        d};c.prototype.update_element= function(){var a=this.get_current_unit(),b=Math.floor(this.get_remaining_time()/a[1]);isNaN(b)||(this.number_element.innerHTML=b,this.text_element.innerHTML=this.clock.pluralize(a[0],b)+\"
+        \"+this.options.end_phrase)};c.prototype.valid=function(){return!(!this.number_element||!this.text_element)};c.prototype.attach=function(){function
+        a(){c.update_element();if(c.options.count_down&&0<c.get_remaining_time()){var
+        b=c.get_current_unit();this.timeout=window.setTimeout(a,c.clock.milliseconds_to_next_interval(b[1]))}}
+        var c=this;if(this.remote_end_time_string=this.element.getAttribute(\"data-end_time\"))this.remote_end_time_string.match(/^\\d+$/)?(this.remote_end_time=new
+        Date,this.remote_end_time.setTime(this.remote_end_time_string)):this.remote_end_time=new
+        Date(this.remote_end_time_string),this.number_element=b(\".num\",this.element)[0],this.text_element=b(\".text\",this.element)[0],this.element.ksr_page_timer=!0,this.valid()&&a()};c.prototype.cancel=function(){this.timeout&&clearTimeout(this.timeout)};a.prototype.loading=
+        !0;a.prototype.stop_finding=function(){this.attach_timers();this.loading=!1;document.addEventListener?document.removeEventListener(\"DOMContentLoaded\",this.stop_finding,!1):document.attachEvent&&\"complete\"===document.readyState&&document.detachEvent(\"onreadystatechange\",this.stop_finding)};a.prototype.bind_ready=function(){var
+        a=this,b=function(){a.stop_finding.call(a)};document.addEventListener?(document.addEventListener(\"DOMContentLoaded\",b,!1),window.addEventListener(\"load\",b,!1)):document.attachEvent&&
+        (document.attachEvent(\"onreadystatechange\",b),window.attachEvent(\"onload\",b))};a.prototype.attach_timers=function(){for(var
+        a=b(\"div.ksr_page_timer\"),e=0;e<a.length;e++)a[e].ksr_page_timer||(new c(a[e],window.ksr_page_clock),this.elements.push(a[e]))};a.prototype.attach=function(){var
+        a=this;this.bind_ready();(function(){a.attach_timers();a.loading&&window.setTimeout(function(){a.attach_timers()},200)})()};window.ProjectTimer=c;new
+        a})();\n  //]]>\n</script>\n\n<script src=\"//d297h9he240fqh.cloudfront.net/cache-1b9b4efff/assets/base.js\"
+        type=\"text/javascript\"></script>\n<script>\n  //<![CDATA[\n    if (typeof(Zenbox)
+        !== \"undefined\") {\n      Zenbox.init({\n        dropboxID: 20104092,\n
+        \       tabID: \"support\",\n        hide_tab: true,\n        url: \"https://kickstarter.zendesk.com\",\n
+        \       requester_name: undefined,\n        requester_email: undefined\n      });\n
+        \   }\n  //]]>\n</script>\n\n<script>\n  //<![CDATA[\n    !function(d,s,id){var
+        js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"//platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");\n
+        \ //]]>\n</script>\n<script>\n  //<![CDATA[\n    window.exchange_rate = 1.58458264\n
+        \ //]]>\n</script>\n\n<script src=\"http://platform.twitter.com/widgets.js\"
+        type=\"text/javascript\"></script>\n\n<script id=\"schwamm_formatting_options\"
+        type=\"text/javascript\">\n//<![CDATA[\n(function(){window.formatters = window.formatters
+        || {}; var formatting_options = {\"distance_date_intervals\":[[5,\"just now\"],[29,\"less
+        than a minute ago\"],[89,\"1 minute ago\"],[2640,\"%m minutes ago\"],[5340,\"about
+        1 hour ago\"],[82800,\"about %h hours ago\"],[147600,\"1 day ago\"],[604800,\"%d
+        days ago\"],[15552000,\"on %t\"],[0,\"on %y\"]],\"currency_symbol_mappings\":{\"USD\":\"$\",\"GBP\":\"\\u00a3\"},\"currency_formats\":[\"money\",\"shorter_money\"]};
+        for (key in formatting_options) {window.formatters[key] = formatting_options[key]};}());\n//]]>\n</script>\n<script
+        class=\"template\" id=\"template-widgets__video_embed_code\" type=\"text/x-tmpl-mustache\">\n<iframe
+        width=\"{{width}}\" height=\"{{height}}\" src=\"{{path}}\" frameborder=\"0\">
+        </iframe>\n</script>\n<script class=\"template\" id=\"template-projects__history_bar_project\"
+        type=\"text/x-tmpl-mustache\">\n<li>\n  <a href=\"{{urls.web.project}}\">\n
+        \   <img {{image_prefix}}src=\"{{photo.little}}\">\n    {{name}}\n  </a>\n
+        \ <div class=\"byline\">\n    by {{creator.name}}\n  </div>\n  <div class=\"date\">\n
+        \   viewed on {{seen_on_formatted}}\n  </div>\n</li>\n\n</script>\n<script
+        class=\"template\" id=\"template-projects__leanback\" type=\"text/x-tmpl-mustache\">\n{{#not_mobile}}\n
+        \ <ul id='utility_links'>\n    <li><a href='#help' id='leanback_help'><span
+        class='ss-help'></span></a></li>\n  </ul>\n{{/not_mobile}}\n\n<a href='#prev_project'
+        class='controls prev_project'><span class='ss-navigateleft'></span></a>\n<a
+        href='#next_project' class='controls next_project'><span class='ss-navigateright'></span></a>\n\n<div
+        id='leanback_intro_overlay' style='display: none;'>\n  <a href='#close' id='leanback_intro_overlay_close'><span
+        class='ss-delete'></span></a>\n  <div class='interior'>\n    <h1>Hello! Welcome
+        to Leanback mode, our brand new, super secret*, full-screen internet party.
+        Just use your keyboard to navigate.</h1>\n    {{#not_mobile}}\n      <div
+        class='instructions'>\n        <img src='/images/compass/site/leanback/instructions.gif'
+        width='338' height='203' alt='instructions' />\n      </div>\n    {{/not_mobile}}\n
+        \   <p><a href='#start' class='button'>Start watching videos!</a></p>\n    <p>*(Okay,
+        it's not so secret, but we hope you'll help us test it out.)</p>\n  </div>\n</div>\n\n{{#not_mobile}}\n
+        \ <div id='leanback_help_overlay' style='display: none;'>\n    <div class='interior'>\n
+        \     <ul>\n        <li><span class='arrow_key up_arrow'>Up Arrow</span>&nbsp;&nbsp;Enter
+        Leanback</li>\n        <li><span class='arrow_key down_arrow'>Down Arrow</span>&nbsp;&nbsp;Go
+        to current project page</li>\n        <li><span class='arrow_key right_arrow'>Right
+        Arrow</span>&nbsp;&nbsp;Next project</li>\n        <li><span class='arrow_key
+        left_arrow'>Left Arrow</span>&nbsp;&nbsp;Previous project</li>\n      </ul>\n
+        \     <p><a href='#close' id='help_overlay_close'>Ok, got it!</a></p>\n    </div>\n
+        \ </div>\n{{/not_mobile}}\n\n<div class='title_card {{context_classes}}' style=\"display:none;\">\n
+        \ <div class='interior'>\n    <div class='left_info'>\n      <div id='play_button'
+        class='play'>\n        <span class='ss-play'></span>\n        <span class='ss-pause'></span>\n
+        \     </div>\n      <div id='project_info'>\n        <h1 class='project_title'>{{name}}</h1>\n
+        \       <ul class='project_meta'>\n          <li class='project_creator'>\n
+        \           by\n            <span class='creator_name'>{{creator.name}}</span>\n
+        \         </li>\n          <li class='project_category'>\n            <span
+        class='icon'></span>\n            <span class='text'>{{category.name}}</span>\n
+        \         </li>\n          <li class='project_location'>\n            <span
+        class='icon'></span>\n            <span class='text'>{{location.name}}</span>\n
+        \         </li>\n        </ul>\n      </div>\n    </div>\n    <div class='right_info'>\n
+        \     <div class=\"days_left ksr_page_timer\" data-end_time=\"{{javascript_deadline}}\">\n
+        \       <strong>\n          <div class=\"num\">30</div>\n        </strong>\n
+        \       <div class=\"span text\" data-word=\"left\">days to go</div>\n      </div>\n
+        \     {{#logged_in}}\n        <div class='remind'>\n          {{#if_not_starred}}\n
+        \           or&nbsp;&nbsp;&nbsp;<a class='button follow' href='{{urls.web.project}}/watch'>Remind
+        me</a>\n          {{/if_not_starred}}\n          {{#if_starred}}\n            <a
+        class='button unfollow' href='{{urls.web.project}}/unwatch'>Reminder on!</a>\n
+        \         {{/if_starred}}\n        </div>\n      {{/logged_in}}\n      <a
+        class='explore button' href='#'>Explore this project</a>\n    </div>\n  </div>\n</div>\n<div
+        class='project_video' style=\"background-image: url('{{photo.full}}')\">\n
+        \ <div class='cover'>\n    <video width='100%' height='100%'>\n      <source
+        src='{{video.high}}' type='video/mp4'/>\n      <source src='{{video.webm}}'
+        type='video/webm'/>\n    </video>\n  </div>\n</div>\n\n</script>\n\n\n\n<div
+        id=\"fb-root\"></div>\n<script>\n  //<![CDATA[\n    var channelUrl = window.location.protocol
+        + \"//\" + window.location.host + \"/channel.html\";\n    \n    window.fbAsyncInit
+        = function() {\n      FB.init({\n        appId: '69103156693',\n        channelUrl:
+        channelUrl,\n        status: true,    // check login status\n        cookie:
+        true,    // enable cookies to allow the server to access the session\n        xfbml:
+        true,     // parse XFBML\n        logging: false   // turn off logging\n      });\n
+        \   \n      $(document).trigger('fb:loaded');\n    \n      var logout_from_fb
+        = $('body').is('.just_logged_out') || false;\n    \n      FB.Event.subscribe('auth.statusChange',
+        function(response) {\n        if (logout_from_fb) {\n          FB.logout(function()
+        {\n            logout_from_fb = false;\n          });\n        } else if (response.authResponse
+        && true && true && true && !FB.usingButton) {\n          $.get(\"http://www.kickstarter.com/fb/connect/verify?then=http%3A%2F%2Fwww.kickstarter.com%2Fprojects%2Ffchimero%2Fthe-shape-of-design\",
+        {'fbsr': response.authResponse.signedRequest}, function() {});\n        }\n
+        \     });\n    \n    };\n    \n    \n    // Load the SDK Asynchronously\n
+        \   (function(d){\n      var js, id = 'facebook-jssdk'; if (d.getElementById(id))
+        {return;}\n      js = d.createElement('script'); js.id = id; js.async = true;\n
+        \     js.src = \"//connect.facebook.net/en_US/all.js\";\n      d.getElementsByTagName('head')[0].appendChild(js);\n
+        \   }(document));\n  //]]>\n</script>\n\n\n<script type=\"text/javascript\">if
+        (!NREUMQ.f) { NREUMQ.f=function() {\nNREUMQ.push([\"load\",new Date().getTime()]);\nvar
+        e=document.createElement(\"script\");\ne.type=\"text/javascript\";\ne.src=((\"http:\"===document.location.protocol)?\"http:\":\"https:\")
+        + \"//\" +\n  \"d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js\";\ndocument.body.appendChild(e);\nif(NREUMQ.a)NREUMQ.a();\n};\nNREUMQ.a=window.onload;window.onload=NREUMQ.f;\n};\nNREUMQ.push([\"nrfj\",\"beacon-3.newrelic.com\",\"b04b883ad2\",\"11086\",\"cFteRUULX1wHFhtIEFxeVVJDFxxDCgtD\",10,253,new
+        Date().getTime(),\"\",\"\",\"\",\"\",\"\"]);</script></body>\n</html>\n"
+    http_version: 
+  recorded_at: Fri, 01 Feb 2013 09:50:27 GMT
+recorded_with: VCR 2.4.0
