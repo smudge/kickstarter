@@ -11,12 +11,12 @@ describe Kickstarter::Profile do
   ryans = "ryanestrada"
   ryann = "breadpig"
   adamb = "bildersee"
-  sensible = "darrenwall"
   benign = "benignkingdom"
+  sensible = "darrenwall"
+  ralfh = "ralfh"
   chimero = "fchimero"
   gaspar = "georgegaspar"
   rivetw = "coolminiornot"
-  ralfh = "ralfh"
 
 
   it "finds the name" do
