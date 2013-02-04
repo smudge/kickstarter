@@ -69,7 +69,14 @@ describe Kickstarter::Project do
   it "finds the project's image_url" do
     VCR.use_cassette minecraft do
       @project = Kickstarter::Project.new(base_url + minecraft)
-      @project.image_url.should eq('https://s3.amazonaws.com/ksr/projects/21767/photo-full.jpg')
+      @project.image_url.should eq('https://s3.amazonaws.com/ksr/projects/21767/photo-main.jpg')
+    end
+  end
+
+  it "finds the project's image_url (full)" do
+    VCR.use_cassette minecraft do
+      @project = Kickstarter::Project.new(base_url + minecraft)
+      @project.image_url(:full).should eq('https://s3.amazonaws.com/ksr/projects/21767/photo-full.jpg')
     end
   end
 

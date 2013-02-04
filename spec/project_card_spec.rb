@@ -49,7 +49,12 @@ describe Kickstarter::ProjectCard do
 
   it "finds the project image_url" do
     @project = Kickstarter::ProjectCard.new(get_node(spacesuit))
-    @project.image_url.should eq("https://s3.amazonaws.com/ksr/projects/217667/photo-full.jpg")
+    @project.image_url.should eq("https://s3.amazonaws.com/ksr/projects/217667/photo-main.jpg")
+  end
+
+  it "finds the project image_url (full)" do
+    @project = Kickstarter::ProjectCard.new(get_node(spacesuit))
+    @project.image_url(:full).should eq("https://s3.amazonaws.com/ksr/projects/217667/photo-full.jpg")
   end
 
   it "finds a USD project's currency" do

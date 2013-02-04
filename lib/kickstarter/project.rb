@@ -37,8 +37,9 @@ module Kickstarter
       @owner ||= details_page.css('#creator-name h3 a').inner_html.to_s
     end
     
-    def image_url
+    def image_url(style=:main)
       @image_url ||= details_page.css('#video-section img').attr('src').value.split('?').first
+      @image_url.gsub(/photo-(main|full)\.jpg/,"photo-#{style}.jpg")
     end
     
     def currency

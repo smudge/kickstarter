@@ -1,5 +1,6 @@
 # encoding: utf-8
 require_relative 'common'
+require_relative "project_item"
 
 module Kickstarter
   class Profile
@@ -38,8 +39,8 @@ module Kickstarter
       @backed_count ||= Integer(page_content.css('#profile_bio .backed').inner_html.gsub(/Backed/,'').gsub(/projects/,'').gsub(/\n/,''))
     end
 
-    def backed_projects
-      []
+    def backed_projects(opts = {})
+      @backed_projects ||= Profile.fetch_projects(url, opts)
     end
 
     def page_content
@@ -71,6 +72,33 @@ module Kickstarter
         retries += 1
         retry if retries < 3
       end
+    end
+
+    def self.fetch_projects(url, options = {})
+      pages = options.fetch(:pages, :all)
+      pages -= 1 unless pages == 0 || pages == :all
+
+      start_page = options.fetch(:page, 1)
+      end_page   = pages == :all ? 10000 : start_page + pages
+
+      results = []
+
+      (start_page..end_page).each do |page|
+        retries = 0
+        begin
+          doc = Nokogiri::HTML(open("#{url}?page=#{page}"))
+          nodes = doc.css('#profile_projects_list .project_item')
+          break if nodes.empty?
+
+          nodes.each do |node|
+            results << Kickstarter::ProjectItem.new(node)
+          end
+        rescue Timeout::Error
+          retries += 1
+          retry if retries < 3
+        end
+      end
+      results
     end
 
   end

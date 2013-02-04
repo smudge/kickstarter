@@ -34,8 +34,9 @@ module Kickstarter
       @owner ||= node.css('h2 span').first.inner_html.gsub(/by/, "").strip
     end
     
-    def image_url
-      @image_url ||= thumbnail_url.gsub(/photo-little\.jpg/,'photo-full.jpg').split('?').first
+    def image_url(style = :main)
+      @image_url ||= thumbnail_url.split('?').first
+      @image_url.gsub(/photo-little\.jpg/,"photo-#{style}.jpg")
     end
     
     def currency

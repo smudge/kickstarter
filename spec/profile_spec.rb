@@ -16,6 +16,7 @@ describe Kickstarter::Profile do
   chimero = "fchimero"
   gaspar = "georgegaspar"
   rivetw = "coolminiornot"
+  ralfh = "ralfh"
 
 
   it "finds the name" do
@@ -67,10 +68,17 @@ describe Kickstarter::Profile do
     end
   end
 
-  it "finds the backed_projects" do
-    VCR.use_cassette "profile/#{sensible}" do
+  it "finds the backed_projects (1 page)" do
+    VCR.use_cassette "profile/#{sensible}", :record => :new_episodes do
       @profile = Kickstarter::Profile.new(sensible)
-      @profile.backed_projects.count.should eq(20)
+      @profile.backed_projects.count.should eq(5)
+    end
+  end
+
+  it "finds the backed_projects (many pages)" do
+    VCR.use_cassette "profile/#{ralfh}", :record => :new_episodes do
+      @profile = Kickstarter::Profile.new(ralfh)
+      @profile.backed_projects.count.should eq(246)
     end
   end
 
