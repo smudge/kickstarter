@@ -13,7 +13,7 @@ module Kickstarter
     end
     
     def name
-      @name ||= details_page.css("h1#title a").inner_html
+      @name ||= details_page.css("h2#title a").inner_html
     end
     
     def description
@@ -21,7 +21,7 @@ module Kickstarter
     end
     
     def url
-      @url ||= details_page.css("h1#title a").attr('href').value
+      @url ||= details_page.css("h2#title a").attr('href').value
     end
 
     # Note: Not all projects are assigned short_urls.
