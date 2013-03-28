@@ -7,8 +7,10 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - '*/*'
       User-Agent:
       - Ruby
   response:
@@ -19,301 +21,638 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 01 Feb 2013 19:30:06 GMT
+      - Wed, 27 Mar 2013 23:53:55 GMT
       Content-Type:
       - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
       Status:
       - 200 OK
-      Content-Length:
-      - '27800'
       Etag:
-      - ! '"34abfb7818d22aa668c8e131b988124e"'
+      - '"b16cf75bdd670efa3dc1602583c89b70"'
       Cache-Control:
       - max-age=0, private, must-revalidate
       Set-Cookie:
-      - _ksr_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJWZkNDk5YjFhMDU5ZjU4OTNhZjBiZmJhNDcxOTRjMzRhBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMU56YTN6aC9tdHFMeEtrSjFVSjNzdFZZOFVZT0JsS1kzcmUwN1BWY2hUd1k9BjsARkkiFWN1cnJlbnRfbG9jYXRpb24GOwBGewg6CGxhdGYMNDcuNjEwNDoIbG5nZg4tMTIyLjIwMDc6EGxvY2F0aW9uX2lkaQIaAg%3D%3D--3794da82cfa62eb3581f6deac2738555eefd78cc;
+      - _ksr_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJTE4MjA2NDYyMzFjYjkyM2YwYWIyNWQ4ODE4NDUzMWM0BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTlVbmoxeTdMMHNDRFZhbWRMZ0hXUnZCSk81ZUZNaUpGTmpCa2FQcldBdnc9BjsARkkiFWN1cnJlbnRfbG9jYXRpb24GOwBGewg6CGxhdGYMNDcuNjA2MjoIbG5nZg4tMTIyLjMzMjE6EGxvY2F0aW9uX2lkaQINDg%3D%3D--808c76c9c9679c54b2bc4d6d812283547aa463b3;
         path=/
       - last_page=http%3A%2F%2Fwww.kickstarter.com%2Fprofile%2Fpennyarcade; path=/;
-        expires=Fri, 01-Feb-2013 20:00:05 GMT
-      - request_time=Fri%2C+01+Feb+2013+19%3A30%3A06+-0000; path=/
+        expires=Thu, 28-Mar-2013 00:23:55 GMT
+      - request_time=Wed%2C+27+Mar+2013+23%3A53%3A55+-0000; path=/
       X-Request-Id:
-      - 08ddff6189ad4439ee37bd45b12f31fd
+      - 0058b8a0da1fcbbe1e4c2b8995a70929
       X-Runtime:
-      - '0.368243'
+      - '0.239218'
     body:
-      encoding: US-ASCII
-      string: ! "<!DOCTYPE html>\n<html class=\"users_show no-js fontface \" lang=\"en\"
-        xml:lang=\"en\" xmlns:fb=\"http://www.facebook.com/2008/fbml\" xmlns=\"http://www.w3.org/1999/xhtml\">\n<head><script
-        type=\"text/javascript\">var NREUMQ=NREUMQ||[];NREUMQ.push([\"mark\",\"firstbyte\",new
-        Date().getTime()]);</script><title>Penny Arcade &mdash; Kickstarter</title><!--[if
-        lt IE 9]>\n  <script src=\"//html5shim.googlecode.com/svn/trunk/html5.js\"
-        type=\"text/javascript\"></script>\n<![endif]-->\n\n\n<meta content=\"text/html;
-        charset=utf-8\" http-equiv=\"Content-Type\">\n<meta content=\"telephone=no\"
-        name=\"format-detection\">\n<link href=\"//d297h9he240fqh.cloudfront.net/cache-0eb66d56d/fonts/fonts.css\"
-        media=\"screen\" rel=\"stylesheet\" type=\"text/css\">\n<!--[if !IE]> -->\n
-        \ <link href=\"//d297h9he240fqh.cloudfront.net/cache-0eb66d56d/assets/base.css\"
-        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<!-- <![endif]-->\n<!--[if
-        IE]>\n  <link href=\"//d297h9he240fqh.cloudfront.net/cache-0eb66d56d/stylesheets/blessed.css\"
-        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<![endif]-->\n\n\n<!--[if
-        lte IE 8]>\n  <link href=\"//d297h9he240fqh.cloudfront.net/cache-0eb66d56d/stylesheets/compass/library/ie8.css\"
-        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<![endif]-->\n<!--[if
-        lte IE 7]>\n  <link href=\"//d297h9he240fqh.cloudfront.net/cache-0eb66d56d/stylesheets/compass/library/ie.css\"
-        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n  <link href=\"//d297h9he240fqh.cloudfront.net/cache-0eb66d56d/assets/ie_seven.css\"
-        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<![endif]-->\n<!--[if
-        IE 6]>\n  <link href=\"//d297h9he240fqh.cloudfront.net/cache-0eb66d56d/assets/ie_six.css\"
-        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<![endif]-->\n\n\n<link
-        href=\"//d297h9he240fqh.cloudfront.net/cache-0eb66d56d/assets/print.css\"
-        media=\"print\" rel=\"stylesheet\" type=\"text/css\" />\n<link href=\"//d297h9he240fqh.cloudfront.net/cache-0eb66d56d/favicon.png\"
-        rel=\"icon\" type=\"image/png\">\n<link href=\"//d297h9he240fqh.cloudfront.net/cache-0eb66d56d/apple-touch-icon-precomposed.png\"
-        rel=\"apple-touch-icon-precomposed\" type=\"image/png\">\n<link href=\"//d297h9he240fqh.cloudfront.net/cache-0eb66d56d/apple-touch-icon-ipad-precomposed.png\"
-        rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" type=\"image/png\">\n<link
-        href=\"//d297h9he240fqh.cloudfront.net/cache-0eb66d56d/apple-touch-icon-iphone4-precomposed.png\"
-        rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" type=\"image/png\">\n\n<meta
-        name=\"robots\" content=\"noindex, follow\"/>\n<meta property=\"og:title\"
-        content=\"Penny Arcade on Kickstarter\"/>\n<meta property=\"og:type\" content=\"profile\"/>\n<meta
-        property=\"og:image\" content=\"https://s3.amazonaws.com/ksr/avatars/3265960/IMG_4142_mid.large.jpg?1341810115\"/>\n<meta
-        property=\"og:description\" content=\"Backed 4 projects!\"/>\n<meta property=\"og:url\"
-        content=\"http://www.kickstarter.com/profile/pennyarcade\"/>\n<meta property=\"og:site_name\"
-        content=\"Kickstarter\"/>\n<meta property=\"fb:app_id\" content=\"69103156693\"/>\n<meta
-        content=\"authenticity_token\" name=\"csrf-param\" />\n<meta content=\"Nza3zh/mtqLxKkJ1UJ3stVY8UYOBlKY3re07PVchTwY=\"
-        name=\"csrf-token\" />\n\n<script>\n  //<![CDATA[\n    var _sf_startpt=(new
-        Date()).getTime();\n    docElement = this.document.documentElement;\n    docElement.className=docElement.className.replace(/\\bno-js\\b/,'')
-        + 'js';\n  //]]>\n</script>\n<script>\n  //<![CDATA[\n    function timeRemaining(epochTime){\n
-        \   \n      var diff = epochTime - ((new Date()).getTime() / 1000);\n      var
-        num_unit = (diff < 60 && [Math.max(diff, 0), 'seconds']) ||\n        ((diff/=60)
-        < 60 && [diff, 'minutes']) ||\n        ((diff/=60) < 72 && [diff, 'hours'])
-        ||\n        [diff/=24, 'days'];\n    \n      // Round down\n      num_unit[0]
-        = Math.floor(num_unit[0]);\n      // Singularize unit\n      if (num_unit[0]
-        == 1) { num_unit[1] = num_unit[1].replace(/s$/,\"\"); }\n    \n      return
-        num_unit;\n    };\n  //]]>\n</script>\n</head>\n\n<body class=\"profile users
-        not-mobile\" id=\"users_show\">\n<div class=\"jGrowl center\" id=\"growl_section\"></div>\n<div
-        id=\"header-wrap\">\n<div class=\"container\" id=\"header\">\n<h1 id=\"logo\">\n<a
-        href=\"/\"><span>Kickstarter</span>\n</a></h1>\n<a href=\"/help/faq/kickstarter%20basics?ref=nav\"
-        id=\"what_is_kickstarter_link\">What is Kickstarter?</a>\n<ul id=\"menu-main\">\n<li
-        id=\"menu-main-discover\">\n<a href=\"/discover\"><strong>Discover</strong>\n<span>great
-        projects</span>\n</a></li>\n<li id=\"menu-main-fund\">\n<a href=\"/start\"><strong>Start</strong>\n<span>your
-        project</span>\n</a></li>\n</ul>\n<form accept-charset=\"UTF-8\" action=\"/projects/search\"
-        class=\"search overlabels\" method=\"get\"><div style=\"margin:0;padding:0;display:inline\"><input
-        class=\"hidden\" name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /></div>\n<div
-        class=\"field search\">\n<span class=\"icon-search\"></span>\n<span class=\"icon-search-clear\"></span>\n<label
-        class=\"overlabel overlabel-search\">Search projects</label>\n<input class=\"input-search
-        header text\" data-tracker-name=\"Header Live Search\" id=\"term\" name=\"term\"
-        type=\"text\" />\n<span class=\"icon-search-nipple\"></span>\n</div>\n</form>\n\n<ul
-        id=\"menu-sub\">\n<li id=\"menu-sub-help\"><a href=\"/help\">Help</a></li>\n<li><a
-        href=\"https://www.kickstarter.com/signup\">Sign up</a></li>\n<li><a href=\"https://www.kickstarter.com/login\">Log
-        in</a></li>\n</ul>\n</div>\n</div>\n<div id=\"search_results-wrap\">\n<div
-        id=\"search_results-shadow\">\n<div id=\"search_results-inner_wrap\">\n<div
-        class=\"container\" id=\"search_results\">\n<a class=\"close\"><span class=\"icon-x\"></span></a>\n<h2
-        class=\"header\"></h2>\n<div id=\"search_results_panel\"></div>\n<p class=\"footer\"></p>\n<a
-        class=\"prev arrow\">\n<span class=\"icon-search-left\"></span>\n<strong>Previous</strong>\n</a>\n<a
-        class=\"next arrow\">\n<span class=\"icon-search-right\"></span>\n<strong>Next</strong>\n</a>\n</div>\n</div>\n</div>\n</div>\n\n\n\n<div
-        id=\"main_content\">\n<div id=\"hover_label\"></div>\n<div id=\"running-board-wrap\">\n<div
-        class=\"container\" id=\"running-board\">\n<div class=\"NS_users__profile\">\n<div
-        class=\"creator\" id=\"profile_avatar\">\n<img alt=\"Img_4142_mid.large\"
-        class=\"avatar-large\" height=\"220\" src=\"https://s3.amazonaws.com/ksr/avatars/3265960/IMG_4142_mid.large.jpg?1341810115\"
-        width=\"220\" />\n</div>\n<div class=\"creator\" id=\"profile_bio\">\n<h1>\nPenny
-        Arcade\n<span class=\"creator_tag highlight\">Creator!</span>\n</h1>\n<h2>\n<span
-        class=\"backed\">\nBacked\n4\nprojects\n</span>\n<span class=\"divider\">\n&middot;\n</span>\n<span
-        class=\"location\">Seattle, WA</span>\n<span class=\"divider\">\n&middot;\n</span>\n<span
-        class=\"joined\">\nJoined\nJuly 2012\n</span>\n</h2>\n<div class=\"bio\">\n<p>\nWe&#x27;re
-        Penny Arcade! All of the things we do can be found on our website.\n<a href=\"/profiles/pennyarcade/bio\"
-        class=\"remote_modal_dialog\">See full bio &amp; links</a>\n</p>\n</div>\n<div
-        class=\"profile_created_projects\">\n<a class=\"project_item\" href=\"https://www.kickstarter.com/projects/pennyarcade/penny-arcade-sells-out\">\n<div
-        class=\"project_thumbnail\">\n<img alt=\"Photo-small\" height=\"75\" src=\"https://s3.amazonaws.com/ksr/projects/244107/photo-small.jpg?1341874543\"
-        width=\"100\" />\n</div>\n<div class=\"text\">\n<div class=\"project_name\">Penny
-        Arcade Sells Out</div>\n<div class=\"project_number\">\nby\nPenny Arcade\n<span
-        class=\"divider\">&middot;</span>\n1st\nproject\n</div>\n<div class=\"project_status
-        successful\">\nSuccessfully funded on\nAug. 15, 2012\n</div>\n</div>\n</a>\n</div>\n\n</div>\n<div
-        class=\"\" id=\"category_circle\">\n<div id=\"half_circle_border\"></div>\n<div
-        id=\"half_circle\"></div>\n<div id=\"small_circle\">\n<script type=\"text/javascript\">\n//<![CDATA[\nvar
-        color_map = [\"rgba(0,0,0,0.0)\",\"rgba(0,0,0,0.0)\",\"rgba(0,0,0,0.0)\",\"rgba(0,0,0,0.0)\",\"rgba(0,0,0,0.0)\",\"rgba(235,89,93,
-        1)\",\"rgba(0,0,0,0.0)\",\"rgba(168,78,161, 1)\",\"rgba(116,96,163, 1)\",\"rgba(0,0,0,0.0)\",\"rgba(0,0,0,0.0)\",\"rgba(0,0,0,0.0)\",\"rgba(0,0,0,0.0)\"];var
-        circle_data = [{\"category_id\":1,\"label\":\"Art\",\"projects_backed\":0,\"color\":\"rgba(0,0,0,0.0)\",\"path\":\"/profile/pennyarcade?category_id=1&ref=wheel\",\"data\":1},{\"category_id\":3,\"label\":\"Comics\",\"projects_backed\":0,\"color\":\"rgba(0,0,0,0.0)\",\"path\":\"/profile/pennyarcade?category_id=3&ref=wheel\",\"data\":1},{\"category_id\":6,\"label\":\"Dance\",\"projects_backed\":0,\"color\":\"rgba(0,0,0,0.0)\",\"path\":\"/profile/pennyarcade?category_id=6&ref=wheel\",\"data\":1},{\"category_id\":7,\"label\":\"Design\",\"projects_backed\":0,\"color\":\"rgba(0,0,0,0.0)\",\"path\":\"/profile/pennyarcade?category_id=7&ref=wheel\",\"data\":1},{\"category_id\":9,\"label\":\"Fashion\",\"projects_backed\":0,\"color\":\"rgba(0,0,0,0.0)\",\"path\":\"/profile/pennyarcade?category_id=9&ref=wheel\",\"data\":1},{\"category_id\":11,\"label\":\"Film
-        & Video\",\"projects_backed\":1,\"color\":\"rgba(235,89,93, 1)\",\"path\":\"/profile/pennyarcade?category_id=11&ref=wheel\",\"data\":1},{\"category_id\":10,\"label\":\"Food\",\"projects_backed\":0,\"color\":\"rgba(0,0,0,0.0)\",\"path\":\"/profile/pennyarcade?category_id=10&ref=wheel\",\"data\":1},{\"category_id\":12,\"label\":\"Games\",\"projects_backed\":2,\"color\":\"rgba(168,78,161,
-        1)\",\"path\":\"/profile/pennyarcade?category_id=12&ref=wheel\",\"data\":1},{\"category_id\":14,\"label\":\"Music\",\"projects_backed\":1,\"color\":\"rgba(116,96,163,
-        1)\",\"path\":\"/profile/pennyarcade?category_id=14&ref=wheel\",\"data\":1},{\"category_id\":15,\"label\":\"Photography\",\"projects_backed\":0,\"color\":\"rgba(0,0,0,0.0)\",\"path\":\"/profile/pennyarcade?category_id=15&ref=wheel\",\"data\":1},{\"category_id\":18,\"label\":\"Publishing\",\"projects_backed\":0,\"color\":\"rgba(0,0,0,0.0)\",\"path\":\"/profile/pennyarcade?category_id=18&ref=wheel\",\"data\":1},{\"category_id\":16,\"label\":\"Technology\",\"projects_backed\":0,\"color\":\"rgba(0,0,0,0.0)\",\"path\":\"/profile/pennyarcade?category_id=16&ref=wheel\",\"data\":1},{\"category_id\":17,\"label\":\"Theater\",\"projects_backed\":0,\"color\":\"rgba(0,0,0,0.0)\",\"path\":\"/profile/pennyarcade?category_id=17&ref=wheel\",\"data\":1}];\n//]]>\n</script>\n</div>\n</div>\n</div>\n\n</div>\n</div>\n<div
-        id=\"content-wrap\">\n<div class=\"container\" id=\"content\">\n<div id=\"main\">\n<ul
-        id=\"project_nav\">\n<li class=\"selected\">\n<a href=\"/profile/pennyarcade\"
-        id=\"list_title\"><span class=\"text\">Backed</span>\n<span class=\"count\"><span
-        class=\"parentheses\">(</span>4<span class=\"parentheses\">)</span></span>\n</a></li>\n<li>\n<a
-        href=\"/profile/pennyarcade/created\"><span class=\"text\">Created</span>\n<span
-        class=\"count\"><span class=\"parentheses\">(</span>1<span class=\"parentheses\">)</span></span>\n</a></li>\n<li>\n<a
-        href=\"/profile/pennyarcade/comments\"><span class=\"text\">Comments</span>\n<span
-        class=\"count\"><span class=\"parentheses\">(</span>31<span class=\"parentheses\">)</span></span>\n</a></li>\n</ul>\n<div
-        id=\"profile_projects_list\">\n<div id=\"list\">\n<div class=\"mobius_page\">\n<div
-        class=\"missing\" style=\"display: none\">\n<div class=\"load_more\">\n<a
-        href=\"#\" class=\"load_more button\">Load More</a>\n</div>\n</div>\n<ul class=\"mobius\">\n<li
-        class=\"page\" data-last_page=\"true\" data-page_number=\"1\">\n<a href=\"https://www.kickstarter.com/projects/loneshark/the-maze-of-games-an-interactive-puzzle-novel\"
-        class=\"project_item\"><div class=\"project_description\" style=\"background:
-        rgba(168,78,161, 1)\">\n<p>An interactive puzzle novel written by Mike Selinker,
-        with enchanting illustrations by Pete Venters.</p>\n</div>\n<div class=\"project_thumbnail\">\n<img
-        alt=\"Photo-carousel\" src=\"https://s3.amazonaws.com/ksr/projects/426470/photo-carousel.jpg?1358914547\"
-        />\n<div class=\"funding_tag highlight\">41 days to go</div>\n</div>\n<div
-        class=\"project_name\">\nThe Maze of Games: An Interactive Puzzle Novel\n</div>\n</a><a
-        href=\"https://www.kickstarter.com/projects/kidcandrive/ledo-and-ix-season-2\"
-        class=\"project_item\"><div class=\"project_description\" style=\"background:
-        rgba(235,89,93, 1)\">\n<p>The second season in the animated web series about
-        two itty-bitty characters in an old-school Nintendo game.</p>\n</div>\n<div
-        class=\"project_thumbnail\">\n<img alt=\"Photo-carousel\" src=\"https://s3.amazonaws.com/ksr/projects/59820/photo-carousel.jpg?1322259609\"
-        />\n</div>\n<div class=\"project_name\">\nLedo And Ix: Season 2\n</div>\n</a><a
-        href=\"https://www.kickstarter.com/projects/vgo/video-game-orchestra-live-at-symphony-hall-album\"
-        class=\"project_item\"><div class=\"project_description\" style=\"background:
-        rgba(116,96,163, 1)\">\n<p>VGO is recording a LIVE ALBUM of the ultimate ROCKESTRAL
-        GAME MUSIC concert, and bringing it to you!</p>\n</div>\n<div class=\"project_thumbnail\">\n<img
-        alt=\"Photo-carousel\" src=\"https://s3.amazonaws.com/ksr/projects/279804/photo-carousel.jpg?1345950087\"
-        />\n</div>\n<div class=\"project_name\">\nVideo Game Orchestra ~Live at Symphony
-        Hall~ Album\n</div>\n</a><a href=\"https://www.kickstarter.com/projects/gaymercon/gaymercon-everybody-games\"
-        class=\"project_item\"><div class=\"project_description\" style=\"background:
-        rgba(168,78,161, 1)\">\n<p>GaymerCon is the first gaming and tech convention
-        with a focus on LGBT  geek culture.</p>\n</div>\n<div class=\"project_thumbnail\">\n<img
-        alt=\"Photo-carousel\" src=\"https://s3.amazonaws.com/ksr/projects/113388/photo-carousel.jpg?1332609281\"
-        />\n</div>\n<div class=\"project_name\">\nGaymerCon: Everybody Games\n</div>\n</a>\n</li>\n</ul>\n\n</div>\n</div>\n</div>\n\n\n</div>\n</div>\n</div>\n\n</div>\n\n<div
-        id=\"mega-footer-wrap\">\n<div class=\"container\" id=\"mega-footer\">\n<span
-        class=\"scissors icon-scissors-1\"></span>\n<div id=\"mega-footer-links\">\n<div
-        class=\"link-group\" id=\"mega-links-discover\">\n<h3>Discover</h3>\n<ul class=\"column
-        column-0\">\n<li><a href=\"/discover/categories/art?ref=footer\">Art</a></li>\n<li><a
-        href=\"/discover/categories/comics?ref=footer\">Comics</a></li>\n<li><a href=\"/discover/categories/dance?ref=footer\">Dance</a></li>\n<li><a
-        href=\"/discover/categories/design?ref=footer\">Design</a></li>\n<li><a href=\"/discover/categories/fashion?ref=footer\">Fashion</a></li>\n<li><a
-        href=\"/discover/categories/film%20&amp;%20video?ref=footer\">Film &amp; Video</a></li>\n<li><a
-        href=\"/discover/categories/food?ref=footer\">Food</a></li>\n</ul>\n<ul class=\"column
-        column-1\">\n<li><a href=\"/discover/categories/games?ref=footer\">Games</a></li>\n<li><a
-        href=\"/discover/categories/music?ref=footer\">Music</a></li>\n<li><a href=\"/discover/categories/photography?ref=footer\">Photography</a></li>\n<li><a
-        href=\"/discover/categories/publishing?ref=footer\">Publishing</a></li>\n<li><a
-        href=\"/discover/categories/technology?ref=footer\">Technology</a></li>\n<li><a
-        href=\"/discover/categories/theater?ref=footer\">Theater</a></li>\n</ul>\n<ul
-        class=\"column column-3\">\n<li class=\"current_location\">\n<a href=\"/discover/cities/bellevue-wa?ref=footer\"><span
-        class=\"text\">Bellevue, WA</span>\n<span class=\"ss-icon ss-location\"></span>\n</a></li>\n<li><a
-        href=\"/discover/recommended?ref=footer\">Staff Picks</a></li>\n<li><a href=\"/discover/popular?ref=footer\">Popular</a></li>\n<li><a
-        href=\"/discover/recently-launched?ref=footer\">Recently Launched</a></li>\n<li><a
-        href=\"/discover/small-projects?ref=footer\">Small Projects</a></li>\n<li><a
-        href=\"/discover/most-funded?ref=footer\">Most Funded</a></li>\n<li><a href=\"/discover/curated-pages?ref=footer\">Curated
-        Pages</a></li>\n</ul>\n</div>\n<div class=\"link-group\" id=\"mega-links-create\">\n<h3>Create</h3>\n<ul
-        class=\"column\">\n<li><a href=\"/start?ref=footer\">Start a project</a></li>\n<li><a
-        href=\"/help/school?ref=footer\">Kickstarter School</a></li>\n<li><a href=\"/help/faq/creator%20questions?ref=footer\">Creator
-        Questions</a></li>\n<dd><a href=\"/help/guidelines?ref=footer\">Project Guidelines</a></dd>\n</ul>\n</div>\n<div
-        class=\"link-group\" id=\"mega-links-about\">\n<h3>About</h3>\n<ul class=\"column\">\n<li><a
-        href=\"/help/faq/kickstarter%20basics?ref=footer\">Kickstarter Basics</a></li>\n<li><a
-        href=\"/team?ref=footer\">Meet our team</a></li>\n<li><a href=\"/jobs?ref=footer\">Work
-        at Kickstarter</a></li>\n<li><a href=\"/press?ref=footer\">Press</a></li>\n<li><a
-        href=\"/help/stats?ref=footer\">Stats</a></li>\n<li><a href=\"/year/2012?ref=footer\">Best
-        of Kickstarter 2012</a></li>\n</ul>\n</div>\n<div class=\"link-group\" id=\"mega-links-stay-in-touch\">\n<h3>Stay
-        in touch</h3>\n<ul class=\"column\">\n<li><a href=\"/blog?ref=footer\">Blog</a></li>\n<li><a
-        href=\"/newsletters\">Newsletter</a></li>\n<li><a href=\"http://twitter.com/kickstarter\">Twitter</a></li>\n<li><a
-        href=\"http://kickstarter.tumblr.com\">Tumblr</a></li>\n<li><a href=\"http://www.facebook.com/Kickstarter\">Facebook</a></li>\n</ul>\n</div>\n</div>\n<div
-        id=\"mega-footer-cred\">\n<div class=\"lockups-area\">\n<div class=\"lockup-1
-        lockup\">\n<div class=\"time-quote\">\n<div class=\"time-logo\"></div>\n<p>Best
-        Inventions of 2010</p>\n</div>\n<div class=\"new-york-times-quote\">\n<div
-        class=\"nyt-logo\"></div>\n<p>Year in Ideas 2009</p>\n</div>\n</div>\n<div
-        class=\"lockup-2 lockup\">\n<p class=\"big\">&#8220;An unexpected influence
-        on indie culture&#8221;</p>\n<p>- New York Times</p>\n</div>\n<div class=\"lockup-3
-        lockup\">\n<div class=\"atlantic-quote\">\n<p class=\"big\">&#8220;A creative
-        engine&#8221;</p>\n<p>- The Atlantic</p>\n</div>\n<div class=\"cnn-quote\">\n<p
-        class=\"big\">&#8220;Paradigm-shifting&#8221;</p>\n<p>- CNN</p>\n</div>\n</div>\n</div>\n<div
-        class=\"tweet-button\">\n<div class=\"twitter_box\">\n<span id=\"mega-footer-followers\"></span>\n</div>\n<a
-        class=\"twitter-follow-button\" data-show-count=\"true\" data-show-screen-name=\"false\"
-        data-size=\"large\" href=\"https://twitter.com/Kickstarter\">\nFollow\n</a>\n</div>\n<div
-        class=\"like-button\">\n<fb:like colorscheme=\"dark\" href=\"http://facebook.com/kickstarter\"
-        show_faces=\"true\" width=\"220\"></fb:like>\n</div>\n</div>\n<div id=\"mega-footer-bottom\">\n<div
-        class=\"logo left\">\n<a href=\"/\"><span class=\"dark\">Kickstarter</span>\n<span
-        class=\"light\">Kickstarter</span>\n</a></div>\n<ul class=\"right\">\n<li><a
-        href=\"/help?ref=footer\">Help</a></li>\n<li><a href=\"/help/style_guide?ref=footer\">Style
-        Guide</a></li>\n<li><a href=\"http://kickstarter.zendesk.com/home\" id=\"\"
-        onclick=\"Zenbox.render(); return false;\">Contact</a></li>\n<li><a href=\"/terms-of-use?ref=footer\">Terms
-        of Use</a></li>\n<li><a href=\"/privacy?ref=footer\">Privacy Policy</a></li>\n<li>\n&copy;\n2013\nKickstarter,
-        Inc.\n</li>\n</ul>\n</div>\n</div>\n</div>\n\n<script>\n  //<![CDATA[\n    var
-        gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\"
-        : \"http://www.\");\n    document.write(unescape(\"%3Cscript src='\" + gaJsHost
-        + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n
-        \   var analytics_vars = { google_analytics_id : \"UA-7621056-1\", logged_in
-        : \"false\", verifying_backing : \"false\", social_user: \"false\" }\n  //]]>\n</script>\n\n\n<script>\n
-        \ //<![CDATA[\n    window.mixpanel_id = '75b1d24a516ecfc955eadfadc4910661';\n
-        \   window.mixpanel_debug = false;\n  //]]>\n</script>\n\n\n<script>\n  //<![CDATA[\n
-        \   _qoptions={qacct:\"p-34IbSpw2K94Sg\"};\n  //]]>\n</script>\n<script src=\"http://edge.quantserve.com/quant.js\"
-        type=\"text/javascript\"></script>\n<noscript><img alt=\"Quantcast\" border=\"0\"
-        height=\"1\" src=\"http://pixel.quantserve.com/pixel/p-34IbSpw2K94Sg.gif\"
-        style=\"display:none\" width=\"1\" /></noscript>\n\n<script>\n  //<![CDATA[\n
-        \   var _sf_async_config={uid:5536,domain:\"kickstarter.com\"};\n    (function(){\n
-        \     function loadChartbeat() {\n        window._sf_endpt=(new Date()).getTime();\n
-        \       var e = document.createElement('script');\n        e.setAttribute('language',
-        'javascript');\n        e.setAttribute('type', 'text/javascript');\n        e.setAttribute('src',\n
-        \         ((\"https:\" == document.location.protocol) ? \"https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/\"
-        : \"http://static.chartbeat.com/\") +\n          \"js/chartbeat.js\");\n        document.body.appendChild(e);\n
-        \     }\n      var oldonload = window.onload;\n      window.onload = (typeof
-        window.onload != 'function') ?\n        loadChartbeat : function() { oldonload();
-        loadChartbeat(); };\n    })();\n  //]]>\n</script>\n\n\n<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js\"
-        type=\"text/javascript\"></script>\n<script>\n  //<![CDATA[\n    (function(){function
-        c(a){this.local_start_time=new Date;this.settings={cookie_name:\"request_time\"};for(var
-        b in a)this.settings[b]=a[b];this.get_remote_offset()}c.prototype.get_remote_offset=function(){this.cookie_value=this.read_cookie();var
-        a=new Date(this.cookie_value);if(!this.cookie_value||\"Invalid Date\"===a.toString()){if(this.remote_offset=this.read_cookie(\"local_offset\"))this.remote_offset=parseInt(this.remote_offset,10)}else
-        this.remote_offset=a-this.local_start_time;\"undefined\"!==typeof this.remote_offset&&
-        !isNaN(this.remote_offset)?(document.cookie=\"local_offset=\"+this.remote_offset+\";
-        path=/\",this.is_set=!0):this.is_set=!1};c.prototype.time_units=[[\"milliseconds\",1],[\"seconds\",1E3],[\"minutes\",6E4],[\"hours\",36E5],[\"days\",864E5]];c.prototype.get_units_in_interval=function(a,b){var
-        d=a.replace(/^\\w/,function(d){return\"get\"+d.toUpperCase()});return b[d]()};c.prototype.milliseconds_in_day=function(a){\"undefined\"===typeof
-        a&&(a=new Date);for(var b=0,d=this.time_units.length-2;0<=d;d--)b+=this.get_units_in_interval(this.time_units[d][0],
-        a)*this.time_units[d][1];return b};c.prototype.milliseconds_in_interval=function(a,b){return
-        this.milliseconds_in_day(b)%a};c.prototype.milliseconds_to_next_interval=function(a,b){return
-        a-this.milliseconds_in_interval(a,b)};c.prototype.pluralize=function(a,b){1===b&&(a=a.replace(/s$/,\"\"));return
-        a};c.prototype.read_cookie=function(a){for(var b=window.document.cookie.split(\";\"),a=(a||this.settings.cookie_name)+\"=\",d=0;d<b.length;d++){for(var
-        e=b[d];\" \"==e.charAt(0);)e=e.substring(1,e.length);if(0== e.indexOf(a))return
-        b=e.substring(a.length,e.length),decodeURIComponent(b).replace(/\\+/g,\" \")}return
-        null};c.prototype.destroy_cookie=function(a){var b=new Date;a||(a=this.settings.cookie_name);b.setTime(b.getTime()-864E5);window.document.cookie=a+\"=;
-        expires=\"+b.toGMTString()+\"; path=/\"};c.prototype.get_remote_time=function(){var
-        a=new Date,b=a.getTime()+this.remote_offset;return a=a.setTime(b)};window.ksr_page_clock=new
-        c})(); (function(){function c(d,a,b){if(d){this.options={unit_base:{seconds:119,minutes:119,hours:72,days:0},end_phrase:d.getAttribute(\"data-word\")||\"to
-        go\",count_down:d.getAttribute(\"data-dynamic\")||!1};for(k in b)this.options[k]=b[k];this.clock=a;this.time_units=this.clock.time_units.slice(1);this.element=d;this.clock.is_set&&this.attach()}}function
-        a(){this.elements=[];this.attach()}var b=function(d,a){var b=a||window.document.body,c=d.split(\".\"),g=c[c.length-1],c=1<c.length&&c[0]?c[0]:\"*\";if(window.document.getElementsByClassName)return
-        b.getElementsByClassName(g); if(b.querySelectorAll)return b.querySelectorAll(d);for(var
-        c=b.getElementsByTagName(c),h=[],i=0,f;f=c[i];i++)b=RegExp(\"(^|\\\\s)\"+g+\"(\\\\s|$)\"),(\"\"+f.className).match(b)&&h.push(f);return
-        h};c.prototype.get_remaining_time=function(){var d=this.remote_end_time-this.clock.get_remote_time();0>d&&(d=0);return
-        d};c.prototype.get_current_unit=function(){for(var d,a=0;a<this.time_units.length&&!(d=this.time_units[a],this.get_remaining_time()<=this.options.unit_base[d[0]]*d[1]);a++);return
-        d};c.prototype.update_element= function(){var a=this.get_current_unit(),b=Math.floor(this.get_remaining_time()/a[1]);isNaN(b)||(this.number_element.innerHTML=b,this.text_element.innerHTML=this.clock.pluralize(a[0],b)+\"
-        \"+this.options.end_phrase)};c.prototype.valid=function(){return!(!this.number_element||!this.text_element)};c.prototype.attach=function(){function
-        a(){c.update_element();if(c.options.count_down&&0<c.get_remaining_time()){var
-        b=c.get_current_unit();this.timeout=window.setTimeout(a,c.clock.milliseconds_to_next_interval(b[1]))}}
-        var c=this;if(this.remote_end_time_string=this.element.getAttribute(\"data-end_time\"))this.remote_end_time_string.match(/^\\d+$/)?(this.remote_end_time=new
-        Date,this.remote_end_time.setTime(this.remote_end_time_string)):this.remote_end_time=new
-        Date(this.remote_end_time_string),this.number_element=b(\".num\",this.element)[0],this.text_element=b(\".text\",this.element)[0],this.element.ksr_page_timer=!0,this.valid()&&a()};c.prototype.cancel=function(){this.timeout&&clearTimeout(this.timeout)};a.prototype.loading=
-        !0;a.prototype.stop_finding=function(){this.attach_timers();this.loading=!1;document.addEventListener?document.removeEventListener(\"DOMContentLoaded\",this.stop_finding,!1):document.attachEvent&&\"complete\"===document.readyState&&document.detachEvent(\"onreadystatechange\",this.stop_finding)};a.prototype.bind_ready=function(){var
-        a=this,b=function(){a.stop_finding.call(a)};document.addEventListener?(document.addEventListener(\"DOMContentLoaded\",b,!1),window.addEventListener(\"load\",b,!1)):document.attachEvent&&
-        (document.attachEvent(\"onreadystatechange\",b),window.attachEvent(\"onload\",b))};a.prototype.attach_timers=function(){for(var
-        a=b(\"div.ksr_page_timer\"),e=0;e<a.length;e++)a[e].ksr_page_timer||(new c(a[e],window.ksr_page_clock),this.elements.push(a[e]))};a.prototype.attach=function(){var
-        a=this;this.bind_ready();(function(){a.attach_timers();a.loading&&window.setTimeout(function(){a.attach_timers()},200)})()};window.ProjectTimer=c;new
-        a})();\n  //]]>\n</script>\n\n<script src=\"//d297h9he240fqh.cloudfront.net/cache-0eb66d56d/assets/base.js\"
-        type=\"text/javascript\"></script>\n<script>\n  //<![CDATA[\n    if (typeof(Zenbox)
-        !== \"undefined\") {\n      Zenbox.init({\n        dropboxID: 20104092,\n
-        \       tabID: \"support\",\n        hide_tab: true,\n        url: \"https://kickstarter.zendesk.com\",\n
-        \       requester_name: undefined,\n        requester_email: undefined\n      });\n
-        \   }\n  //]]>\n</script>\n\n<script>\n  //<![CDATA[\n    !function(d,s,id){var
-        js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"//platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");\n
-        \ //]]>\n</script>\n\n<script id=\"schwamm_formatting_options\" type=\"text/javascript\">\n//<![CDATA[\n(function(){window.formatters
-        = window.formatters || {}; var formatting_options = {\"distance_date_intervals\":[[5,\"just
-        now\"],[29,\"less than a minute ago\"],[89,\"1 minute ago\"],[2640,\"%m minutes
-        ago\"],[5340,\"about 1 hour ago\"],[82800,\"about %h hours ago\"],[147600,\"1
-        day ago\"],[604800,\"%d days ago\"],[15552000,\"on %t\"],[0,\"on %y\"]],\"currency_symbol_mappings\":{\"USD\":\"$\",\"GBP\":\"\\u00a3\"},\"currency_formats\":[\"money\",\"shorter_money\"]};
-        for (key in formatting_options) {window.formatters[key] = formatting_options[key]};}());\n//]]>\n</script>\n\n\n\n<div
-        id=\"fb-root\"></div>\n<script>\n  //<![CDATA[\n    var channelUrl = window.location.protocol
-        + \"//\" + window.location.host + \"/channel.html\";\n    \n    window.fbAsyncInit
-        = function() {\n      FB.init({\n        appId: '69103156693',\n        channelUrl:
-        channelUrl,\n        status: true,    // check login status\n        cookie:
-        true,    // enable cookies to allow the server to access the session\n        xfbml:
-        true,     // parse XFBML\n        logging: false   // turn off logging\n      });\n
-        \   \n      $(document).trigger('fb:loaded');\n    \n      var logout_from_fb
-        = $('body').is('.just_logged_out') || false;\n    \n      FB.Event.subscribe('auth.statusChange',
-        function(response) {\n        if (logout_from_fb) {\n          FB.logout(function()
-        {\n            logout_from_fb = false;\n          });\n        } else if (response.authResponse
-        && true && true && true && !FB.usingButton) {\n          $.get(\"http://www.kickstarter.com/fb/connect/verify?then=http%3A%2F%2Fwww.kickstarter.com%2Fprofile%2Fpennyarcade\",
-        {'fbsr': response.authResponse.signedRequest}, function() {});\n        }\n
-        \     });\n    \n    };\n    \n    \n    // Load the SDK Asynchronously\n
-        \   (function(d){\n      var js, id = 'facebook-jssdk'; if (d.getElementById(id))
-        {return;}\n      js = d.createElement('script'); js.id = id; js.async = true;\n
-        \     js.src = \"//connect.facebook.net/en_US/all.js\";\n      d.getElementsByTagName('head')[0].appendChild(js);\n
-        \   }(document));\n  //]]>\n</script>\n\n\n<script type=\"text/javascript\">if
-        (!NREUMQ.f) { NREUMQ.f=function() {\nNREUMQ.push([\"load\",new Date().getTime()]);\nvar
-        e=document.createElement(\"script\");\ne.type=\"text/javascript\";\ne.src=((\"http:\"===document.location.protocol)?\"http:\":\"https:\")
-        + \"//\" +\n  \"d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js\";\ndocument.body.appendChild(e);\nif(NREUMQ.a)NREUMQ.a();\n};\nNREUMQ.a=window.onload;window.onload=NREUMQ.f;\n};\nNREUMQ.push([\"nrfj\",\"beacon-3.newrelic.com\",\"b04b883ad2\",\"11086\",\"cFteRUULX1wHFhtNEVZGQx5EDFxH\",17,274,new
-        Date().getTime(),\"\",\"\",\"\",\"\",\"\"]);</script></body>\n</html>\n"
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PCFET0NUWVBFIGh0bWw+CjxodG1sIGNsYXNzPSJ1c2Vyc19zaG93IG5vLWpz
+        IGZvbnRmYWNlICIgbGFuZz0iZW4iIHhtbDpsYW5nPSJlbiIgeG1sbnM9Imh0
+        dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiPgo8aGVhZCBwcmVmaXg9Im9n
+        OiBodHRwOi8vb2dwLm1lL25zIyBmYjogaHR0cDovL29ncC5tZS9ucy9mYiMg
+        a2lja3N0YXJ0ZXI6IGh0dHA6Ly9vZ3AubWUvbnMvZmIva2lja3N0YXJ0ZXIj
+        Ij48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+dmFyIE5SRVVNUT1O
+        UkVVTVF8fFtdO05SRVVNUS5wdXNoKFsibWFyayIsImZpcnN0Ynl0ZSIsbmV3
+        IERhdGUoKS5nZXRUaW1lKCldKTs8L3NjcmlwdD48dGl0bGU+UGVubnkgQXJj
+        YWRlICZtZGFzaDsgS2lja3N0YXJ0ZXI8L3RpdGxlPjwhLS1baWYgbHQgSUUg
+        OV0+CiAgPHNjcmlwdCBzcmM9Ii8vaHRtbDVzaGltLmdvb2dsZWNvZGUuY29t
+        L3N2bi90cnVuay9odG1sNS5qcyIgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij48
+        L3NjcmlwdD4KPCFbZW5kaWZdLS0+CgoKPG1ldGEgY29udGVudD0idGV4dC9o
+        dG1sOyBjaGFyc2V0PXV0Zi04IiBodHRwLWVxdWl2PSJDb250ZW50LVR5cGUi
+        Pgo8bWV0YSBjb250ZW50PSJ0ZWxlcGhvbmU9bm8iIG5hbWU9ImZvcm1hdC1k
+        ZXRlY3Rpb24iPgo8bGluayBocmVmPSIvL2QyOTdoOWhlMjQwZnFoLmNsb3Vk
+        ZnJvbnQubmV0L2NhY2hlLTYwZDdhMGZjZC9mb250cy9mb250cy5jc3MiIG1l
+        ZGlhPSJzY3JlZW4iIHJlbD0ic3R5bGVzaGVldCIgdHlwZT0idGV4dC9jc3Mi
+        Pgo8IS0tW2lmICFJRV0+IC0tPgogIDxsaW5rIGhyZWY9Ii8vZDI5N2g5aGUy
+        NDBmcWguY2xvdWRmcm9udC5uZXQvY2FjaGUtNjBkN2EwZmNkL2Fzc2V0cy9i
+        YXNlLmNzcyIgbWVkaWE9InNjcmVlbiIgcmVsPSJzdHlsZXNoZWV0IiB0eXBl
+        PSJ0ZXh0L2NzcyIgLz4KPCEtLSA8IVtlbmRpZl0tLT4KPCEtLVtpZiBJRV0+
+        CiAgPGxpbmsgaHJlZj0iLy9kMjk3aDloZTI0MGZxaC5jbG91ZGZyb250Lm5l
+        dC9jYWNoZS02MGQ3YTBmY2Qvc3R5bGVzaGVldHMvYmxlc3NlZC5jc3MiIG1l
+        ZGlhPSJzY3JlZW4iIHJlbD0ic3R5bGVzaGVldCIgdHlwZT0idGV4dC9jc3Mi
+        IC8+CjwhW2VuZGlmXS0tPgoKCjwhLS1baWYgbHRlIElFIDhdPgogIDxsaW5r
+        IGhyZWY9Ii8vZDI5N2g5aGUyNDBmcWguY2xvdWRmcm9udC5uZXQvY2FjaGUt
+        NjBkN2EwZmNkL3N0eWxlc2hlZXRzL2NvbXBhc3MvbGlicmFyeS9pZTguY3Nz
+        IiBtZWRpYT0ic2NyZWVuIiByZWw9InN0eWxlc2hlZXQiIHR5cGU9InRleHQv
+        Y3NzIiAvPgo8IVtlbmRpZl0tLT4KPCEtLVtpZiBsdGUgSUUgN10+CiAgPGxp
+        bmsgaHJlZj0iLy9kMjk3aDloZTI0MGZxaC5jbG91ZGZyb250Lm5ldC9jYWNo
+        ZS02MGQ3YTBmY2Qvc3R5bGVzaGVldHMvY29tcGFzcy9saWJyYXJ5L2llLmNz
+        cyIgbWVkaWE9InNjcmVlbiIgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0
+        L2NzcyIgLz4KICA8bGluayBocmVmPSIvL2QyOTdoOWhlMjQwZnFoLmNsb3Vk
+        ZnJvbnQubmV0L2NhY2hlLTYwZDdhMGZjZC9hc3NldHMvaWVfc2V2ZW4uY3Nz
+        IiBtZWRpYT0ic2NyZWVuIiByZWw9InN0eWxlc2hlZXQiIHR5cGU9InRleHQv
+        Y3NzIiAvPgo8IVtlbmRpZl0tLT4KPCEtLVtpZiBJRSA2XT4KICA8bGluayBo
+        cmVmPSIvL2QyOTdoOWhlMjQwZnFoLmNsb3VkZnJvbnQubmV0L2NhY2hlLTYw
+        ZDdhMGZjZC9hc3NldHMvaWVfc2l4LmNzcyIgbWVkaWE9InNjcmVlbiIgcmVs
+        PSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgLz4KPCFbZW5kaWZdLS0+
+        CgoKPGxpbmsgaHJlZj0iLy9kMjk3aDloZTI0MGZxaC5jbG91ZGZyb250Lm5l
+        dC9jYWNoZS02MGQ3YTBmY2QvYXNzZXRzL3ByaW50LmNzcyIgbWVkaWE9InBy
+        aW50IiByZWw9InN0eWxlc2hlZXQiIHR5cGU9InRleHQvY3NzIiAvPgo8bGlu
+        ayBocmVmPSIvL2QyOTdoOWhlMjQwZnFoLmNsb3VkZnJvbnQubmV0L2NhY2hl
+        LTYwZDdhMGZjZC9mYXZpY29uLnBuZyIgcmVsPSJpY29uIiB0eXBlPSJpbWFn
+        ZS9wbmciPgo8bGluayBocmVmPSIvL2QyOTdoOWhlMjQwZnFoLmNsb3VkZnJv
+        bnQubmV0L2NhY2hlLTYwZDdhMGZjZC9hcHBsZS10b3VjaC1pY29uLXByZWNv
+        bXBvc2VkLnBuZyIgcmVsPSJhcHBsZS10b3VjaC1pY29uLXByZWNvbXBvc2Vk
+        IiB0eXBlPSJpbWFnZS9wbmciPgo8bGluayBocmVmPSIvL2QyOTdoOWhlMjQw
+        ZnFoLmNsb3VkZnJvbnQubmV0L2NhY2hlLTYwZDdhMGZjZC9hcHBsZS10b3Vj
+        aC1pY29uLWlwYWQtcHJlY29tcG9zZWQucG5nIiByZWw9ImFwcGxlLXRvdWNo
+        LWljb24tcHJlY29tcG9zZWQiIHNpemVzPSI3Mng3MiIgdHlwZT0iaW1hZ2Uv
+        cG5nIj4KPGxpbmsgaHJlZj0iLy9kMjk3aDloZTI0MGZxaC5jbG91ZGZyb250
+        Lm5ldC9jYWNoZS02MGQ3YTBmY2QvYXBwbGUtdG91Y2gtaWNvbi1pcGhvbmU0
+        LXByZWNvbXBvc2VkLnBuZyIgcmVsPSJhcHBsZS10b3VjaC1pY29uLXByZWNv
+        bXBvc2VkIiBzaXplcz0iMTE0eDExNCIgdHlwZT0iaW1hZ2UvcG5nIj4KCjxt
+        ZXRhIG5hbWU9InJvYm90cyIgY29udGVudD0ibm9pbmRleCwgZm9sbG93Ii8+
+        CjxtZXRhIHByb3BlcnR5PSJvZzp1cmwiIGNvbnRlbnQ9Imh0dHA6Ly93d3cu
+        a2lja3N0YXJ0ZXIuY29tL3Byb2ZpbGUvcGVubnlhcmNhZGUiLz4KPG1ldGEg
+        cHJvcGVydHk9Im9nOnRpdGxlIiBjb250ZW50PSJQZW5ueSBBcmNhZGUiLz4K
+        PG1ldGEgcHJvcGVydHk9Im9nOmltYWdlIiBjb250ZW50PSJodHRwczovL3Mz
+        LmFtYXpvbmF3cy5jb20va3NyL2F2YXRhcnMvMzI2NTk2MC9JTUdfNDE0Ml9t
+        aWQubGFyZ2UuanBnPzEzNDE4MTAxMTUiLz4KPG1ldGEgcHJvcGVydHk9Imtp
+        Y2tzdGFydGVyOm5hbWUiIGNvbnRlbnQ9IlBlbm55IEFyY2FkZSIvPgo8bWV0
+        YSBwcm9wZXJ0eT0ia2lja3N0YXJ0ZXI6am9pbmVkIiBjb250ZW50PSIyMDEy
+        LTA3LTA0IDE5OjEzOjM5IC0wNDAwIi8+CjxtZXRhIHByb3BlcnR5PSJvZzp0
+        eXBlIiBjb250ZW50PSJraWNrc3RhcnRlcjpjcmVhdG9yIi8+CjxtZXRhIHBy
+        b3BlcnR5PSJraWNrc3RhcnRlcjpwcm9qZWN0c2xhdW5jaGVkIiBjb250ZW50
+        PSIxIi8+CjxtZXRhIHByb3BlcnR5PSJvZzpkZXNjcmlwdGlvbiIgY29udGVu
+        dD0iV2UmI3gyNztyZSBQZW5ueSBBcmNhZGUhIEFsbCBvZiB0aGUgdGhpbmdz
+        IHdlIGRvIGNhbiBiZSBmb3VuZCBvbiBvdXIgd2Vic2l0ZS4iLz4KPG1ldGEg
+        cHJvcGVydHk9Im9nOnNpdGVfbmFtZSIgY29udGVudD0iS2lja3N0YXJ0ZXIi
+        Lz4KPG1ldGEgcHJvcGVydHk9ImZiOmFwcF9pZCIgY29udGVudD0iNjkxMDMx
+        NTY2OTMiLz4KPG1ldGEgY29udGVudD0iYXV0aGVudGljaXR5X3Rva2VuIiBu
+        YW1lPSJjc3JmLXBhcmFtIiAvPgo8bWV0YSBjb250ZW50PSI5VW5qMXk3TDBz
+        Q0RWYW1kTGdIV1J2QkpPNWVGTWlKRk5qQmthUHJXQXZ3PSIgbmFtZT0iY3Ny
+        Zi10b2tlbiIgLz4KCjxzY3JpcHQ+CiAgLy88IVtDREFUQVsKICAgIHZhciBf
+        c2Zfc3RhcnRwdD0obmV3IERhdGUoKSkuZ2V0VGltZSgpOwogICAgZG9jRWxl
+        bWVudCA9IHRoaXMuZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50OwogICAgZG9j
+        RWxlbWVudC5jbGFzc05hbWU9ZG9jRWxlbWVudC5jbGFzc05hbWUucmVwbGFj
+        ZSgvXGJuby1qc1xiLywnJykgKyAnanMnOwogIC8vXV0+Cjwvc2NyaXB0Pgo8
+        c2NyaXB0PgogIC8vPCFbQ0RBVEFbCiAgICBmdW5jdGlvbiB0aW1lUmVtYWlu
+        aW5nKGVwb2NoVGltZSl7CiAgICAKICAgICAgdmFyIGRpZmYgPSBlcG9jaFRp
+        bWUgLSAoKG5ldyBEYXRlKCkpLmdldFRpbWUoKSAvIDEwMDApOwogICAgICB2
+        YXIgbnVtX3VuaXQgPSAoZGlmZiA8IDYwICYmIFtNYXRoLm1heChkaWZmLCAw
+        KSwgJ3NlY29uZHMnXSkgfHwKICAgICAgICAoKGRpZmYvPTYwKSA8IDYwICYm
+        IFtkaWZmLCAnbWludXRlcyddKSB8fAogICAgICAgICgoZGlmZi89NjApIDwg
+        NzIgJiYgW2RpZmYsICdob3VycyddKSB8fAogICAgICAgIFtkaWZmLz0yNCwg
+        J2RheXMnXTsKICAgIAogICAgICAvLyBSb3VuZCBkb3duCiAgICAgIG51bV91
+        bml0WzBdID0gTWF0aC5mbG9vcihudW1fdW5pdFswXSk7CiAgICAgIC8vIFNp
+        bmd1bGFyaXplIHVuaXQKICAgICAgaWYgKG51bV91bml0WzBdID09IDEpIHsg
+        bnVtX3VuaXRbMV0gPSBudW1fdW5pdFsxXS5yZXBsYWNlKC9zJC8sIiIpOyB9
+        CiAgICAKICAgICAgcmV0dXJuIG51bV91bml0OwogICAgfTsKICAvL11dPgo8
+        L3NjcmlwdD4KPC9oZWFkPgoKPGJvZHkgY2xhc3M9InByb2ZpbGUgdXNlcnMg
+        bm90LW1vYmlsZSBub3QtdG91Y2hhYmxlIiBpZD0idXNlcnNfc2hvdyI+Cjxk
+        aXYgY2xhc3M9ImpHcm93bCBjZW50ZXIiIGlkPSJncm93bF9zZWN0aW9uIj48
+        L2Rpdj4KPGRpdiBpZD0iaXBob25lX3RvdXQiPgo8YSBocmVmPSIvbW9iaWxl
+        Ij48c3BhbiBjbGFzcz0ic3MtaWNvbiBzcy1jZWxsIj48L3NwYW4+CldlJ3Zl
+        IGxhdW5jaGVkIGFuIGV4Y2l0aW5nIG5ldyBwcm9qZWN0IG9mIG91ciBvd24h
+        IEludHJvZHVjaW5nIHRoZSBLaWNrc3RhcnRlciBhcHAgZm9yIGlQaG9uZSEK
+        PC9hPjxkaXYgY2xhc3M9ImNsb3NlX3RvdXQgY2xvc2UiPgo8c3BhbiBjbGFz
+        cz0ic3MtaWNvbiBzcy1kZWxldGUiPjwvc3Bhbj4KPC9kaXY+CjwvZGl2Pgo8
+        ZGl2IGlkPSJoZWFkZXItd3JhcCI+CjxkaXYgY2xhc3M9ImNvbnRhaW5lciIg
+        aWQ9ImhlYWRlciI+CjxoMSBpZD0ibG9nbyI+CjxhIGhyZWY9Ii8iPjxzcGFu
+        PktpY2tzdGFydGVyPC9zcGFuPgo8L2E+PC9oMT4KPGEgaHJlZj0iL2hlbHAv
+        ZmFxL2tpY2tzdGFydGVyK2Jhc2ljcz9yZWY9bmF2IiBpZD0id2hhdF9pc19r
+        aWNrc3RhcnRlcl9saW5rIj5XaGF0IGlzIEtpY2tzdGFydGVyPzwvYT4KPHVs
+        IGlkPSJtZW51LW1haW4iPgo8bGkgaWQ9Im1lbnUtbWFpbi1kaXNjb3ZlciI+
+        CjxhIGhyZWY9Ii9kaXNjb3ZlciI+PHN0cm9uZz5EaXNjb3Zlcjwvc3Ryb25n
+        Pgo8c3Bhbj5ncmVhdCBwcm9qZWN0czwvc3Bhbj4KPC9hPjwvbGk+CjxsaSBp
+        ZD0ibWVudS1tYWluLWZ1bmQiPgo8YSBocmVmPSIvc3RhcnQiPjxzdHJvbmc+
+        U3RhcnQ8L3N0cm9uZz4KPHNwYW4+eW91ciBwcm9qZWN0PC9zcGFuPgo8L2E+
+        PC9saT4KPC91bD4KPGZvcm0gYWNjZXB0LWNoYXJzZXQ9IlVURi04IiBhY3Rp
+        b249Ii9wcm9qZWN0cy9zZWFyY2giIGNsYXNzPSJzZWFyY2ggb3ZlcmxhYmVs
+        cyIgbWV0aG9kPSJnZXQiPjxkaXYgc3R5bGU9Im1hcmdpbjowO3BhZGRpbmc6
+        MDtkaXNwbGF5OmlubGluZSI+PGlucHV0IGNsYXNzPSJoaWRkZW4iIG5hbWU9
+        InV0ZjgiIHR5cGU9ImhpZGRlbiIgdmFsdWU9IiYjeDI3MTM7IiAvPjwvZGl2
+        Pgo8ZGl2IGNsYXNzPSJmaWVsZCBzZWFyY2giPgo8c3BhbiBjbGFzcz0iaWNv
+        bi1zZWFyY2giPjwvc3Bhbj4KPHNwYW4gY2xhc3M9Imljb24tc2VhcmNoLWNs
+        ZWFyIj48L3NwYW4+CjxsYWJlbCBjbGFzcz0ib3ZlcmxhYmVsIG92ZXJsYWJl
+        bC1zZWFyY2giPlNlYXJjaCBwcm9qZWN0czwvbGFiZWw+CjxpbnB1dCBjbGFz
+        cz0iaW5wdXQtc2VhcmNoIGhlYWRlciB0ZXh0IiBkYXRhLXRyYWNrZXItbmFt
+        ZT0iSGVhZGVyIExpdmUgU2VhcmNoIiBpZD0idGVybSIgbmFtZT0idGVybSIg
+        dHlwZT0idGV4dCIgLz4KPHNwYW4gY2xhc3M9Imljb24tc2VhcmNoLW5pcHBs
+        ZSI+PC9zcGFuPgo8L2Rpdj4KPC9mb3JtPgoKPHVsIGlkPSJtZW51LXN1YiI+
+        CjxsaSBpZD0ibWVudS1zdWItaGVscCI+PGEgaHJlZj0iL2hlbHAiPkhlbHA8
+        L2E+PC9saT4KPGxpPjxhIGhyZWY9Imh0dHBzOi8vd3d3LmtpY2tzdGFydGVy
+        LmNvbS9zaWdudXAiPlNpZ24gdXA8L2E+PC9saT4KPGxpPjxhIGhyZWY9Imh0
+        dHBzOi8vd3d3LmtpY2tzdGFydGVyLmNvbS9sb2dpbiI+TG9nIGluPC9hPjwv
+        bGk+CjwvdWw+CjwvZGl2Pgo8L2Rpdj4KPGRpdiBpZD0ic2VhcmNoX3Jlc3Vs
+        dHMtd3JhcCI+CjxkaXYgaWQ9InNlYXJjaF9yZXN1bHRzLXNoYWRvdyI+Cjxk
+        aXYgaWQ9InNlYXJjaF9yZXN1bHRzLWlubmVyX3dyYXAiPgo8ZGl2IGNsYXNz
+        PSJjb250YWluZXIiIGlkPSJzZWFyY2hfcmVzdWx0cyI+CjxhIGNsYXNzPSJj
+        bG9zZSI+PHNwYW4gY2xhc3M9Imljb24teCI+PC9zcGFuPjwvYT4KPGgyIGNs
+        YXNzPSJoZWFkZXIiPjwvaDI+CjxkaXYgaWQ9InNlYXJjaF9yZXN1bHRzX3Bh
+        bmVsIj48L2Rpdj4KPHAgY2xhc3M9ImZvb3RlciI+PC9wPgo8YSBjbGFzcz0i
+        cHJldiBhcnJvdyI+CjxzcGFuIGNsYXNzPSJpY29uLXNlYXJjaC1sZWZ0Ij48
+        L3NwYW4+CjxzdHJvbmc+UHJldmlvdXM8L3N0cm9uZz4KPC9hPgo8YSBjbGFz
+        cz0ibmV4dCBhcnJvdyI+CjxzcGFuIGNsYXNzPSJpY29uLXNlYXJjaC1yaWdo
+        dCI+PC9zcGFuPgo8c3Ryb25nPk5leHQ8L3N0cm9uZz4KPC9hPgo8L2Rpdj4K
+        PC9kaXY+CjwvZGl2Pgo8L2Rpdj4KCgoKPGRpdiBpZD0ibWFpbl9jb250ZW50
+        Ij4KPGRpdiBpZD0iaG92ZXJfbGFiZWwiPjwvZGl2Pgo8ZGl2IGlkPSJydW5u
+        aW5nLWJvYXJkLXdyYXAiPgo8ZGl2IGNsYXNzPSJjb250YWluZXIiIGlkPSJy
+        dW5uaW5nLWJvYXJkIj4KPGRpdiBjbGFzcz0iTlNfdXNlcnNfX3Byb2ZpbGUi
+        Pgo8ZGl2IGNsYXNzPSJjcmVhdG9yIiBpZD0icHJvZmlsZV9hdmF0YXIiPgo8
+        aW1nIGFsdD0iSW1nXzQxNDJfbWlkLmxhcmdlIiBjbGFzcz0iYXZhdGFyLWxh
+        cmdlIiBoZWlnaHQ9IjIyMCIgc3JjPSJodHRwczovL3MzLmFtYXpvbmF3cy5j
+        b20va3NyL2F2YXRhcnMvMzI2NTk2MC9JTUdfNDE0Ml9taWQubGFyZ2UuanBn
+        PzEzNDE4MTAxMTUiIHdpZHRoPSIyMjAiIC8+CjwvZGl2Pgo8ZGl2IGNsYXNz
+        PSJjcmVhdG9yIiBpZD0icHJvZmlsZV9iaW8iPgo8aDI+ClBlbm55IEFyY2Fk
+        ZQo8c3BhbiBjbGFzcz0iY3JlYXRvcl90YWcgaGlnaGxpZ2h0Ij5DcmVhdG9y
+        ITwvc3Bhbj4KPC9oMj4KPHAgY2xhc3M9Im5vcm1hbF90eXBlIj4KPHNwYW4g
+        Y2xhc3M9ImJhY2tlZCI+CkJhY2tlZAo0CnByb2plY3RzCjwvc3Bhbj4KPHNw
+        YW4gY2xhc3M9ImRpdmlkZXIiPgombWlkZG90Owo8L3NwYW4+CjxzcGFuIGNs
+        YXNzPSJsb2NhdGlvbiI+U2VhdHRsZSwgV0E8L3NwYW4+CjxzcGFuIGNsYXNz
+        PSJkaXZpZGVyIj4KJm1pZGRvdDsKPC9zcGFuPgo8c3BhbiBjbGFzcz0iam9p
+        bmVkIj4KSm9pbmVkCkp1bHkgMjAxMgo8L3NwYW4+CjwvcD4KPGRpdiBjbGFz
+        cz0iYmlvIj4KPHA+CldlJiN4Mjc7cmUgUGVubnkgQXJjYWRlISBBbGwgb2Yg
+        dGhlIHRoaW5ncyB3ZSBkbyBjYW4gYmUgZm91bmQgb24gb3VyIHdlYnNpdGUu
+        CjxhIGhyZWY9Ii9wcm9maWxlcy9wZW5ueWFyY2FkZS9iaW8iIGNsYXNzPSJy
+        ZW1vdGVfbW9kYWxfZGlhbG9nIj5TZWUgZnVsbCBiaW8gJmFtcDsgbGlua3M8
+        L2E+CjwvcD4KPC9kaXY+CjxkaXYgY2xhc3M9InByb2ZpbGVfY3JlYXRlZF9w
+        cm9qZWN0cyI+CjxhIGNsYXNzPSJwcm9qZWN0X2l0ZW0iIGhyZWY9Ii9wcm9q
+        ZWN0cy9wZW5ueWFyY2FkZS9wZW5ueS1hcmNhZGUtc2VsbHMtb3V0Ij4KPGRp
+        diBjbGFzcz0icHJvamVjdF90aHVtYm5haWwiPgo8aW1nIGFsdD0iUGhvdG8t
+        c21hbGwiIGhlaWdodD0iNzUiIHNyYz0iaHR0cHM6Ly9zMy5hbWF6b25hd3Mu
+        Y29tL2tzci9wcm9qZWN0cy8yNDQxMDcvcGhvdG8tc21hbGwuanBnPzEzNDE4
+        NzQ1NDMiIHdpZHRoPSIxMDAiIC8+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJ0ZXh0
+        Ij4KPGRpdiBjbGFzcz0icHJvamVjdF9uYW1lIj5QZW5ueSBBcmNhZGUgU2Vs
+        bHMgT3V0PC9kaXY+CjxkaXYgY2xhc3M9InByb2plY3RfbnVtYmVyIj4KYnkK
+        UGVubnkgQXJjYWRlCjxzcGFuIGNsYXNzPSJkaXZpZGVyIj4mbWlkZG90Ozwv
+        c3Bhbj4KMXN0CnByb2plY3QKPC9kaXY+CjxkaXYgY2xhc3M9InByb2plY3Rf
+        c3RhdHVzIHN1Y2Nlc3NmdWwiPgpTdWNjZXNzZnVsbHkgZnVuZGVkIG9uCkF1
+        Zy4gMTUsIDIwMTIKPC9kaXY+CjwvZGl2Pgo8L2E+CjwvZGl2PgoKPC9kaXY+
+        CjxkaXYgY2xhc3M9IiIgaWQ9ImNhdGVnb3J5X2NpcmNsZSI+CjxkaXYgaWQ9
+        ImhhbGZfY2lyY2xlX2JvcmRlciI+PC9kaXY+CjxkaXYgaWQ9ImhhbGZfY2ly
+        Y2xlIj48L2Rpdj4KPGRpdiBpZD0ic21hbGxfY2lyY2xlIj4KPHNjcmlwdCB0
+        eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPgovLzwhW0NEQVRBWwp2YXIgY29sb3Jf
+        bWFwID0gWyJyZ2JhKDAsMCwwLDAuMCkiLCJyZ2JhKDAsMCwwLDAuMCkiLCJy
+        Z2JhKDAsMCwwLDAuMCkiLCJyZ2JhKDAsMCwwLDAuMCkiLCJyZ2JhKDAsMCww
+        LDAuMCkiLCJyZ2JhKDIzNSw4OSw5MywgMSkiLCJyZ2JhKDAsMCwwLDAuMCki
+        LCJyZ2JhKDE2OCw3OCwxNjEsIDEpIiwicmdiYSgxMTYsOTYsMTYzLCAxKSIs
+        InJnYmEoMCwwLDAsMC4wKSIsInJnYmEoMCwwLDAsMC4wKSIsInJnYmEoMCww
+        LDAsMC4wKSIsInJnYmEoMCwwLDAsMC4wKSJdO3ZhciBjaXJjbGVfZGF0YSA9
+        IFt7ImNhdGVnb3J5X2lkIjoxLCJsYWJlbCI6IkFydCIsInByb2plY3RzX2Jh
+        Y2tlZCI6MCwiY29sb3IiOiJyZ2JhKDAsMCwwLDAuMCkiLCJwYXRoIjoiL3By
+        b2ZpbGUvcGVubnlhcmNhZGU/Y2F0ZWdvcnlfaWQ9MSZyZWY9d2hlZWwiLCJk
+        YXRhIjoxfSx7ImNhdGVnb3J5X2lkIjozLCJsYWJlbCI6IkNvbWljcyIsInBy
+        b2plY3RzX2JhY2tlZCI6MCwiY29sb3IiOiJyZ2JhKDAsMCwwLDAuMCkiLCJw
+        YXRoIjoiL3Byb2ZpbGUvcGVubnlhcmNhZGU/Y2F0ZWdvcnlfaWQ9MyZyZWY9
+        d2hlZWwiLCJkYXRhIjoxfSx7ImNhdGVnb3J5X2lkIjo2LCJsYWJlbCI6IkRh
+        bmNlIiwicHJvamVjdHNfYmFja2VkIjowLCJjb2xvciI6InJnYmEoMCwwLDAs
+        MC4wKSIsInBhdGgiOiIvcHJvZmlsZS9wZW5ueWFyY2FkZT9jYXRlZ29yeV9p
+        ZD02JnJlZj13aGVlbCIsImRhdGEiOjF9LHsiY2F0ZWdvcnlfaWQiOjcsImxh
+        YmVsIjoiRGVzaWduIiwicHJvamVjdHNfYmFja2VkIjowLCJjb2xvciI6InJn
+        YmEoMCwwLDAsMC4wKSIsInBhdGgiOiIvcHJvZmlsZS9wZW5ueWFyY2FkZT9j
+        YXRlZ29yeV9pZD03JnJlZj13aGVlbCIsImRhdGEiOjF9LHsiY2F0ZWdvcnlf
+        aWQiOjksImxhYmVsIjoiRmFzaGlvbiIsInByb2plY3RzX2JhY2tlZCI6MCwi
+        Y29sb3IiOiJyZ2JhKDAsMCwwLDAuMCkiLCJwYXRoIjoiL3Byb2ZpbGUvcGVu
+        bnlhcmNhZGU/Y2F0ZWdvcnlfaWQ9OSZyZWY9d2hlZWwiLCJkYXRhIjoxfSx7
+        ImNhdGVnb3J5X2lkIjoxMSwibGFiZWwiOiJGaWxtICYgVmlkZW8iLCJwcm9q
+        ZWN0c19iYWNrZWQiOjEsImNvbG9yIjoicmdiYSgyMzUsODksOTMsIDEpIiwi
+        cGF0aCI6Ii9wcm9maWxlL3Blbm55YXJjYWRlP2NhdGVnb3J5X2lkPTExJnJl
+        Zj13aGVlbCIsImRhdGEiOjF9LHsiY2F0ZWdvcnlfaWQiOjEwLCJsYWJlbCI6
+        IkZvb2QiLCJwcm9qZWN0c19iYWNrZWQiOjAsImNvbG9yIjoicmdiYSgwLDAs
+        MCwwLjApIiwicGF0aCI6Ii9wcm9maWxlL3Blbm55YXJjYWRlP2NhdGVnb3J5
+        X2lkPTEwJnJlZj13aGVlbCIsImRhdGEiOjF9LHsiY2F0ZWdvcnlfaWQiOjEy
+        LCJsYWJlbCI6IkdhbWVzIiwicHJvamVjdHNfYmFja2VkIjoyLCJjb2xvciI6
+        InJnYmEoMTY4LDc4LDE2MSwgMSkiLCJwYXRoIjoiL3Byb2ZpbGUvcGVubnlh
+        cmNhZGU/Y2F0ZWdvcnlfaWQ9MTImcmVmPXdoZWVsIiwiZGF0YSI6MX0seyJj
+        YXRlZ29yeV9pZCI6MTQsImxhYmVsIjoiTXVzaWMiLCJwcm9qZWN0c19iYWNr
+        ZWQiOjEsImNvbG9yIjoicmdiYSgxMTYsOTYsMTYzLCAxKSIsInBhdGgiOiIv
+        cHJvZmlsZS9wZW5ueWFyY2FkZT9jYXRlZ29yeV9pZD0xNCZyZWY9d2hlZWwi
+        LCJkYXRhIjoxfSx7ImNhdGVnb3J5X2lkIjoxNSwibGFiZWwiOiJQaG90b2dy
+        YXBoeSIsInByb2plY3RzX2JhY2tlZCI6MCwiY29sb3IiOiJyZ2JhKDAsMCww
+        LDAuMCkiLCJwYXRoIjoiL3Byb2ZpbGUvcGVubnlhcmNhZGU/Y2F0ZWdvcnlf
+        aWQ9MTUmcmVmPXdoZWVsIiwiZGF0YSI6MX0seyJjYXRlZ29yeV9pZCI6MTgs
+        ImxhYmVsIjoiUHVibGlzaGluZyIsInByb2plY3RzX2JhY2tlZCI6MCwiY29s
+        b3IiOiJyZ2JhKDAsMCwwLDAuMCkiLCJwYXRoIjoiL3Byb2ZpbGUvcGVubnlh
+        cmNhZGU/Y2F0ZWdvcnlfaWQ9MTgmcmVmPXdoZWVsIiwiZGF0YSI6MX0seyJj
+        YXRlZ29yeV9pZCI6MTYsImxhYmVsIjoiVGVjaG5vbG9neSIsInByb2plY3Rz
+        X2JhY2tlZCI6MCwiY29sb3IiOiJyZ2JhKDAsMCwwLDAuMCkiLCJwYXRoIjoi
+        L3Byb2ZpbGUvcGVubnlhcmNhZGU/Y2F0ZWdvcnlfaWQ9MTYmcmVmPXdoZWVs
+        IiwiZGF0YSI6MX0seyJjYXRlZ29yeV9pZCI6MTcsImxhYmVsIjoiVGhlYXRl
+        ciIsInByb2plY3RzX2JhY2tlZCI6MCwiY29sb3IiOiJyZ2JhKDAsMCwwLDAu
+        MCkiLCJwYXRoIjoiL3Byb2ZpbGUvcGVubnlhcmNhZGU/Y2F0ZWdvcnlfaWQ9
+        MTcmcmVmPXdoZWVsIiwiZGF0YSI6MX1dOwovL11dPgo8L3NjcmlwdD4KPC9k
+        aXY+CjwvZGl2Pgo8L2Rpdj4KCjwvZGl2Pgo8L2Rpdj4KPGRpdiBpZD0iY29u
+        dGVudC13cmFwIj4KPGRpdiBjbGFzcz0iY29udGFpbmVyIiBpZD0iY29udGVu
+        dCI+CjxkaXYgaWQ9Im1haW4iPgo8dWwgaWQ9InByb2plY3RfbmF2Ij4KPGxp
+        IGNsYXNzPSJzZWxlY3RlZCI+CjxhIGhyZWY9Ii9wcm9maWxlL3Blbm55YXJj
+        YWRlIiBpZD0ibGlzdF90aXRsZSI+PHNwYW4gY2xhc3M9InRleHQiPkJhY2tl
+        ZDwvc3Bhbj4KPHNwYW4gY2xhc3M9ImNvdW50Ij48c3BhbiBjbGFzcz0icGFy
+        ZW50aGVzZXMiPig8L3NwYW4+NDxzcGFuIGNsYXNzPSJwYXJlbnRoZXNlcyI+
+        KTwvc3Bhbj48L3NwYW4+CjwvYT48L2xpPgo8bGk+CjxhIGhyZWY9Ii9wcm9m
+        aWxlL3Blbm55YXJjYWRlL2NyZWF0ZWQiPjxzcGFuIGNsYXNzPSJ0ZXh0Ij5D
+        cmVhdGVkPC9zcGFuPgo8c3BhbiBjbGFzcz0iY291bnQiPjxzcGFuIGNsYXNz
+        PSJwYXJlbnRoZXNlcyI+KDwvc3Bhbj4xPHNwYW4gY2xhc3M9InBhcmVudGhl
+        c2VzIj4pPC9zcGFuPjwvc3Bhbj4KPC9hPjwvbGk+CjxsaT4KPGEgaHJlZj0i
+        L3Byb2ZpbGUvcGVubnlhcmNhZGUvY29tbWVudHMiPjxzcGFuIGNsYXNzPSJ0
+        ZXh0Ij5Db21tZW50czwvc3Bhbj4KPHNwYW4gY2xhc3M9ImNvdW50Ij48c3Bh
+        biBjbGFzcz0icGFyZW50aGVzZXMiPig8L3NwYW4+MzQ8c3BhbiBjbGFzcz0i
+        cGFyZW50aGVzZXMiPik8L3NwYW4+PC9zcGFuPgo8L2E+PC9saT4KPC91bD4K
+        PGRpdiBpZD0icHJvZmlsZV9wcm9qZWN0c19saXN0Ij4KPGRpdiBpZD0ibGlz
+        dCI+CjxkaXYgY2xhc3M9Im1vYml1c19wYWdlIj4KPGRpdiBjbGFzcz0ibWlz
+        c2luZyIgc3R5bGU9ImRpc3BsYXk6IG5vbmUiPgo8ZGl2IGNsYXNzPSJsb2Fk
+        X21vcmUiPgo8YSBocmVmPSIjIiBjbGFzcz0ibG9hZF9tb3JlIGJ1dHRvbiI+
+        TG9hZCBNb3JlPC9hPgo8L2Rpdj4KPC9kaXY+Cjx1bCBjbGFzcz0ibW9iaXVz
+        Ij4KPGxpIGNsYXNzPSJwYWdlIiBkYXRhLWxhc3RfcGFnZT0idHJ1ZSIgZGF0
+        YS1wYWdlX251bWJlcj0iMSI+CjxhIGhyZWY9Ii9wcm9qZWN0cy9sb25lc2hh
+        cmsvdGhlLW1hemUtb2YtZ2FtZXMtYW4taW50ZXJhY3RpdmUtcHV6emxlLW5v
+        dmVsIiBjbGFzcz0icHJvamVjdF9pdGVtIj48ZGl2IGNsYXNzPSJwcm9qZWN0
+        X2Rlc2NyaXB0aW9uIiBzdHlsZT0iYmFja2dyb3VuZDogcmdiYSgxNjgsNzgs
+        MTYxLCAxKSI+CjxwPkFuIGludGVyYWN0aXZlIHB1enpsZSBub3ZlbCB3cml0
+        dGVuIGJ5IE1pa2UgU2VsaW5rZXIsIHdpdGggZW5jaGFudGluZyBpbGx1c3Ry
+        YXRpb25zIGJ5IFBldGUgVmVudGVycy48L3A+CjwvZGl2Pgo8ZGl2IGNsYXNz
+        PSJwcm9qZWN0X3RodW1ibmFpbCI+CjxpbWcgYWx0PSJQaG90by1jYXJvdXNl
+        bCIgc3JjPSJodHRwczovL3MzLmFtYXpvbmF3cy5jb20va3NyL3Byb2plY3Rz
+        LzQyNjQ3MC9waG90by1jYXJvdXNlbC5qcGc/MTM1ODkxNDU0NyIgLz4KPC9k
+        aXY+CjxkaXYgY2xhc3M9InByb2plY3RfbmFtZSI+ClRoZSBNYXplIG9mIEdh
+        bWVzOiBBbiBJbnRlcmFjdGl2ZSBQdXp6bGUgTm92ZWwKPC9kaXY+CjwvYT48
+        YSBocmVmPSIvcHJvamVjdHMva2lkY2FuZHJpdmUvbGVkby1hbmQtaXgtc2Vh
+        c29uLTIiIGNsYXNzPSJwcm9qZWN0X2l0ZW0iPjxkaXYgY2xhc3M9InByb2pl
+        Y3RfZGVzY3JpcHRpb24iIHN0eWxlPSJiYWNrZ3JvdW5kOiByZ2JhKDIzNSw4
+        OSw5MywgMSkiPgo8cD5UaGUgc2Vjb25kIHNlYXNvbiBpbiB0aGUgYW5pbWF0
+        ZWQgd2ViIHNlcmllcyBhYm91dCB0d28gaXR0eS1iaXR0eSBjaGFyYWN0ZXJz
+        IGluIGFuIG9sZC1zY2hvb2wgTmludGVuZG8gZ2FtZS48L3A+CjwvZGl2Pgo8
+        ZGl2IGNsYXNzPSJwcm9qZWN0X3RodW1ibmFpbCI+CjxpbWcgYWx0PSJQaG90
+        by1jYXJvdXNlbCIgc3JjPSJodHRwczovL3MzLmFtYXpvbmF3cy5jb20va3Ny
+        L3Byb2plY3RzLzU5ODIwL3Bob3RvLWNhcm91c2VsLmpwZz8xMzIyMjU5NjA5
+        IiAvPgo8L2Rpdj4KPGRpdiBjbGFzcz0icHJvamVjdF9uYW1lIj4KTGVkbyBB
+        bmQgSXg6IFNlYXNvbiAyCjwvZGl2Pgo8L2E+PGEgaHJlZj0iL3Byb2plY3Rz
+        L3Znby92aWRlby1nYW1lLW9yY2hlc3RyYS1saXZlLWF0LXN5bXBob255LWhh
+        bGwtYWxidW0iIGNsYXNzPSJwcm9qZWN0X2l0ZW0iPjxkaXYgY2xhc3M9InBy
+        b2plY3RfZGVzY3JpcHRpb24iIHN0eWxlPSJiYWNrZ3JvdW5kOiByZ2JhKDEx
+        Niw5NiwxNjMsIDEpIj4KPHA+VkdPIGlzIHJlY29yZGluZyBhIExJVkUgQUxC
+        VU0gb2YgdGhlIHVsdGltYXRlIFJPQ0tFU1RSQUwgR0FNRSBNVVNJQyBjb25j
+        ZXJ0LCBhbmQgYnJpbmdpbmcgaXQgdG8geW91ITwvcD4KPC9kaXY+CjxkaXYg
+        Y2xhc3M9InByb2plY3RfdGh1bWJuYWlsIj4KPGltZyBhbHQ9IlBob3RvLWNh
+        cm91c2VsIiBzcmM9Imh0dHBzOi8vczMuYW1hem9uYXdzLmNvbS9rc3IvcHJv
+        amVjdHMvMjc5ODA0L3Bob3RvLWNhcm91c2VsLmpwZz8xMzQ1OTUwMDg3IiAv
+        Pgo8L2Rpdj4KPGRpdiBjbGFzcz0icHJvamVjdF9uYW1lIj4KVmlkZW8gR2Ft
+        ZSBPcmNoZXN0cmEgfkxpdmUgYXQgU3ltcGhvbnkgSGFsbH4gQWxidW0KPC9k
+        aXY+CjwvYT48YSBocmVmPSIvcHJvamVjdHMvZ2F5bWVyY29uL2dheW1lcmNv
+        bi1ldmVyeWJvZHktZ2FtZXMiIGNsYXNzPSJwcm9qZWN0X2l0ZW0iPjxkaXYg
+        Y2xhc3M9InByb2plY3RfZGVzY3JpcHRpb24iIHN0eWxlPSJiYWNrZ3JvdW5k
+        OiByZ2JhKDE2OCw3OCwxNjEsIDEpIj4KPHA+R2F5bWVyQ29uIGlzIHRoZSBm
+        aXJzdCBnYW1pbmcgYW5kIHRlY2ggY29udmVudGlvbiB3aXRoIGEgZm9jdXMg
+        b24gTEdCVCAgZ2VlayBjdWx0dXJlLjwvcD4KPC9kaXY+CjxkaXYgY2xhc3M9
+        InByb2plY3RfdGh1bWJuYWlsIj4KPGltZyBhbHQ9IlBob3RvLWNhcm91c2Vs
+        IiBzcmM9Imh0dHBzOi8vczMuYW1hem9uYXdzLmNvbS9rc3IvcHJvamVjdHMv
+        MTEzMzg4L3Bob3RvLWNhcm91c2VsLmpwZz8xMzMyNjA5MjgxIiAvPgo8L2Rp
+        dj4KPGRpdiBjbGFzcz0icHJvamVjdF9uYW1lIj4KR2F5bWVyQ29uOiBFdmVy
+        eWJvZHkgR2FtZXMKPC9kaXY+CjwvYT4KPC9saT4KPC91bD4KCjwvZGl2Pgo8
+        L2Rpdj4KPC9kaXY+CgoKPC9kaXY+CjwvZGl2Pgo8L2Rpdj4KCjwvZGl2PgoK
+        PGRpdiBpZD0ibWVnYS1mb290ZXItd3JhcCI+CjxkaXYgY2xhc3M9ImNvbnRh
+        aW5lciIgaWQ9Im1lZ2EtZm9vdGVyIj4KPHNwYW4gY2xhc3M9InNjaXNzb3Jz
+        IGljb24tc2Npc3NvcnMtMSI+PC9zcGFuPgo8ZGl2IGlkPSJtZWdhLWZvb3Rl
+        ci1saW5rcyI+CjxkaXYgY2xhc3M9ImxpbmstZ3JvdXAiIGlkPSJtZWdhLWxp
+        bmtzLWRpc2NvdmVyIj4KPGgzPkRpc2NvdmVyPC9oMz4KPHVsIGNsYXNzPSJj
+        b2x1bW4gY29sdW1uLTAiPgo8bGk+PGEgaHJlZj0iL2Rpc2NvdmVyL2NhdGVn
+        b3JpZXMvYXJ0P3JlZj1mb290ZXIiPkFydDwvYT48L2xpPgo8bGk+PGEgaHJl
+        Zj0iL2Rpc2NvdmVyL2NhdGVnb3JpZXMvY29taWNzP3JlZj1mb290ZXIiPkNv
+        bWljczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iL2Rpc2NvdmVyL2NhdGVnb3Jp
+        ZXMvZGFuY2U/cmVmPWZvb3RlciI+RGFuY2U8L2E+PC9saT4KPGxpPjxhIGhy
+        ZWY9Ii9kaXNjb3Zlci9jYXRlZ29yaWVzL2Rlc2lnbj9yZWY9Zm9vdGVyIj5E
+        ZXNpZ248L2E+PC9saT4KPGxpPjxhIGhyZWY9Ii9kaXNjb3Zlci9jYXRlZ29y
+        aWVzL2Zhc2hpb24/cmVmPWZvb3RlciI+RmFzaGlvbjwvYT48L2xpPgo8bGk+
+        PGEgaHJlZj0iL2Rpc2NvdmVyL2NhdGVnb3JpZXMvZmlsbSUyMCZhbXA7JTIw
+        dmlkZW8/cmVmPWZvb3RlciI+RmlsbSAmYW1wOyBWaWRlbzwvYT48L2xpPgo8
+        bGk+PGEgaHJlZj0iL2Rpc2NvdmVyL2NhdGVnb3JpZXMvZm9vZD9yZWY9Zm9v
+        dGVyIj5Gb29kPC9hPjwvbGk+CjwvdWw+Cjx1bCBjbGFzcz0iY29sdW1uIGNv
+        bHVtbi0xIj4KPGxpPjxhIGhyZWY9Ii9kaXNjb3Zlci9jYXRlZ29yaWVzL2dh
+        bWVzP3JlZj1mb290ZXIiPkdhbWVzPC9hPjwvbGk+CjxsaT48YSBocmVmPSIv
+        ZGlzY292ZXIvY2F0ZWdvcmllcy9tdXNpYz9yZWY9Zm9vdGVyIj5NdXNpYzwv
+        YT48L2xpPgo8bGk+PGEgaHJlZj0iL2Rpc2NvdmVyL2NhdGVnb3JpZXMvcGhv
+        dG9ncmFwaHk/cmVmPWZvb3RlciI+UGhvdG9ncmFwaHk8L2E+PC9saT4KPGxp
+        PjxhIGhyZWY9Ii9kaXNjb3Zlci9jYXRlZ29yaWVzL3B1Ymxpc2hpbmc/cmVm
+        PWZvb3RlciI+UHVibGlzaGluZzwvYT48L2xpPgo8bGk+PGEgaHJlZj0iL2Rp
+        c2NvdmVyL2NhdGVnb3JpZXMvdGVjaG5vbG9neT9yZWY9Zm9vdGVyIj5UZWNo
+        bm9sb2d5PC9hPjwvbGk+CjxsaT48YSBocmVmPSIvZGlzY292ZXIvY2F0ZWdv
+        cmllcy90aGVhdGVyP3JlZj1mb290ZXIiPlRoZWF0ZXI8L2E+PC9saT4KPC91
+        bD4KPHVsIGNsYXNzPSJjb2x1bW4gY29sdW1uLTMiPgo8bGkgY2xhc3M9ImN1
+        cnJlbnRfbG9jYXRpb24iPgo8YSBocmVmPSIvZGlzY292ZXIvY2l0aWVzL3Nl
+        YXR0bGUtd2E/cmVmPWZvb3RlciI+PHNwYW4gY2xhc3M9InRleHQiPlNlYXR0
+        bGUsIFdBPC9zcGFuPgo8c3BhbiBjbGFzcz0ic3MtaWNvbiBzcy1sb2NhdGlv
+        biI+PC9zcGFuPgo8L2E+PC9saT4KPGxpPjxhIGhyZWY9Ii9kaXNjb3Zlci9y
+        ZWNvbW1lbmRlZD9yZWY9Zm9vdGVyIj5TdGFmZiBQaWNrczwvYT48L2xpPgo8
+        bGk+PGEgaHJlZj0iL2Rpc2NvdmVyL3BvcHVsYXI/cmVmPWZvb3RlciI+UG9w
+        dWxhcjwvYT48L2xpPgo8bGk+PGEgaHJlZj0iL2Rpc2NvdmVyL3JlY2VudGx5
+        LWxhdW5jaGVkP3JlZj1mb290ZXIiPlJlY2VudGx5IExhdW5jaGVkPC9hPjwv
+        bGk+CjxsaT48YSBocmVmPSIvZGlzY292ZXIvc21hbGwtcHJvamVjdHM/cmVm
+        PWZvb3RlciI+U21hbGwgUHJvamVjdHM8L2E+PC9saT4KPGxpPjxhIGhyZWY9
+        Ii9kaXNjb3Zlci9tb3N0LWZ1bmRlZD9yZWY9Zm9vdGVyIj5Nb3N0IEZ1bmRl
+        ZDwvYT48L2xpPgo8bGk+PGEgaHJlZj0iL2Rpc2NvdmVyL2N1cmF0ZWQtcGFn
+        ZXM/cmVmPWZvb3RlciI+Q3VyYXRlZCBQYWdlczwvYT48L2xpPgo8L3VsPgo8
+        L2Rpdj4KPGRpdiBjbGFzcz0ibGluay1ncm91cCIgaWQ9Im1lZ2EtbGlua3Mt
+        Y3JlYXRlIj4KPGgzPkNyZWF0ZTwvaDM+Cjx1bCBjbGFzcz0iY29sdW1uIj4K
+        PGxpPjxhIGhyZWY9Ii9zdGFydD9yZWY9Zm9vdGVyIj5TdGFydCBhIHByb2pl
+        Y3Q8L2E+PC9saT4KPGxpPjxhIGhyZWY9Ii9oZWxwL3NjaG9vbD9yZWY9Zm9v
+        dGVyIj5LaWNrc3RhcnRlciBTY2hvb2w8L2E+PC9saT4KPGxpPjxhIGhyZWY9
+        Ii9oZWxwL2ZhcS9jcmVhdG9yK3F1ZXN0aW9ucz9yZWY9Zm9vdGVyIj5DcmVh
+        dG9yIFF1ZXN0aW9uczwvYT48L2xpPgo8ZGQ+PGEgaHJlZj0iL2hlbHAvZ3Vp
+        ZGVsaW5lcz9yZWY9Zm9vdGVyIj5Qcm9qZWN0IEd1aWRlbGluZXM8L2E+PC9k
+        ZD4KPC91bD4KPC9kaXY+CjxkaXYgY2xhc3M9ImxpbmstZ3JvdXAiIGlkPSJt
+        ZWdhLWxpbmtzLWFib3V0Ij4KPGgzPkFib3V0PC9oMz4KPHVsIGNsYXNzPSJj
+        b2x1bW4iPgo8bGk+PGEgaHJlZj0iL2hlbHAvZmFxL2tpY2tzdGFydGVyK2Jh
+        c2ljcz9yZWY9Zm9vdGVyIj5LaWNrc3RhcnRlciBCYXNpY3M8L2E+PC9saT4K
+        PGxpPjxhIGhyZWY9Ii90ZWFtP3JlZj1mb290ZXIiPk1lZXQgb3VyIHRlYW08
+        L2E+PC9saT4KPGxpPjxhIGhyZWY9Ii9qb2JzP3JlZj1mb290ZXIiPldvcmsg
+        YXQgS2lja3N0YXJ0ZXI8L2E+PC9saT4KPGxpPjxhIGhyZWY9Ii9wcmVzcz9y
+        ZWY9Zm9vdGVyIj5QcmVzczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iL2hlbHAv
+        c3RhdHM/cmVmPWZvb3RlciI+U3RhdHM8L2E+PC9saT4KPGxpPjxhIGhyZWY9
+        Ii95ZWFyLzIwMTI/cmVmPWZvb3RlciI+QmVzdCBvZiBLaWNrc3RhcnRlciAy
+        MDEyPC9hPjwvbGk+CjwvdWw+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJsaW5rLWdy
+        b3VwIiBpZD0ibWVnYS1saW5rcy1zdGF5LWluLXRvdWNoIj4KPGgzPlN0YXkg
+        aW4gdG91Y2g8L2gzPgo8dWwgY2xhc3M9ImNvbHVtbiI+CjxsaT48YSBocmVm
+        PSIvYmxvZz9yZWY9Zm9vdGVyIj5CbG9nPC9hPjwvbGk+CjxsaT48YSBocmVm
+        PSIvbmV3c2xldHRlcnMiPk5ld3NsZXR0ZXI8L2E+PC9saT4KPGxpPjxhIGhy
+        ZWY9Imh0dHA6Ly90d2l0dGVyLmNvbS9raWNrc3RhcnRlciI+VHdpdHRlcjwv
+        YT48L2xpPgo8bGk+PGEgaHJlZj0iaHR0cDovL2tpY2tzdGFydGVyLnR1bWJs
+        ci5jb20iPlR1bWJscjwvYT48L2xpPgo8bGk+PGEgaHJlZj0iaHR0cDovL3d3
+        dy5mYWNlYm9vay5jb20vS2lja3N0YXJ0ZXIiPkZhY2Vib29rPC9hPjwvbGk+
+        CjwvdWw+CjwvZGl2Pgo8L2Rpdj4KPGRpdiBpZD0ibWVnYS1mb290ZXItY3Jl
+        ZCI+CjxkaXYgY2xhc3M9ImxvY2t1cHMtYXJlYSI+CjxkaXYgY2xhc3M9Imxv
+        Y2t1cC0xIGxvY2t1cCI+CjxkaXYgY2xhc3M9InRpbWUtcXVvdGUiPgo8ZGl2
+        IGNsYXNzPSJ0aW1lLWxvZ28iPjwvZGl2Pgo8cD5CZXN0IEludmVudGlvbnMg
+        b2YgMjAxMDwvcD4KPC9kaXY+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJsb2NrdXAt
+        MiBsb2NrdXAiPgo8cCBjbGFzcz0iYmlnIj4mIzgyMjA7QW4gdW5leHBlY3Rl
+        ZCBpbmZsdWVuY2Ugb24gaW5kaWUgY3VsdHVyZSYjODIyMTs8L3A+CjxwPi0g
+        TmV3IFlvcmsgVGltZXM8L3A+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJsb2NrdXAt
+        MyBsb2NrdXAiPgo8ZGl2IGNsYXNzPSJhdGxhbnRpYy1xdW90ZSI+CjxwIGNs
+        YXNzPSJiaWciPiYjODIyMDtBIGNyZWF0aXZlIGVuZ2luZSYjODIyMTs8L3A+
+        CjxwPi0gVGhlIEF0bGFudGljPC9wPgo8L2Rpdj4KPGRpdiBjbGFzcz0iY25u
+        LXF1b3RlIj4KPHAgY2xhc3M9ImJpZyI+JiM4MjIwO1BhcmFkaWdtLXNoaWZ0
+        aW5nJiM4MjIxOzwvcD4KPHA+LSBDTk48L3A+CjwvZGl2Pgo8L2Rpdj4KPC9k
+        aXY+CjxkaXYgY2xhc3M9InR3ZWV0LWJ1dHRvbiI+CjxkaXYgY2xhc3M9InR3
+        aXR0ZXJfYm94Ij4KPHNwYW4gaWQ9Im1lZ2EtZm9vdGVyLWZvbGxvd2VycyI+
+        PC9zcGFuPgo8L2Rpdj4KPGEgY2xhc3M9InR3aXR0ZXItZm9sbG93LWJ1dHRv
+        biIgZGF0YS1zaG93LWNvdW50PSJ0cnVlIiBkYXRhLXNob3ctc2NyZWVuLW5h
+        bWU9ImZhbHNlIiBkYXRhLXNpemU9ImxhcmdlIiBocmVmPSJodHRwczovL3R3
+        aXR0ZXIuY29tL0tpY2tzdGFydGVyIj4KRm9sbG93CjwvYT4KPC9kaXY+Cjxk
+        aXYgY2xhc3M9Imxpa2UtYnV0dG9uIj4KPGZiOmxpa2UgY29sb3JzY2hlbWU9
+        ImRhcmsiIGhyZWY9Imh0dHA6Ly9mYWNlYm9vay5jb20va2lja3N0YXJ0ZXIi
+        IHNob3dfZmFjZXM9InRydWUiIHdpZHRoPSIyMjAiPjwvZmI6bGlrZT4KPC9k
+        aXY+CjwvZGl2Pgo8ZGl2IGlkPSJtZWdhLWZvb3Rlci1ib3R0b20iPgo8ZGl2
+        IGNsYXNzPSJsb2dvIGxlZnQiPgo8YSBocmVmPSIvIj48c3BhbiBjbGFzcz0i
+        ZGFyayI+S2lja3N0YXJ0ZXI8L3NwYW4+CjxzcGFuIGNsYXNzPSJsaWdodCI+
+        S2lja3N0YXJ0ZXI8L3NwYW4+CjwvYT48L2Rpdj4KPHVsIGNsYXNzPSJyaWdo
+        dCI+CjxsaT48YSBocmVmPSIvaGVscD9yZWY9Zm9vdGVyIj5IZWxwPC9hPjwv
+        bGk+CjxsaT48YSBocmVmPSIvaGVscC9zdHlsZV9ndWlkZT9yZWY9Zm9vdGVy
+        Ij5TdHlsZSBHdWlkZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iaHR0cDovL2tp
+        Y2tzdGFydGVyLnplbmRlc2suY29tL2hvbWUiIGlkPSIiIG9uY2xpY2s9Ilpl
+        bmJveC5yZW5kZXIoKTsgcmV0dXJuIGZhbHNlOyI+Q29udGFjdDwvYT48L2xp
+        Pgo8bGk+PGEgaHJlZj0iL3Rlcm1zLW9mLXVzZT9yZWY9Zm9vdGVyIj5UZXJt
+        cyBvZiBVc2U8L2E+PC9saT4KPGxpPjxhIGhyZWY9Ii9wcml2YWN5P3JlZj1m
+        b290ZXIiPlByaXZhY3kgUG9saWN5PC9hPjwvbGk+CjxsaT4KJmNvcHk7CjIw
+        MTMKS2lja3N0YXJ0ZXIsIEluYy4KPC9saT4KPC91bD4KPC9kaXY+CjwvZGl2
+        Pgo8L2Rpdj4KCjxzY3JpcHQ+CiAgLy88IVtDREFUQVsKICAgIHZhciBnYUpz
+        SG9zdCA9ICgoImh0dHBzOiIgPT0gZG9jdW1lbnQubG9jYXRpb24ucHJvdG9j
+        b2wpID8gImh0dHBzOi8vc3NsLiIgOiAiaHR0cDovL3d3dy4iKTsKICAgIGRv
+        Y3VtZW50LndyaXRlKHVuZXNjYXBlKCIlM0NzY3JpcHQgc3JjPSciICsgZ2FK
+        c0hvc3QgKyAiZ29vZ2xlLWFuYWx5dGljcy5jb20vZ2EuanMnIHR5cGU9J3Rl
+        eHQvamF2YXNjcmlwdCclM0UlM0Mvc2NyaXB0JTNFIikpOwogICAgdmFyIGFu
+        YWx5dGljc192YXJzID0geyBnb29nbGVfYW5hbHl0aWNzX2lkIDogIlVBLTc2
+        MjEwNTYtMSIsIGxvZ2dlZF9pbiA6ICJmYWxzZSIsIHZlcmlmeWluZ19iYWNr
+        aW5nIDogImZhbHNlIiwgc29jaWFsX3VzZXI6ICJmYWxzZSIgfQogIC8vXV0+
+        Cjwvc2NyaXB0PgoKCjxzY3JpcHQ+CiAgLy88IVtDREFUQVsKICAgIHdpbmRv
+        dy5taXhwYW5lbF9pZCA9ICc3NWIxZDI0YTUxNmVjZmM5NTVlYWRmYWRjNDkx
+        MDY2MSc7CiAgICB3aW5kb3cubWl4cGFuZWxfZGVidWcgPSBmYWxzZTsKICAv
+        L11dPgo8L3NjcmlwdD4KCgo8bm9zY3JpcHQ+CjxpbWcgYWx0PSJRdWFudGNh
+        c3QiIGJvcmRlcj0iMCIgaGVpZ2h0PSIxIiBzcmM9Ii8vc2VjdXJlLnF1YW50
+        c2VydmUuY29tL3BpeGVsL3AtMzRJYlNwdzJLOTRTZy5naWYiIHN0eWxlPSJk
+        aXNwbGF5Om5vbmUiIHdpZHRoPSIxIiAvPgo8L25vc2NyaXB0PgoKCjxzY3Jp
+        cHQgc3JjPSIvL2FqYXguZ29vZ2xlYXBpcy5jb20vYWpheC9saWJzL2pxdWVy
+        eS8xLjguMi9qcXVlcnkubWluLmpzIiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQi
+        Pjwvc2NyaXB0Pgo8c2NyaXB0PgogIC8vPCFbQ0RBVEFbCiAgICAoZnVuY3Rp
+        b24oKXtmdW5jdGlvbiBjKGEpe3RoaXMubG9jYWxfc3RhcnRfdGltZT1uZXcg
+        RGF0ZTt0aGlzLnNldHRpbmdzPXtjb29raWVfbmFtZToicmVxdWVzdF90aW1l
+        In07Zm9yKHZhciBiIGluIGEpdGhpcy5zZXR0aW5nc1tiXT1hW2JdO3RoaXMu
+        Z2V0X3JlbW90ZV9vZmZzZXQoKX1jLnByb3RvdHlwZS5nZXRfcmVtb3RlX29m
+        ZnNldD1mdW5jdGlvbigpe3RoaXMuY29va2llX3ZhbHVlPXRoaXMucmVhZF9j
+        b29raWUoKTt2YXIgYT1uZXcgRGF0ZSh0aGlzLmNvb2tpZV92YWx1ZSk7aWYo
+        IXRoaXMuY29va2llX3ZhbHVlfHwiSW52YWxpZCBEYXRlIj09PWEudG9TdHJp
+        bmcoKSl7aWYodGhpcy5yZW1vdGVfb2Zmc2V0PXRoaXMucmVhZF9jb29raWUo
+        ImxvY2FsX29mZnNldCIpKXRoaXMucmVtb3RlX29mZnNldD1wYXJzZUludCh0
+        aGlzLnJlbW90ZV9vZmZzZXQsMTApfWVsc2UgdGhpcy5yZW1vdGVfb2Zmc2V0
+        PWEtdGhpcy5sb2NhbF9zdGFydF90aW1lOyJ1bmRlZmluZWQiIT09dHlwZW9m
+        IHRoaXMucmVtb3RlX29mZnNldCYmICFpc05hTih0aGlzLnJlbW90ZV9vZmZz
+        ZXQpPyhkb2N1bWVudC5jb29raWU9ImxvY2FsX29mZnNldD0iK3RoaXMucmVt
+        b3RlX29mZnNldCsiOyBwYXRoPS8iLHRoaXMuaXNfc2V0PSEwKTp0aGlzLmlz
+        X3NldD0hMX07Yy5wcm90b3R5cGUudGltZV91bml0cz1bWyJtaWxsaXNlY29u
+        ZHMiLDFdLFsic2Vjb25kcyIsMUUzXSxbIm1pbnV0ZXMiLDZFNF0sWyJob3Vy
+        cyIsMzZFNV0sWyJkYXlzIiw4NjRFNV1dO2MucHJvdG90eXBlLmdldF91bml0
+        c19pbl9pbnRlcnZhbD1mdW5jdGlvbihhLGIpe3ZhciBkPWEucmVwbGFjZSgv
+        Xlx3LyxmdW5jdGlvbihkKXtyZXR1cm4iZ2V0IitkLnRvVXBwZXJDYXNlKCl9
+        KTtyZXR1cm4gYltkXSgpfTtjLnByb3RvdHlwZS5taWxsaXNlY29uZHNfaW5f
+        ZGF5PWZ1bmN0aW9uKGEpeyJ1bmRlZmluZWQiPT09dHlwZW9mIGEmJihhPW5l
+        dyBEYXRlKTtmb3IodmFyIGI9MCxkPXRoaXMudGltZV91bml0cy5sZW5ndGgt
+        MjswPD1kO2QtLSliKz10aGlzLmdldF91bml0c19pbl9pbnRlcnZhbCh0aGlz
+        LnRpbWVfdW5pdHNbZF1bMF0sIGEpKnRoaXMudGltZV91bml0c1tkXVsxXTty
+        ZXR1cm4gYn07Yy5wcm90b3R5cGUubWlsbGlzZWNvbmRzX2luX2ludGVydmFs
+        PWZ1bmN0aW9uKGEsYil7cmV0dXJuIHRoaXMubWlsbGlzZWNvbmRzX2luX2Rh
+        eShiKSVhfTtjLnByb3RvdHlwZS5taWxsaXNlY29uZHNfdG9fbmV4dF9pbnRl
+        cnZhbD1mdW5jdGlvbihhLGIpe3JldHVybiBhLXRoaXMubWlsbGlzZWNvbmRz
+        X2luX2ludGVydmFsKGEsYil9O2MucHJvdG90eXBlLnBsdXJhbGl6ZT1mdW5j
+        dGlvbihhLGIpezE9PT1iJiYoYT1hLnJlcGxhY2UoL3MkLywiIikpO3JldHVy
+        biBhfTtjLnByb3RvdHlwZS5yZWFkX2Nvb2tpZT1mdW5jdGlvbihhKXtmb3Io
+        dmFyIGI9d2luZG93LmRvY3VtZW50LmNvb2tpZS5zcGxpdCgiOyIpLGE9KGF8
+        fHRoaXMuc2V0dGluZ3MuY29va2llX25hbWUpKyI9IixkPTA7ZDxiLmxlbmd0
+        aDtkKyspe2Zvcih2YXIgZT1iW2RdOyIgIj09ZS5jaGFyQXQoMCk7KWU9ZS5z
+        dWJzdHJpbmcoMSxlLmxlbmd0aCk7aWYoMD09IGUuaW5kZXhPZihhKSlyZXR1
+        cm4gYj1lLnN1YnN0cmluZyhhLmxlbmd0aCxlLmxlbmd0aCksZGVjb2RlVVJJ
+        Q29tcG9uZW50KGIpLnJlcGxhY2UoL1wrL2csIiAiKX1yZXR1cm4gbnVsbH07
+        Yy5wcm90b3R5cGUuZGVzdHJveV9jb29raWU9ZnVuY3Rpb24oYSl7dmFyIGI9
+        bmV3IERhdGU7YXx8KGE9dGhpcy5zZXR0aW5ncy5jb29raWVfbmFtZSk7Yi5z
+        ZXRUaW1lKGIuZ2V0VGltZSgpLTg2NEU1KTt3aW5kb3cuZG9jdW1lbnQuY29v
+        a2llPWErIj07IGV4cGlyZXM9IitiLnRvR01UU3RyaW5nKCkrIjsgcGF0aD0v
+        In07Yy5wcm90b3R5cGUuZ2V0X3JlbW90ZV90aW1lPWZ1bmN0aW9uKCl7dmFy
+        IGE9bmV3IERhdGUsYj1hLmdldFRpbWUoKSt0aGlzLnJlbW90ZV9vZmZzZXQ7
+        cmV0dXJuIGE9YS5zZXRUaW1lKGIpfTt3aW5kb3cua3NyX3BhZ2VfY2xvY2s9
+        bmV3IGN9KSgpOyAoZnVuY3Rpb24oKXtmdW5jdGlvbiBjKGQsYSxiKXtpZihk
+        KXt0aGlzLm9wdGlvbnM9e3VuaXRfYmFzZTp7c2Vjb25kczoxMTksbWludXRl
+        czoxMTksaG91cnM6NzIsZGF5czowfSxlbmRfcGhyYXNlOmQuZ2V0QXR0cmli
+        dXRlKCJkYXRhLXdvcmQiKXx8InRvIGdvIixjb3VudF9kb3duOmQuZ2V0QXR0
+        cmlidXRlKCJkYXRhLWR5bmFtaWMiKXx8ITF9O2ZvcihrIGluIGIpdGhpcy5v
+        cHRpb25zW2tdPWJba107dGhpcy5jbG9jaz1hO3RoaXMudGltZV91bml0cz10
+        aGlzLmNsb2NrLnRpbWVfdW5pdHMuc2xpY2UoMSk7dGhpcy5lbGVtZW50PWQ7
+        dGhpcy5jbG9jay5pc19zZXQmJnRoaXMuYXR0YWNoKCl9fWZ1bmN0aW9uIGEo
+        KXt0aGlzLmVsZW1lbnRzPVtdO3RoaXMuYXR0YWNoKCl9dmFyIGI9ZnVuY3Rp
+        b24oZCxhKXt2YXIgYj1hfHx3aW5kb3cuZG9jdW1lbnQuYm9keSxjPWQuc3Bs
+        aXQoIi4iKSxnPWNbYy5sZW5ndGgtMV0sYz0xPGMubGVuZ3RoJiZjWzBdP2Nb
+        MF06IioiO2lmKHdpbmRvdy5kb2N1bWVudC5nZXRFbGVtZW50c0J5Q2xhc3NO
+        YW1lKXJldHVybiBiLmdldEVsZW1lbnRzQnlDbGFzc05hbWUoZyk7IGlmKGIu
+        cXVlcnlTZWxlY3RvckFsbClyZXR1cm4gYi5xdWVyeVNlbGVjdG9yQWxsKGQp
+        O2Zvcih2YXIgYz1iLmdldEVsZW1lbnRzQnlUYWdOYW1lKGMpLGg9W10saT0w
+        LGY7Zj1jW2ldO2krKyliPVJlZ0V4cCgiKF58XFxzKSIrZysiKFxcc3wkKSIp
+        LCgiIitmLmNsYXNzTmFtZSkubWF0Y2goYikmJmgucHVzaChmKTtyZXR1cm4g
+        aH07Yy5wcm90b3R5cGUuZ2V0X3JlbWFpbmluZ190aW1lPWZ1bmN0aW9uKCl7
+        dmFyIGQ9dGhpcy5yZW1vdGVfZW5kX3RpbWUtdGhpcy5jbG9jay5nZXRfcmVt
+        b3RlX3RpbWUoKTswPmQmJihkPTApO3JldHVybiBkfTtjLnByb3RvdHlwZS5n
+        ZXRfY3VycmVudF91bml0PWZ1bmN0aW9uKCl7Zm9yKHZhciBkLGE9MDthPHRo
+        aXMudGltZV91bml0cy5sZW5ndGgmJiEoZD10aGlzLnRpbWVfdW5pdHNbYV0s
+        dGhpcy5nZXRfcmVtYWluaW5nX3RpbWUoKTw9dGhpcy5vcHRpb25zLnVuaXRf
+        YmFzZVtkWzBdXSpkWzFdKTthKyspO3JldHVybiBkfTtjLnByb3RvdHlwZS51
+        cGRhdGVfZWxlbWVudD0gZnVuY3Rpb24oKXt2YXIgYT10aGlzLmdldF9jdXJy
+        ZW50X3VuaXQoKSxiPU1hdGguZmxvb3IodGhpcy5nZXRfcmVtYWluaW5nX3Rp
+        bWUoKS9hWzFdKTtpc05hTihiKXx8KHRoaXMubnVtYmVyX2VsZW1lbnQuaW5u
+        ZXJIVE1MPWIsdGhpcy50ZXh0X2VsZW1lbnQuaW5uZXJIVE1MPXRoaXMuY2xv
+        Y2sucGx1cmFsaXplKGFbMF0sYikrIiAiK3RoaXMub3B0aW9ucy5lbmRfcGhy
+        YXNlKX07Yy5wcm90b3R5cGUudmFsaWQ9ZnVuY3Rpb24oKXtyZXR1cm4hKCF0
+        aGlzLm51bWJlcl9lbGVtZW50fHwhdGhpcy50ZXh0X2VsZW1lbnQpfTtjLnBy
+        b3RvdHlwZS5hdHRhY2g9ZnVuY3Rpb24oKXtmdW5jdGlvbiBhKCl7Yy51cGRh
+        dGVfZWxlbWVudCgpO2lmKGMub3B0aW9ucy5jb3VudF9kb3duJiYwPGMuZ2V0
+        X3JlbWFpbmluZ190aW1lKCkpe3ZhciBiPWMuZ2V0X2N1cnJlbnRfdW5pdCgp
+        O3RoaXMudGltZW91dD13aW5kb3cuc2V0VGltZW91dChhLGMuY2xvY2subWls
+        bGlzZWNvbmRzX3RvX25leHRfaW50ZXJ2YWwoYlsxXSkpfX0gdmFyIGM9dGhp
+        cztpZih0aGlzLnJlbW90ZV9lbmRfdGltZV9zdHJpbmc9dGhpcy5lbGVtZW50
+        LmdldEF0dHJpYnV0ZSgiZGF0YS1lbmRfdGltZSIpKXRoaXMucmVtb3RlX2Vu
+        ZF90aW1lX3N0cmluZy5tYXRjaCgvXlxkKyQvKT8odGhpcy5yZW1vdGVfZW5k
+        X3RpbWU9bmV3IERhdGUsdGhpcy5yZW1vdGVfZW5kX3RpbWUuc2V0VGltZSh0
+        aGlzLnJlbW90ZV9lbmRfdGltZV9zdHJpbmcpKTp0aGlzLnJlbW90ZV9lbmRf
+        dGltZT1uZXcgRGF0ZSh0aGlzLnJlbW90ZV9lbmRfdGltZV9zdHJpbmcpLHRo
+        aXMubnVtYmVyX2VsZW1lbnQ9YigiLm51bSIsdGhpcy5lbGVtZW50KVswXSx0
+        aGlzLnRleHRfZWxlbWVudD1iKCIudGV4dCIsdGhpcy5lbGVtZW50KVswXSx0
+        aGlzLmVsZW1lbnQua3NyX3BhZ2VfdGltZXI9ITAsdGhpcy52YWxpZCgpJiZh
+        KCl9O2MucHJvdG90eXBlLmNhbmNlbD1mdW5jdGlvbigpe3RoaXMudGltZW91
+        dCYmY2xlYXJUaW1lb3V0KHRoaXMudGltZW91dCl9O2EucHJvdG90eXBlLmxv
+        YWRpbmc9ICEwO2EucHJvdG90eXBlLnN0b3BfZmluZGluZz1mdW5jdGlvbigp
+        e3RoaXMuYXR0YWNoX3RpbWVycygpO3RoaXMubG9hZGluZz0hMTtkb2N1bWVu
+        dC5hZGRFdmVudExpc3RlbmVyP2RvY3VtZW50LnJlbW92ZUV2ZW50TGlzdGVu
+        ZXIoIkRPTUNvbnRlbnRMb2FkZWQiLHRoaXMuc3RvcF9maW5kaW5nLCExKTpk
+        b2N1bWVudC5hdHRhY2hFdmVudCYmImNvbXBsZXRlIj09PWRvY3VtZW50LnJl
+        YWR5U3RhdGUmJmRvY3VtZW50LmRldGFjaEV2ZW50KCJvbnJlYWR5c3RhdGVj
+        aGFuZ2UiLHRoaXMuc3RvcF9maW5kaW5nKX07YS5wcm90b3R5cGUuYmluZF9y
+        ZWFkeT1mdW5jdGlvbigpe3ZhciBhPXRoaXMsYj1mdW5jdGlvbigpe2Euc3Rv
+        cF9maW5kaW5nLmNhbGwoYSl9O2RvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXI/
+        KGRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoIkRPTUNvbnRlbnRMb2FkZWQi
+        LGIsITEpLHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJsb2FkIixiLCExKSk6
+        ZG9jdW1lbnQuYXR0YWNoRXZlbnQmJiAoZG9jdW1lbnQuYXR0YWNoRXZlbnQo
+        Im9ucmVhZHlzdGF0ZWNoYW5nZSIsYiksd2luZG93LmF0dGFjaEV2ZW50KCJv
+        bmxvYWQiLGIpKX07YS5wcm90b3R5cGUuYXR0YWNoX3RpbWVycz1mdW5jdGlv
+        bigpe2Zvcih2YXIgYT1iKCJkaXYua3NyX3BhZ2VfdGltZXIiKSxlPTA7ZTxh
+        Lmxlbmd0aDtlKyspYVtlXS5rc3JfcGFnZV90aW1lcnx8KG5ldyBjKGFbZV0s
+        d2luZG93Lmtzcl9wYWdlX2Nsb2NrKSx0aGlzLmVsZW1lbnRzLnB1c2goYVtl
+        XSkpfTthLnByb3RvdHlwZS5hdHRhY2g9ZnVuY3Rpb24oKXt2YXIgYT10aGlz
+        O3RoaXMuYmluZF9yZWFkeSgpOyhmdW5jdGlvbigpe2EuYXR0YWNoX3RpbWVy
+        cygpO2EubG9hZGluZyYmd2luZG93LnNldFRpbWVvdXQoZnVuY3Rpb24oKXth
+        LmF0dGFjaF90aW1lcnMoKX0sMjAwKX0pKCl9O3dpbmRvdy5Qcm9qZWN0VGlt
+        ZXI9YztuZXcgYX0pKCk7CiAgLy9dXT4KPC9zY3JpcHQ+Cgo8c2NyaXB0IHNy
+        Yz0iLy9kMjk3aDloZTI0MGZxaC5jbG91ZGZyb250Lm5ldC9jYWNoZS02MGQ3
+        YTBmY2QvYXNzZXRzL2Jhc2UuanMiIHR5cGU9InRleHQvamF2YXNjcmlwdCI+
+        PC9zY3JpcHQ+CjxzY3JpcHQ+CiAgLy88IVtDREFUQVsKICAgIGlmICh0eXBl
+        b2YoWmVuYm94KSAhPT0gInVuZGVmaW5lZCIpIHsKICAgICAgWmVuYm94Lmlu
+        aXQoewogICAgICAgIGRyb3Bib3hJRDogMjAxMDQwOTIsCiAgICAgICAgdGFi
+        SUQ6ICJzdXBwb3J0IiwKICAgICAgICBoaWRlX3RhYjogdHJ1ZSwKICAgICAg
+        ICB1cmw6ICJodHRwczovL2tpY2tzdGFydGVyLnplbmRlc2suY29tIiwKICAg
+        ICAgICByZXF1ZXN0ZXJfbmFtZTogdW5kZWZpbmVkLAogICAgICAgIHJlcXVl
+        c3Rlcl9lbWFpbDogdW5kZWZpbmVkCiAgICAgIH0pOwogICAgfQogIC8vXV0+
+        Cjwvc2NyaXB0PgoKCjxzY3JpcHQgaWQ9InNjaHdhbW1fZm9ybWF0dGluZ19v
+        cHRpb25zIiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPgovLzwhW0NEQVRBWwoo
+        ZnVuY3Rpb24oKXt3aW5kb3cuZm9ybWF0dGVycyA9IHdpbmRvdy5mb3JtYXR0
+        ZXJzIHx8IHt9OyB2YXIgZm9ybWF0dGluZ19vcHRpb25zID0geyJkaXN0YW5j
+        ZV9kYXRlX2ludGVydmFscyI6W1s1LCJqdXN0IG5vdyJdLFsyOSwibGVzcyB0
+        aGFuIGEgbWludXRlIGFnbyJdLFs4OSwiMSBtaW51dGUgYWdvIl0sWzI2NDAs
+        IiVtIG1pbnV0ZXMgYWdvIl0sWzUzNDAsImFib3V0IDEgaG91ciBhZ28iXSxb
+        ODI4MDAsImFib3V0ICVoIGhvdXJzIGFnbyJdLFsxNDc2MDAsIjEgZGF5IGFn
+        byJdLFs2MDQ4MDAsIiVkIGRheXMgYWdvIl0sWzE1NTUyMDAwLCJvbiAldCJd
+        LFswLCJvbiAleSJdXSwiY3VycmVuY3lfc3ltYm9sX21hcHBpbmdzIjp7IlVT
+        RCI6IiQiLCJHQlAiOiLCoyJ9LCJjdXJyZW5jeV9mb3JtYXRzIjpbIm1vbmV5
+        Iiwic2hvcnRlcl9tb25leSJdfTsgZm9yIChrZXkgaW4gZm9ybWF0dGluZ19v
+        cHRpb25zKSB7d2luZG93LmZvcm1hdHRlcnNba2V5XSA9IGZvcm1hdHRpbmdf
+        b3B0aW9uc1trZXldfTt9KCkpOwovL11dPgo8L3NjcmlwdD4KCgoKPGRpdiBp
+        ZD0iZmItcm9vdCI+PC9kaXY+CjxzY3JpcHQ+CiAgLy88IVtDREFUQVsKICAg
+        IHZhciBjaGFubmVsVXJsID0gd2luZG93LmxvY2F0aW9uLnByb3RvY29sICsg
+        Ii8vIiArIHdpbmRvdy5sb2NhdGlvbi5ob3N0ICsgIi9jaGFubmVsLmh0bWwi
+        LAogICAgICBqdXN0X2xvZ2dlZF9vdXQgPSB3aW5kb3cuJCgnYm9keScpLmlz
+        KCcuanVzdF9sb2dnZWRfb3V0Jyk7CiAgICAKICAgIHdpbmRvdy5mYkxvZ291
+        dENhbGxiYWNrID0gZnVuY3Rpb24ocmVzcG9uc2UpIHsKICAgICAgcmVzcG9u
+        c2Uuc3RhdHVzID09PSAnY29ubmVjdGVkJyA/IEZCLmxvZ291dChmYkxvZ291
+        dENhbGxiYWNrKSA6IGRlc3Ryb3lfY29va2llKCJsb2dvdXRfZnJvbV9mYiIp
+        OwogICAgfTsKICAgIAogICAgd2luZG93LmZiQXN5bmNJbml0ID0gZnVuY3Rp
+        b24oKSB7CiAgICAgIEZCLmluaXQoewogICAgICAgIGFwcElkOiAnNjkxMDMx
+        NTY2OTMnLAogICAgICAgIGNoYW5uZWxVcmw6IGNoYW5uZWxVcmwsCiAgICAg
+        ICAgc3RhdHVzOiB0cnVlLCAgICAvLyBjaGVjayBsb2dpbiBzdGF0dXMKICAg
+        ICAgICBjb29raWU6IHRydWUsICAgIC8vIGVuYWJsZSBjb29raWVzIHRvIGFs
+        bG93IHRoZSBzZXJ2ZXIgdG8gYWNjZXNzIHRoZSBzZXNzaW9uCiAgICAgICAg
+        eGZibWw6IHRydWUsICAgICAvLyBwYXJzZSBYRkJNTAogICAgICAgIGxvZ2dp
+        bmc6IGZhbHNlICAgLy8gdHVybiBvZmYgbG9nZ2luZwogICAgICB9KTsKICAg
+        IAogICAgICAkKGRvY3VtZW50KS50cmlnZ2VyKCdmYjpsb2FkZWQnKTsKICAg
+        IAogICAgICBGQi5FdmVudC5zdWJzY3JpYmUoJ2F1dGguc3RhdHVzQ2hhbmdl
+        JywgZnVuY3Rpb24ocmVzcG9uc2UpIHsKICAgICAgICBpZiAocmVzcG9uc2Uu
+        c3RhdHVzID09PSAnY29ubmVjdGVkJyAmJiAoanVzdF9sb2dnZWRfb3V0IHx8
+        IHJlYWRfY29va2llKCJsb2dvdXRfZnJvbV9mYiIpKSkgewogICAgICAgICAg
+        RkIubG9nb3V0KGZiTG9nb3V0Q2FsbGJhY2spOwogICAgICAgIH0gZWxzZSBp
+        ZiAocmVzcG9uc2Uuc3RhdHVzID09PSAnY29ubmVjdGVkJyAmJiB0cnVlICYm
+        IHRydWUgJiYgdHJ1ZSAmJiAhRkIudXNpbmdCdXR0b24pIHsKICAgICAgICAg
+        ICQuZ2V0KCJodHRwOi8vd3d3LmtpY2tzdGFydGVyLmNvbS9mYi9jb25uZWN0
+        L3ZlcmlmeT90aGVuPWh0dHAlM0ElMkYlMkZ3d3cua2lja3N0YXJ0ZXIuY29t
+        JTJGcHJvZmlsZSUyRnBlbm55YXJjYWRlIiwgeydmYnNyJzogcmVzcG9uc2Uu
+        YXV0aFJlc3BvbnNlLnNpZ25lZFJlcXVlc3R9LCBmdW5jdGlvbigpIHt9KTsK
+        ICAgICAgICB9CiAgICAgIH0pOwogICAgCiAgICAgIGlmIChyZWFkX2Nvb2tp
+        ZSgibG9nb3V0X2Zyb21fZmIiKSkgewogICAgICAgIEZCLmdldExvZ2luU3Rh
+        dHVzKGZ1bmN0aW9uKHJlc3BvbnNlKSB7CiAgICAgICAgICBpZiAocmVzcG9u
+        c2Uuc3RhdHVzICE9PSAnY29ubmVjdGVkJykgeyBkZXN0cm95X2Nvb2tpZSgi
+        bG9nb3V0X2Zyb21fZmIiKTsgfQogICAgICAgIH0pOwogICAgICB9OwogICAg
+        fTsKICAgIAogICAgCiAgICAvLyBMb2FkIHRoZSBTREsgQXN5bmNocm9ub3Vz
+        bHkKICAgIChmdW5jdGlvbihkKXsKICAgICAgdmFyIGpzLCBpZCA9ICdmYWNl
+        Ym9vay1qc3Nkayc7IGlmIChkLmdldEVsZW1lbnRCeUlkKGlkKSkge3JldHVy
+        bjt9CiAgICAgIGpzID0gZC5jcmVhdGVFbGVtZW50KCdzY3JpcHQnKTsganMu
+        aWQgPSBpZDsganMuYXN5bmMgPSB0cnVlOwogICAgICBqcy5zcmMgPSAiLy9j
+        b25uZWN0LmZhY2Vib29rLm5ldC9lbl9VUy9hbGwuanMiOwogICAgICBkLmdl
+        dEVsZW1lbnRzQnlUYWdOYW1lKCdoZWFkJylbMF0uYXBwZW5kQ2hpbGQoanMp
+        OwogICAgfShkb2N1bWVudCkpOwogIC8vXV0+Cjwvc2NyaXB0PgoKCjxzY3Jp
+        cHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij5pZiAoIU5SRVVNUS5mKSB7IE5S
+        RVVNUS5mPWZ1bmN0aW9uKCkgewpOUkVVTVEucHVzaChbImxvYWQiLG5ldyBE
+        YXRlKCkuZ2V0VGltZSgpXSk7CnZhciBlPWRvY3VtZW50LmNyZWF0ZUVsZW1l
+        bnQoInNjcmlwdCIpOwplLnR5cGU9InRleHQvamF2YXNjcmlwdCI7CmUuc3Jj
+        PSgoImh0dHA6Ij09PWRvY3VtZW50LmxvY2F0aW9uLnByb3RvY29sKT8iaHR0
+        cDoiOiJodHRwczoiKSArICIvLyIgKwogICJkMXJvczk3cWtyd2pmNS5jbG91
+        ZGZyb250Lm5ldC80Mi9ldW0vcnVtLmpzIjsKZG9jdW1lbnQuYm9keS5hcHBl
+        bmRDaGlsZChlKTsKaWYoTlJFVU1RLmEpTlJFVU1RLmEoKTsKfTsKTlJFVU1R
+        LmE9d2luZG93Lm9ubG9hZDt3aW5kb3cub25sb2FkPU5SRVVNUS5mOwp9OwpO
+        UkVVTVEucHVzaChbIm5yZmoiLCJiZWFjb24tMy5uZXdyZWxpYy5jb20iLCJi
+        MDRiODgzYWQyIiwiMTEwODYiLCJjRnRlUlVVTFgxd0hGaHRORVZaR1F4NUVE
+        RnhIIiw4LDIxNyxuZXcgRGF0ZSgpLmdldFRpbWUoKSwiIiwiIiwiIiwiIiwi
+        Il0pOzwvc2NyaXB0PjwvYm9keT4KPC9odG1sPgo=
     http_version: 
-  recorded_at: Fri, 01 Feb 2013 19:30:05 GMT
+  recorded_at: Wed, 27 Mar 2013 23:53:59 GMT
 recorded_with: VCR 2.4.0

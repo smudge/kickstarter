@@ -23,7 +23,7 @@ module Kickstarter
     end
     
     def url
-      @url ||= node.css('h2 a').first.attribute('href').to_s.split('?').first
+      @url ||= BASE_URL + node.css('h2 a').first.attribute('href').to_s.split('?').first
     end
     
     def handle

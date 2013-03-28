@@ -7,8 +7,10 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - '*/*'
       User-Agent:
       - Ruby
   response:
@@ -19,9 +21,11 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 01 Feb 2013 12:21:05 GMT
+      - Wed, 27 Mar 2013 23:54:00 GMT
       Content-Type:
       - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
       Status:
@@ -32,138 +36,108 @@ http_interactions:
       - no-cache, no-store, max-age=0, must-revalidate
       Expires:
       - Fri, 01 Jan 1990 00:00:00 GMT
-      Content-Length:
-      - '19459'
       Set-Cookie:
-      - request_time=Fri%2C+01+Feb+2013+12%3A21%3A05+-0000; path=/
+      - request_time=Wed%2C+27+Mar+2013+23%3A54%3A00+-0000; path=/
       X-Request-Id:
-      - 508f5fbf43f5c9542fafae3afa4b487e
+      - 6bb2b29a957e5d8f356cc6cad034f66d
       X-Runtime:
-      - '0.065933'
+      - '0.040348'
     body:
-      encoding: US-ASCII
-      string: ! "<!DOCTYPE html>\n<html>\n<head><script type=\"text/javascript\">var
-        NREUMQ=NREUMQ||[];NREUMQ.push([\"mark\",\"firstbyte\",new Date().getTime()]);</script>\n<title>Final
-        Frontier Design's 3G Space Suit</title>\n<meta content=\"noindex, nofollow\"
-        name=\"robots\">\n<style type=\"text/css\">\nhtml,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:\"\";content:none}a
-        img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}body{font:13px/1.5
-        Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif}a:focus{outline:1px
-        dotted invert}hr{border-color:#ccc;border-style:solid;border-width:1px 0 0;clear:both;height:0}h1{font-size:25px}h2{font-size:23px}h3{font-size:21px}h4{font-size:19px}h5{font-size:17px}h6{font-size:15px}ol{list-style:decimal}ul{list-style:square}li{margin-left:30px}p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset{margin-bottom:20px}body{font-size:13px;line-height:20px;color:#333}a{color:#55a4f2;text-decoration:none}a:hover{color:#1071d1}.project-card-wrap{-moz-border-radius:9px;-webkit-border-radius:9px;-o-border-radius:9px;-ms-border-radius:9px;-khtml-border-radius:9px;border-radius:9px;background:#eee;padding:4px;margin-bottom:20px;clear:both;margin-bottom:0px;width:212px}.project-card-wrap
-        .project-card{overflow:hidden;*zoom:1;-moz-border-radius:6px;-webkit-border-radius:6px;-o-border-radius:6px;-ms-border-radius:6px;-khtml-border-radius:6px;border-radius:6px;background-color:#fff;border:1px
-        solid #ddd;position:relative;background-color:#fff;background-image:url('/cache-1b9b4efff/images/compass/bg-card-gradient.png');background-repeat:repeat-x}.project-card-wrap
-        .project-card .tmpl-hide{display:none}.project-card-wrap .project-card .tmpl-projects-friends_backings{background-color:#87c442;text-align:center}.project-card-wrap
-        .project-card ul.project-meta{color:#999;position:absolute}.project-card-wrap
-        .project-card ul.project-meta li{font-size:11px;margin:0 !important}.project-card-wrap
-        .project-card ul.project-meta li a{color:#999}.project-card-wrap .project-card
-        ul.project-meta li a:hover{color:#333}.project-card-wrap .project-card ul.project-meta
-        li a:hover .icon-location{background-position:-10px -150px}.project-card-wrap
-        .project-card ul.project-meta li a:hover .icon-category{background-position:-20px
-        -170px}.project-card-wrap .project-card ul.project-meta .icon-location{margin-top:-4px;margin-right:5px
-        !important}.project-card-wrap .project-card ul.project-meta .icon-category{margin-top:-3px;margin-right:5px
-        !important}.project-card-wrap .project-card ul.project-stats{margin:0;padding:0;border:0;overflow:hidden;*zoom:1;width:100%;font-size:10px;text-transform:uppercase;position:absolute;color:#999}.project-card-wrap
-        .project-card ul.project-stats li{list-style-image:none;list-style-type:none;margin-left:0px;white-space:nowrap;display:inline;float:left;padding-left:10px;padding-right:10px}.project-card-wrap
-        .project-card ul.project-stats li:first-child,.project-card-wrap .project-card
-        ul.project-stats li.first{padding-left:0}.project-card-wrap .project-card
-        ul.project-stats li:last-child{padding-right:0}.project-card-wrap .project-card
-        ul.project-stats li.last{padding-right:0}.project-card-wrap .project-card
-        ul.project-stats li{border-right:1px solid #ddd;border-left:1px solid #fff;margin:0
-        !important}.project-card-wrap .project-card ul.project-stats li.first{overflow:hidden;*zoom:1;border-left:0}.project-card-wrap
-        .project-card ul.project-stats li.last{border-right:0;width:1px !important;overflow:visible
-        !important}.project-card-wrap .project-card ul.project-stats strong{display:block;color:#666;font-weight:bold}.project-card-wrap
-        .project-card{padding:5px;background-position:0 307px;height:360px}.project-card-wrap
-        .project-card h2{font-size:12px;font-weight:bold;line-height:15px;padding:0
-        5px;margin-bottom:5px}.project-card-wrap .project-card h2 strong{display:block;max-height:30px;overflow:hidden}.project-card-wrap
-        .project-card h2 span{display:block;font-size:11px;max-height:15px;overflow:hidden;color:#999;font-weight:normal;padding-top:2px}.project-card-wrap
-        .project-card p{color:#999 !important;padding:0 5px;font-size:12px !important;line-height:15px;height:60px;text-overflow:ellipsis;overflow:hidden;word-wrap:word-break}.project-card-wrap
-        .project-card ul.project-stats{margin:0;padding:0;border:0;overflow:hidden;*zoom:1;bottom:5px;left:10px}.project-card-wrap
-        .project-card ul.project-stats li{list-style-image:none;list-style-type:none;margin-left:0px;white-space:nowrap;display:inline;float:left;padding-left:8px;padding-right:8px}.project-card-wrap
-        .project-card ul.project-stats li:first-child,.project-card-wrap .project-card
-        ul.project-stats li.first{padding-left:0}.project-card-wrap .project-card
-        ul.project-stats li:last-child{padding-right:0}.project-card-wrap .project-card
-        ul.project-stats li.last{padding-right:0}.project-card-wrap .project-card
-        ul.project-stats li{width:auto !important;border:0;line-height:17px}.project-card-wrap
-        .project-card ul.project-stats strong{font-size:11px;line-height:11px;margin:0;padding-top:2px}.project-card-wrap
-        .project-card .project-pledged-successful{position:absolute;bottom:43px;left:0;width:190px;height:20px;background:#87c442;color:#fff;padding:0
-        10px}.project-card-wrap .project-card .project-pledged-successful strong{font-size:11px;text-transform:uppercase;font-weight:bold}.project-card-wrap
-        .project-card .project-pledged-wrap{-moz-border-radius:4px;-webkit-border-radius:4px;-o-border-radius:4px;-ms-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;position:absolute;bottom:43px;left:10px;width:190px;height:8px;background:#ddd;padding:0;margin-top:5px}.project-card-wrap
-        .project-card .project-pledged-wrap .project-pledged{background:#87c442;-moz-border-radius:4px;-webkit-border-radius:4px;-o-border-radius:4px;-ms-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;height:8px}.project-card-wrap
-        .project-card ul.project-meta{list-style:none;position:absolute;width:190px;bottom:68px;left:10px;margin:0}.project-card-wrap
-        .project-card ul.project-meta li{list-style-image:none;list-style-type:none;margin-left:0px}.project-card-wrap
-        .project-card ul.project-meta li{width:190px}.project-card-wrap .project-card
-        ul.project-meta li a{white-space:nowrap;overflow:hidden;-o-text-overflow:ellipsis;-ms-text-overflow:ellipsis;text-overflow:ellipsis;-moz-binding:url('/stylesheets/compass/xml/ellipsis.xml#ellipsis');display:block}.project-card-wrap
-        .project-card ul.project-meta .icon-location{margin-left:2px}.project-card-wrap
-        .project-card .project-status{position:absolute;bottom:5px;left:5px}.project-card-wrap
-        .project-card .project-status strong{display:block;-moz-border-radius:10px;-webkit-border-radius:10px;-o-border-radius:10px;-ms-border-radius:10px;-khtml-border-radius:10px;border-radius:10px;font-size:11px;line-height:18px;padding:2px
-        10px 0;font-weight:bold;text-transform:uppercase;width:180px;text-align:center}.project-card-wrap
-        .project-card .project-status span{display:block;font-size:11px;color:#999;padding-top:5px;text-align:center}.project-card-wrap
-        .project-card .project-status.project-canceled strong,.project-card-wrap .project-card
-        .project-status.project-failed strong{background:#666;color:#e6e6e6;text-shadow:#333
-        0 1px 0}.project-card-wrap .project-card{background-image:url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAB6CAIAAAGGlZ5KAAAAS0lEQVQYla1NywkAIAhVh3D/0ZxCj0ZBEKbkoYPo+0oiQsxMiLgGANr33Kp66RtHLsue+MxEvvJ0/DHr7mRmZV+cTOtyL8+P7sbfAUTPD+lmgE5WAAAAAElFTkSuQmCC\")}.project-thumbnail{margin-bottom:5px}.project-meta
-        li a:hover span.icon-location{background-position:0 0 !important;background-image:url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAANCAYAAACUwi84AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpGNzdGMTE3NDA3MjA2ODExOTY0RkFCQjY1OTg2NEQ2NCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyOTBGRkQzNTc5OTExMUUwQTMwRkFGQUI3QkFBNTUzRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyOTBGRkQzNDc5OTExMUUwQTMwRkFGQUI3QkFBNTUzRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAxODAxMTc0MDcyMDY4MTE4MDgzRjRCQ0NEMjczNTQ0IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkY3N0YxMTc0MDcyMDY4MTE5NjRGQUJCNjU5ODY0RDY0Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Yu8WwwAAAMFJREFUeNpi/P//P4OJiYkyAwPDXCC2ZYCAQ0CccubMmbuMxsbGQkDODSAWZUAFr4FYgwlIZCJJzoJiBqhYGguQ0IUKPAMamQ5iAK30A1ISIBNACi4BcThIACjRBlUsDqWvg9ygAmTcAmJGNDf8B2I1JqCxd4CMowyY4ChIjgnKaceioANEMILCAeqw6yBHwewG6tYCMZiQdNQjsRtgDGQFq4H4HhSvhgnCrYBaA/IuA9D4lTAxFjSHHYJ6Dw4AAgwAHvc27NKnFNQAAAAASUVORK5CYII=\")}.project-meta
-        li a span.icon-location{background-image:url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAANCAYAAACUwi84AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpGNzdGMTE3NDA3MjA2ODExOTY0RkFCQjY1OTg2NEQ2NCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4NTNDOEZERTc4RUQxMUUwQTMwRkFGQUI3QkFBNTUzRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4NTNDOEZERDc4RUQxMUUwQTMwRkFGQUI3QkFBNTUzRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAxODAxMTc0MDcyMDY4MTE4MDgzRjRCQ0NEMjczNTQ0IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkY3N0YxMTc0MDcyMDY4MTE5NjRGQUJCNjU5ODY0RDY0Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+fAPWIwAAAMJJREFUeNpi/P//P8OsWbOUGRgY5gKxLQMEHALilLS0tLuMM2fOFAJybgCxKAMqeA3EGkxAIhNJchYUM0DF0liAhC5U4BnQyHSwqlmz/ICUBMgEkIJLQBwOEgBKtEEVi0Pp6yArVgHxfyAGsSuhmBEqtpYJaOwdIOMoAyY4CpJjgnLasSjoABGMoHCAOuw6yFEwu4G6tRig9sJAPRK7AcZAVrAaiO9B8WqYINwKqDUg7zIAjV8JE2NBc9ghqPfgACDAAOx9OHolJn5DAAAAAElFTkSuQmCC\");-moz-box-orient:vertical;-webkit-box-orient:vertical;background-repeat:no-repeat;width:8px;height:12px;display:inline-block;overflow:hidden;vertical-align:middle}\n</style>\n</head>\n<body
-        class=\"widget\">\n<div class=\"project-card-wrap\">\n<div class=\"project-card\">\n<div
-        class=\"project-thumbnail\">\n<a href=\"https://www.kickstarter.com/projects/872281861/final-frontier-designs-3g-space-suit?ref=card\"
-        target=\"_top\"><img alt=\"Photo-little\" class=\"projectphoto-little\" height=\"150\"
-        src=\"https://s3.amazonaws.com/ksr/projects/217667/photo-little.jpg?1339684128\"
-        width=\"200\" /></a>\n</div>\n<h2>\n<strong>\n<a href=\"https://www.kickstarter.com/projects/872281861/final-frontier-designs-3g-space-suit?ref=card\"
-        target=\"_top\">Final Frontier Design&#x27;s 3G Space Suit</a>\n</strong>\n<span>\nby\nTed
-        Southern\n</span>\n</h2>\n<p>We are building a flight certified space suit
-        for the burgeoning commercial space industry!</p>\n<ul class=\"project-meta\">\n<li>\n<a
-        href=\"/discover/cities/brooklyn-ny?ref=card\" target=\"_top\"><span class=\"icon-location\"></span>\n<span
-        class=\"location-name\">Brooklyn, NY</span>\n</a></li>\n</ul>\n<div class=\"project-pledged-successful\">\n<strong>Successful!</strong>\n</div>\n<div
-        class=\"project-pledged-wrap\" style=\"display: none;\">\n<div class=\"project-pledged\"
-        style=\"width: 100%\"></div>\n</div>\n<ul class=\"project-stats\">\n<li class=\"first
-        funded\">\n<strong>138%</strong>\nfunded\n</li>\n<li class=\"pledged\">\n<strong>$27,632</strong>\npledged\n</li>\n<li
-        class=\"last successful\">\n<strong>Funded</strong>\n<div class=\"deadline\">\nJul
-        15, 2012\n</div>\n</li>\n<li class=\"last ksr_page_timer\" data-end_time=\"2012-07-15T20:48:55Z\"
-        style=\"display: none;\">\n<strong>\n<div class=\"num\">&nbsp;</div>\n</strong>\n<div
-        class=\"span text\" data-word=\"left\">&nbsp;</div>\n</li>\n</ul>\n\n</div>\n</div>\n\n<script>\n
-        \ //<![CDATA[\n    var gaJsHost = ((\"https:\" == document.location.protocol)
-        ? \"https://ssl.\" : \"http://www.\");\n    document.write(unescape(\"%3Cscript
-        src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n
-        \   var analytics_vars = { google_analytics_id : \"UA-7621056-1\", logged_in
-        : \"false\", verifying_backing : \"false\", social_user: \"false\" }\n  //]]>\n</script>\n\n\n<script>\n
-        \ //<![CDATA[\n    (function(){function c(a){this.local_start_time=new Date;this.settings={cookie_name:\"request_time\"};for(var
-        b in a)this.settings[b]=a[b];this.get_remote_offset()}c.prototype.get_remote_offset=function(){this.cookie_value=this.read_cookie();var
-        a=new Date(this.cookie_value);if(!this.cookie_value||\"Invalid Date\"===a.toString()){if(this.remote_offset=this.read_cookie(\"local_offset\"))this.remote_offset=parseInt(this.remote_offset,10)}else
-        this.remote_offset=a-this.local_start_time;\"undefined\"!==typeof this.remote_offset&&
-        !isNaN(this.remote_offset)?(document.cookie=\"local_offset=\"+this.remote_offset+\";
-        path=/\",this.is_set=!0):this.is_set=!1};c.prototype.time_units=[[\"milliseconds\",1],[\"seconds\",1E3],[\"minutes\",6E4],[\"hours\",36E5],[\"days\",864E5]];c.prototype.get_units_in_interval=function(a,b){var
-        d=a.replace(/^\\w/,function(d){return\"get\"+d.toUpperCase()});return b[d]()};c.prototype.milliseconds_in_day=function(a){\"undefined\"===typeof
-        a&&(a=new Date);for(var b=0,d=this.time_units.length-2;0<=d;d--)b+=this.get_units_in_interval(this.time_units[d][0],
-        a)*this.time_units[d][1];return b};c.prototype.milliseconds_in_interval=function(a,b){return
-        this.milliseconds_in_day(b)%a};c.prototype.milliseconds_to_next_interval=function(a,b){return
-        a-this.milliseconds_in_interval(a,b)};c.prototype.pluralize=function(a,b){1===b&&(a=a.replace(/s$/,\"\"));return
-        a};c.prototype.read_cookie=function(a){for(var b=window.document.cookie.split(\";\"),a=(a||this.settings.cookie_name)+\"=\",d=0;d<b.length;d++){for(var
-        e=b[d];\" \"==e.charAt(0);)e=e.substring(1,e.length);if(0== e.indexOf(a))return
-        b=e.substring(a.length,e.length),decodeURIComponent(b).replace(/\\+/g,\" \")}return
-        null};c.prototype.destroy_cookie=function(a){var b=new Date;a||(a=this.settings.cookie_name);b.setTime(b.getTime()-864E5);window.document.cookie=a+\"=;
-        expires=\"+b.toGMTString()+\"; path=/\"};c.prototype.get_remote_time=function(){var
-        a=new Date,b=a.getTime()+this.remote_offset;return a=a.setTime(b)};window.ksr_page_clock=new
-        c})(); (function(){function c(d,a,b){if(d){this.options={unit_base:{seconds:119,minutes:119,hours:72,days:0},end_phrase:d.getAttribute(\"data-word\")||\"to
-        go\",count_down:d.getAttribute(\"data-dynamic\")||!1};for(k in b)this.options[k]=b[k];this.clock=a;this.time_units=this.clock.time_units.slice(1);this.element=d;this.clock.is_set&&this.attach()}}function
-        a(){this.elements=[];this.attach()}var b=function(d,a){var b=a||window.document.body,c=d.split(\".\"),g=c[c.length-1],c=1<c.length&&c[0]?c[0]:\"*\";if(window.document.getElementsByClassName)return
-        b.getElementsByClassName(g); if(b.querySelectorAll)return b.querySelectorAll(d);for(var
-        c=b.getElementsByTagName(c),h=[],i=0,f;f=c[i];i++)b=RegExp(\"(^|\\\\s)\"+g+\"(\\\\s|$)\"),(\"\"+f.className).match(b)&&h.push(f);return
-        h};c.prototype.get_remaining_time=function(){var d=this.remote_end_time-this.clock.get_remote_time();0>d&&(d=0);return
-        d};c.prototype.get_current_unit=function(){for(var d,a=0;a<this.time_units.length&&!(d=this.time_units[a],this.get_remaining_time()<=this.options.unit_base[d[0]]*d[1]);a++);return
-        d};c.prototype.update_element= function(){var a=this.get_current_unit(),b=Math.floor(this.get_remaining_time()/a[1]);isNaN(b)||(this.number_element.innerHTML=b,this.text_element.innerHTML=this.clock.pluralize(a[0],b)+\"
-        \"+this.options.end_phrase)};c.prototype.valid=function(){return!(!this.number_element||!this.text_element)};c.prototype.attach=function(){function
-        a(){c.update_element();if(c.options.count_down&&0<c.get_remaining_time()){var
-        b=c.get_current_unit();this.timeout=window.setTimeout(a,c.clock.milliseconds_to_next_interval(b[1]))}}
-        var c=this;if(this.remote_end_time_string=this.element.getAttribute(\"data-end_time\"))this.remote_end_time_string.match(/^\\d+$/)?(this.remote_end_time=new
-        Date,this.remote_end_time.setTime(this.remote_end_time_string)):this.remote_end_time=new
-        Date(this.remote_end_time_string),this.number_element=b(\".num\",this.element)[0],this.text_element=b(\".text\",this.element)[0],this.element.ksr_page_timer=!0,this.valid()&&a()};c.prototype.cancel=function(){this.timeout&&clearTimeout(this.timeout)};a.prototype.loading=
-        !0;a.prototype.stop_finding=function(){this.attach_timers();this.loading=!1;document.addEventListener?document.removeEventListener(\"DOMContentLoaded\",this.stop_finding,!1):document.attachEvent&&\"complete\"===document.readyState&&document.detachEvent(\"onreadystatechange\",this.stop_finding)};a.prototype.bind_ready=function(){var
-        a=this,b=function(){a.stop_finding.call(a)};document.addEventListener?(document.addEventListener(\"DOMContentLoaded\",b,!1),window.addEventListener(\"load\",b,!1)):document.attachEvent&&
-        (document.attachEvent(\"onreadystatechange\",b),window.attachEvent(\"onload\",b))};a.prototype.attach_timers=function(){for(var
-        a=b(\"div.ksr_page_timer\"),e=0;e<a.length;e++)a[e].ksr_page_timer||(new c(a[e],window.ksr_page_clock),this.elements.push(a[e]))};a.prototype.attach=function(){var
-        a=this;this.bind_ready();(function(){a.attach_timers();a.loading&&window.setTimeout(function(){a.attach_timers()},200)})()};window.ProjectTimer=c;new
-        a})();\n  //]]>\n</script>\n\n<script type=\"text/javascript\">if (!NREUMQ.f)
-        { NREUMQ.f=function() {\nNREUMQ.push([\"load\",new Date().getTime()]);\nvar
-        e=document.createElement(\"script\");\ne.type=\"text/javascript\";\ne.src=((\"http:\"===document.location.protocol)?\"http:\":\"https:\")
-        + \"//\" +\n  \"d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js\";\ndocument.body.appendChild(e);\nif(NREUMQ.a)NREUMQ.a();\n};\nNREUMQ.a=window.onload;window.onload=NREUMQ.f;\n};\nNREUMQ.push([\"nrfj\",\"beacon-3.newrelic.com\",\"b04b883ad2\",\"11086\",\"cFteRUULX1wHFhtPC1dTVUVES1BREAA=\",4,44,new
-        Date().getTime(),\"\",\"\",\"\",\"\",\"\"]);</script></body>\n</html>\n"
+      encoding: UTF-8
+      string: |
+        <!DOCTYPE html>
+        <html>
+        <head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+        <title>Final Frontier Design's 3G Space Suit</title>
+        <meta content="noindex, nofollow" name="robots">
+        <style type="text/css">
+        html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}body{color:#121a0d;font:16px/1.5 "Helvetica Neue",Helvetica,Arial,"Liberation Sans",FreeSans,sans-serif;-webkit-font-smoothing:antialiased}b,strong{font-weight:bold}i,em{font-style:italic}a{color:#0096bb;text-decoration:none}a:hover{color:#062531}a:focus{outline:1px dotted invert}body{font-size:13px;line-height:20px;color:#0b1902}a{color:#0096bb;text-decoration:none}a:hover{color:#062531}.project-card-wrap{-moz-border-radius:9px;-webkit-border-radius:9px;-o-border-radius:9px;-ms-border-radius:9px;-khtml-border-radius:9px;border-radius:9px;background:#f6f8f2;padding:4px;margin-bottom:20px;clear:both;margin-bottom:0px;width:212px}.project-card-wrap .project-card{overflow:hidden;*zoom:1;-moz-border-radius:6px;-webkit-border-radius:6px;-o-border-radius:6px;-ms-border-radius:6px;-khtml-border-radius:6px;border-radius:6px;background-color:#fff;border:1px solid #d0d5cb;position:relative;background-color:#fff;background-image:url('/cache-60d7a0fcd/images/compass/bg-card-gradient.png');background-repeat:repeat-x}.project-card-wrap .project-card .tmpl-hide{display:none}.project-card-wrap .project-card .tmpl-projects-friends_backings{background-color:#76cc1e;text-align:center}.project-card-wrap .project-card ul.project-meta{color:#0b1902;position:absolute}.project-card-wrap .project-card ul.project-meta li{font-size:12px;margin:0 !important}.project-card-wrap .project-card ul.project-meta li a{color:#0b1902}.project-card-wrap .project-card ul.project-meta li a:hover{color:#0b1902}.project-card-wrap .project-card ul.project-meta .ss-icon{vertical-align:-1px;margin-right:2px}.project-card-wrap .project-card ul.project-stats{margin:0;padding:0;border:0;overflow:hidden;*zoom:1;width:100%;font-size:10px;text-transform:uppercase;position:absolute;color:#0b1902}.project-card-wrap .project-card ul.project-stats li{list-style-image:none;list-style-type:none;margin-left:0px;white-space:nowrap;display:inline;float:left;padding-left:10px;padding-right:10px}.project-card-wrap .project-card ul.project-stats li:first-child,.project-card-wrap .project-card ul.project-stats li.first{padding-left:0}.project-card-wrap .project-card ul.project-stats li:last-child{padding-right:0}.project-card-wrap .project-card ul.project-stats li.last{padding-right:0}.project-card-wrap .project-card ul.project-stats li{border-right:1px solid #d0d5cb;border-left:1px solid #fff;margin:0 !important}.project-card-wrap .project-card ul.project-stats li.first{overflow:hidden;*zoom:1;border-left:0}.project-card-wrap .project-card ul.project-stats li.last{border-right:0;width:1px !important;overflow:visible !important}.project-card-wrap .project-card ul.project-stats strong{display:block;color:#0b1902;font-weight:bold}.project-card-wrap .project-card{padding:5px;background-position:0 307px;height:360px}.project-card-wrap .project-card h2.bbcard_name{font-size:12px;font-weight:bold;line-height:15px;padding:0 5px;margin-bottom:5px}.project-card-wrap .project-card h2.bbcard_name a{color:#0b1902}.project-card-wrap .project-card h2.bbcard_name strong{display:block;max-height:30px;overflow:hidden}.project-card-wrap .project-card h2.bbcard_name span{display:block;font-size:12px;max-height:15px;overflow:hidden;color:#75796f;font-weight:normal;padding-top:2px}.project-card-wrap .project-card p.bbcard_blurb{color:#75796f !important;padding:0 5px;font-size:12px !important;line-height:15px;height:60px;text-overflow:ellipsis;overflow:hidden;word-wrap:word-break}.project-card-wrap .project-card ul.project-stats{margin:0;padding:0;border:0;overflow:hidden;*zoom:1;bottom:5px;left:10px}.project-card-wrap .project-card ul.project-stats li{list-style-image:none;list-style-type:none;margin-left:0px;white-space:nowrap;display:inline;float:left;padding-left:8px;padding-right:8px}.project-card-wrap .project-card ul.project-stats li:first-child,.project-card-wrap .project-card ul.project-stats li.first{padding-left:0}.project-card-wrap .project-card ul.project-stats li:last-child{padding-right:0}.project-card-wrap .project-card ul.project-stats li.last{padding-right:0}.project-card-wrap .project-card ul.project-stats li{width:auto !important;border:0;line-height:17px;color:#75796f}.project-card-wrap .project-card ul.project-stats strong{font-size:12px;line-height:12px;margin:0;padding-top:2px;color:#0b1902}.project-card-wrap .project-card .project-pledged-successful{position:absolute;bottom:43px;left:0;width:190px;height:20px;background:#76cc1e;color:#fff;padding:0 10px}.project-card-wrap .project-card .project-pledged-successful strong{display:block;font-size:11px;line-height:20px;text-transform:uppercase;font-weight:bold}.project-card-wrap .project-card .project-pledged-wrap{-moz-border-radius:4px;-webkit-border-radius:4px;-o-border-radius:4px;-ms-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;position:absolute;bottom:43px;left:10px;width:190px;height:8px;background:#d0d5cb;padding:0;margin-top:5px}.project-card-wrap .project-card .project-pledged-wrap .project-pledged{background:#76cc1e;-moz-border-radius:4px;-webkit-border-radius:4px;-o-border-radius:4px;-ms-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;height:8px}.project-card-wrap .project-card ul.project-meta{list-style:none;position:absolute;width:190px;bottom:68px;left:10px;margin:0}.project-card-wrap .project-card ul.project-meta li{list-style-image:none;list-style-type:none;margin-left:0px}.project-card-wrap .project-card ul.project-meta li{width:190px}.project-card-wrap .project-card ul.project-meta li a{white-space:nowrap;overflow:hidden;-o-text-overflow:ellipsis;-ms-text-overflow:ellipsis;text-overflow:ellipsis;-moz-binding:url('/stylesheets/compass/xml/ellipsis.xml#ellipsis');display:block;color:#75796f}.project-card-wrap .project-card ul.project-meta li a:hover{color:#75796f}.project-card-wrap .project-card .project-status{position:absolute;bottom:5px;left:5px}.project-card-wrap .project-card .project-status strong{display:block;-moz-border-radius:10px;-webkit-border-radius:10px;-o-border-radius:10px;-ms-border-radius:10px;-khtml-border-radius:10px;border-radius:10px;font-size:11px;line-height:18px;padding:2px 10px 0;font-weight:bold;text-transform:uppercase;width:180px;text-align:center}.project-card-wrap .project-card .project-status span{display:block;font-size:11px;color:#0b1902;padding-top:5px;text-align:center}.project-card-wrap .project-card .project-status.project-canceled strong,.project-card-wrap .project-card .project-status.project-failed strong{background:#0b1902;color:#f6f8f2;text-shadow:#0b1902 0 1px 0}.project-thumbnail{margin-bottom:5px}
+        </style>
+        </head>
+        <body class="widget">
+        <div class="project-card-wrap">
+        <div class="project-card">
+        <div class="project-thumbnail">
+        <a href="/projects/872281861/final-frontier-designs-3g-space-suit?ref=card" target="_top"><img alt="Photo-little" class="projectphoto-little" height="150" src="https://s3.amazonaws.com/ksr/projects/217667/photo-little.jpg?1339684128" width="200" /></a>
+        </div>
+        <h2 class="bbcard_name">
+        <strong>
+        <a href="/projects/872281861/final-frontier-designs-3g-space-suit?ref=card" target="_top">Final Frontier Design&#x27;s 3G Space Suit</a>
+        </strong>
+        <span>
+        by
+        Ted Southern
+        </span>
+        </h2>
+        <p class="bbcard_blurb">
+        We are building a flight certified space suit for the burgeoning commercial space industry!
+        </p>
+        <ul class="project-meta">
+        <li>
+        <a href="/discover/cities/brooklyn-ny?ref=card" target="_top"><span class="ss-icon ss-location"></span>
+        <span class="location-name">Brooklyn, NY</span>
+        </a></li>
+        </ul>
+        <div class="project-pledged-successful">
+        <strong>Successful!</strong>
+        </div>
+        <div class="project-pledged-wrap" style="display: none;">
+        <div class="project-pledged" style="width: 100%"></div>
+        </div>
+        <ul class="project-stats">
+        <li class="first funded">
+        <strong>138%</strong>
+        funded
+        </li>
+        <li class="pledged">
+        <strong>$27,632</strong>
+        pledged
+        </li>
+        <li class="last successful">
+        <strong>Funded</strong>
+        <div class="deadline">
+        Jul 15, 2012
+        </div>
+        </li>
+        <li class="last ksr_page_timer" data-end_time="2012-07-15T20:48:55Z" style="display: none;">
+        <strong>
+        <div class="num">&nbsp;</div>
+        </strong>
+        <div class="span text" data-word="left">&nbsp;</div>
+        </li>
+        </ul>
+
+        </div>
+        </div>
+
+        <script>
+          //<![CDATA[
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+            var analytics_vars = { google_analytics_id : "UA-7621056-1", logged_in : "false", verifying_backing : "false", social_user: "false" }
+          //]]>
+        </script>
+
+
+        <script>
+          //<![CDATA[
+            (function(){function c(a){this.local_start_time=new Date;this.settings={cookie_name:"request_time"};for(var b in a)this.settings[b]=a[b];this.get_remote_offset()}c.prototype.get_remote_offset=function(){this.cookie_value=this.read_cookie();var a=new Date(this.cookie_value);if(!this.cookie_value||"Invalid Date"===a.toString()){if(this.remote_offset=this.read_cookie("local_offset"))this.remote_offset=parseInt(this.remote_offset,10)}else this.remote_offset=a-this.local_start_time;"undefined"!==typeof this.remote_offset&& !isNaN(this.remote_offset)?(document.cookie="local_offset="+this.remote_offset+"; path=/",this.is_set=!0):this.is_set=!1};c.prototype.time_units=[["milliseconds",1],["seconds",1E3],["minutes",6E4],["hours",36E5],["days",864E5]];c.prototype.get_units_in_interval=function(a,b){var d=a.replace(/^\w/,function(d){return"get"+d.toUpperCase()});return b[d]()};c.prototype.milliseconds_in_day=function(a){"undefined"===typeof a&&(a=new Date);for(var b=0,d=this.time_units.length-2;0<=d;d--)b+=this.get_units_in_interval(this.time_units[d][0], a)*this.time_units[d][1];return b};c.prototype.milliseconds_in_interval=function(a,b){return this.milliseconds_in_day(b)%a};c.prototype.milliseconds_to_next_interval=function(a,b){return a-this.milliseconds_in_interval(a,b)};c.prototype.pluralize=function(a,b){1===b&&(a=a.replace(/s$/,""));return a};c.prototype.read_cookie=function(a){for(var b=window.document.cookie.split(";"),a=(a||this.settings.cookie_name)+"=",d=0;d<b.length;d++){for(var e=b[d];" "==e.charAt(0);)e=e.substring(1,e.length);if(0== e.indexOf(a))return b=e.substring(a.length,e.length),decodeURIComponent(b).replace(/\+/g," ")}return null};c.prototype.destroy_cookie=function(a){var b=new Date;a||(a=this.settings.cookie_name);b.setTime(b.getTime()-864E5);window.document.cookie=a+"=; expires="+b.toGMTString()+"; path=/"};c.prototype.get_remote_time=function(){var a=new Date,b=a.getTime()+this.remote_offset;return a=a.setTime(b)};window.ksr_page_clock=new c})(); (function(){function c(d,a,b){if(d){this.options={unit_base:{seconds:119,minutes:119,hours:72,days:0},end_phrase:d.getAttribute("data-word")||"to go",count_down:d.getAttribute("data-dynamic")||!1};for(k in b)this.options[k]=b[k];this.clock=a;this.time_units=this.clock.time_units.slice(1);this.element=d;this.clock.is_set&&this.attach()}}function a(){this.elements=[];this.attach()}var b=function(d,a){var b=a||window.document.body,c=d.split("."),g=c[c.length-1],c=1<c.length&&c[0]?c[0]:"*";if(window.document.getElementsByClassName)return b.getElementsByClassName(g); if(b.querySelectorAll)return b.querySelectorAll(d);for(var c=b.getElementsByTagName(c),h=[],i=0,f;f=c[i];i++)b=RegExp("(^|\\s)"+g+"(\\s|$)"),(""+f.className).match(b)&&h.push(f);return h};c.prototype.get_remaining_time=function(){var d=this.remote_end_time-this.clock.get_remote_time();0>d&&(d=0);return d};c.prototype.get_current_unit=function(){for(var d,a=0;a<this.time_units.length&&!(d=this.time_units[a],this.get_remaining_time()<=this.options.unit_base[d[0]]*d[1]);a++);return d};c.prototype.update_element= function(){var a=this.get_current_unit(),b=Math.floor(this.get_remaining_time()/a[1]);isNaN(b)||(this.number_element.innerHTML=b,this.text_element.innerHTML=this.clock.pluralize(a[0],b)+" "+this.options.end_phrase)};c.prototype.valid=function(){return!(!this.number_element||!this.text_element)};c.prototype.attach=function(){function a(){c.update_element();if(c.options.count_down&&0<c.get_remaining_time()){var b=c.get_current_unit();this.timeout=window.setTimeout(a,c.clock.milliseconds_to_next_interval(b[1]))}} var c=this;if(this.remote_end_time_string=this.element.getAttribute("data-end_time"))this.remote_end_time_string.match(/^\d+$/)?(this.remote_end_time=new Date,this.remote_end_time.setTime(this.remote_end_time_string)):this.remote_end_time=new Date(this.remote_end_time_string),this.number_element=b(".num",this.element)[0],this.text_element=b(".text",this.element)[0],this.element.ksr_page_timer=!0,this.valid()&&a()};c.prototype.cancel=function(){this.timeout&&clearTimeout(this.timeout)};a.prototype.loading= !0;a.prototype.stop_finding=function(){this.attach_timers();this.loading=!1;document.addEventListener?document.removeEventListener("DOMContentLoaded",this.stop_finding,!1):document.attachEvent&&"complete"===document.readyState&&document.detachEvent("onreadystatechange",this.stop_finding)};a.prototype.bind_ready=function(){var a=this,b=function(){a.stop_finding.call(a)};document.addEventListener?(document.addEventListener("DOMContentLoaded",b,!1),window.addEventListener("load",b,!1)):document.attachEvent&& (document.attachEvent("onreadystatechange",b),window.attachEvent("onload",b))};a.prototype.attach_timers=function(){for(var a=b("div.ksr_page_timer"),e=0;e<a.length;e++)a[e].ksr_page_timer||(new c(a[e],window.ksr_page_clock),this.elements.push(a[e]))};a.prototype.attach=function(){var a=this;this.bind_ready();(function(){a.attach_timers();a.loading&&window.setTimeout(function(){a.attach_timers()},200)})()};window.ProjectTimer=c;new a})();
+          //]]>
+        </script>
+
+        <script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+        NREUMQ.push(["load",new Date().getTime()]);
+        var e=document.createElement("script");
+        e.type="text/javascript";
+        e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+          "d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js";
+        document.body.appendChild(e);
+        if(NREUMQ.a)NREUMQ.a();
+        };
+        NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+        };
+        NREUMQ.push(["nrfj","beacon-3.newrelic.com","b04b883ad2","11086","cFteRUULX1wHFhtPC1dTVUVES1BREAA=",14,17,new Date().getTime(),"","","","",""]);</script></body>
+        </html>
     http_version: 
-  recorded_at: Fri, 01 Feb 2013 12:21:05 GMT
+  recorded_at: Wed, 27 Mar 2013 23:54:04 GMT
 recorded_with: VCR 2.4.0
