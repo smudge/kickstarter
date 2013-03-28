@@ -64,7 +64,7 @@ describe Kickstarter::Profile do
   it "finds the backed_count" do
     VCR.use_cassette "profile/#{adamb}" do
       @profile = Kickstarter::Profile.new(adamb)
-      @profile.backed_count.should eq(10)
+      @profile.backed_count.should eq(11)
     end
   end
 

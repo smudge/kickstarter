@@ -21,7 +21,7 @@ module Kickstarter
     end
     
     def url
-      @url ||= details_page.css("h2#title a").attr('href').value
+      @url ||= BASE_URL + details_page.css("h2#title a").attr('href').value
     end
 
     # Note: Not all projects are assigned short_urls.
@@ -34,7 +34,7 @@ module Kickstarter
     end
     
     def owner
-      @owner ||= details_page.css('#creator-name h3 a').inner_html.to_s
+      @owner ||= details_page.css('#creator-name h5 a').inner_html.to_s
     end
     
     def image_url(style=:main)

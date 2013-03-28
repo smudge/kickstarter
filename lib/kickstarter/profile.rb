@@ -12,7 +12,7 @@ module Kickstarter
     end
 
     def name
-      @name ||= page_content.css('#profile_bio h1').children.first.to_s.gsub(/\n/,'')
+      @name ||= page_content.css('#profile_bio h2').children.first.to_s.gsub(/\n/,'')
     end
 
     def username

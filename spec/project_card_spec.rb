@@ -34,7 +34,7 @@ describe Kickstarter::ProjectCard do
 
   it "finds the project description" do
     @project = Kickstarter::ProjectCard.new(get_node(diesel))
-    @project.description.should eq("Help me collect twelve years of webcomics into a complete ebook form while still keeping the files free to all.")
+    @project.description.should eq("\nHelp me collect twelve years of webcomics into a complete ebook form while still keeping the files free to all.\n")
   end
 
   it "finds the canonical project url" do
