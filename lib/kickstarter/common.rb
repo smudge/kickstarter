@@ -11,6 +11,7 @@ module Kickstarter
     :comics      => "comics",
     :dance       => "dance",
     :design      => "design",
+    :product_design => "product%20design",
     :fashion     => "fashion",
     :film_video  => "film%20&%20video",
     :food        => "food",
