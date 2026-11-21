@@ -18,7 +18,7 @@ describe Kickstarter::ProjectCard do
 
   def get_node(project)
     VCR.use_cassette project do
-      @nodes = Nokogiri::HTML(open("http://www.kickstarter.com/" + project)).css('.project-card')
+      @nodes = Nokogiri::HTML(URI.open("http://www.kickstarter.com/" + project)).css('.project-card')
     end
   end
 

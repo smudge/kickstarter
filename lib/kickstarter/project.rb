@@ -130,7 +130,7 @@ module Kickstarter
     def self.fetch_details(url)
       retries = 0
       begin
-        Nokogiri::HTML(open(url))
+        Nokogiri::HTML(URI.open(url))
       rescue Timeout::Error
         retries += 1
         retry if retries < 3

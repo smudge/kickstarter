@@ -1,5 +1,9 @@
-Kickstart
+# Kickstart [![Test](https://github.com/smudge/kickstarter/actions/workflows/test.yml/badge.svg)](https://github.com/smudge/kickstarter/actions/workflows/test.yml) [![RubyGems downloads](https://img.shields.io/gem/dt/kickstarter.svg)](https://rubygems.org/gems/kickstarter)
 a simple API for Kickstarter.com
+
+This is a historical scraper. Its recorded tests do not establish compatibility
+with the current Kickstarter website. The RubyGems badge refers to the existing
+`kickstarter` gem, not a release of this fork.
 
 Usage:
 
@@ -45,6 +49,5 @@ Options:
 
 future: 
  * support filter by pledge_amount
-
 
 
