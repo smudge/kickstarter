@@ -45,8 +45,7 @@ module Kickstarter
 
     def pledge_amount
       @pledge_amount ||= begin
-        Money.assume_from_symbol = true
-        Money.parse(node.css('.project-stats li.pledged strong').inner_html.gsub('&pound;','£').gsub('&Acirc;',''))
+        Monetize.parse(node.css('.project-stats li.pledged strong').inner_html.encode('UTF-8').gsub('&pound;','£').gsub('&Acirc;',''))
       end
     end
     

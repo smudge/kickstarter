@@ -1,5 +1,5 @@
 require 'vcr'
-require 'money'
+require 'monetize'
 
 VCR.configure do |c|
   c.default_cassette_options = { :record => :none }
@@ -9,4 +9,4 @@ end
 
 WebMock.disable_net_connect!
 
-Money.assume_from_symbol = true
+Monetize.assume_from_symbol = true
