@@ -13,8 +13,7 @@ module Kickstarter
     
     def minimum_pledge
       @minimum_pledge ||= begin
-        Money.assume_from_symbol = true
-        Money.parse(node.css('h3').text[/\D[0-9\.\,]+/].gsub(/\,/,""))
+        Monetize.parse(node.css('h3').text.encode('UTF-8')[/\D[0-9\.\,]+/].gsub(/\,/,""))
       end
     end
     

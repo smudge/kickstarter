@@ -14,7 +14,8 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "kickstarter"
 
   s.add_dependency "nokogiri"
-  s.add_dependency "money"
+  s.add_dependency "money", "~> 7.0"
+  s.add_dependency "monetize", "~> 2.0"
   s.add_development_dependency "vcr"
   s.add_development_dependency "webmock"
   s.add_development_dependency "rspec"

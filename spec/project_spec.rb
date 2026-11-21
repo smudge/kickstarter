@@ -97,28 +97,28 @@ describe Kickstarter::Project do
   it "finds a USD project's pledge_amount" do
     VCR.use_cassette jaybill do
       @project = Kickstarter::Project.new(base_url + jaybill)
-      @project.pledge_amount.should eq(Money.parse("$10,284.00"))
+      @project.pledge_amount.should eq(Monetize.parse("$10,284.00"))
     end
   end
 
   it "finds a GBP project's pledge_amount" do
     VCR.use_cassette elite do
       @project = Kickstarter::Project.new(base_url + elite)
-      @project.pledge_amount.should eq(Money.parse("£1,578,316.00"))
+      @project.pledge_amount.should eq(Monetize.parse("£1,578,316.00"))
     end
   end
 
   it "finds a USD project's pledge_goal" do
     VCR.use_cassette jaybill do
       @project = Kickstarter::Project.new(base_url + jaybill)
-      @project.pledge_goal.should eq(Money.parse("$8,500.00"))
+      @project.pledge_goal.should eq(Monetize.parse("$8,500.00"))
     end
   end
 
   it "finds a GBP project's pledge_goal" do
     VCR.use_cassette elite do
       @project = Kickstarter::Project.new(base_url + elite)
-      @project.pledge_goal.should eq(Money.parse("£1,250,000.00"))
+      @project.pledge_goal.should eq(Monetize.parse("£1,250,000.00"))
     end
   end
 
@@ -132,7 +132,7 @@ describe Kickstarter::Project do
   it "finds an ongoing project's pledge_deadline" do
     VCR.use_cassette weiner do
       @project = Kickstarter::Project.new(base_url + weiner)
-      @project.pledge_deadline.utc.should eq(Time.parse("Friday Feb 22, 4:47:47am PST").utc)
+      @project.pledge_deadline.utc.should eq(Time.parse("Friday Feb 22 2013, 4:47:47am PST").utc)
     end
   end
 

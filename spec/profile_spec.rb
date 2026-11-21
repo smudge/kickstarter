@@ -76,14 +76,14 @@ describe Kickstarter::Profile do
   end
 
   it "finds the backed_projects (1 page)" do
-    VCR.use_cassette "profile/#{sensible}", :record => :new_episodes do
+    VCR.use_cassette "profile/#{sensible}" do
       @profile = Kickstarter::Profile.new(sensible)
       @profile.backed_projects.count.should eq(5)
     end
   end
 
   it "finds the backed_projects (many pages)" do
-    VCR.use_cassette "profile/#{ralfh}", :record => :new_episodes do
+    VCR.use_cassette "profile/#{ralfh}" do
       @profile = Kickstarter::Profile.new(ralfh)
       @profile.backed_projects.count.should eq(246)
     end

@@ -1,10 +1,11 @@
 require 'nokogiri'
 require 'open-uri'
 require 'money'
+require 'monetize'
 
 module Kickstarter
   BASE_URL = "http://www.kickstarter.com"
-  Money.assume_from_symbol = true
+  Monetize.assume_from_symbol = true
 
   Categories = {
     :art         => "art",

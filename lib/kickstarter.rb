@@ -41,7 +41,7 @@ module Kickstarter
     (start_page..end_page).each do |page|
       retries = 0
       begin
-        doc = Nokogiri::HTML(open("#{url}?page=#{page}"))
+        doc = Nokogiri::HTML(URI.open("#{url}?page=#{page}"))
         nodes = doc.css('.project')
         break if nodes.empty?
 
