@@ -1,5 +1,6 @@
 # encoding: utf-8
 require_relative 'common'
+require_relative 'tier'
 
 module Kickstarter
   class Project
