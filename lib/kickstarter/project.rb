@@ -1,5 +1,6 @@
 # encoding: utf-8
 require_relative 'common'
+require_relative 'tier'
 
 module Kickstarter
   class Project
@@ -82,7 +83,7 @@ module Kickstarter
       retries = 0
       results = []
       begin
-        nodes = details_page.css('#what-you-get a.NS-projects-reward')
+        nodes = details_page.css('#what-you-get .NS-projects-reward')
         nodes.each do |node|
           results << Kickstarter::Tier.new(node)
         end

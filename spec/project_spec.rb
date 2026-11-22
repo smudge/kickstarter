@@ -174,7 +174,7 @@ describe Kickstarter::Project do
   it "finds a project's tiers" do
     VCR.use_cassette ftl do
       @project = Kickstarter::Project.new(base_url + ftl)
-      @project.tiers.count eq(9)
+      @project.tiers.count.should eq(9)
     end
   end
 
